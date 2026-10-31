@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-31T11:49:34+00:00",
+  "generated_at": "2026-10-31T11:59:10+00:00",
   "count": 212,
   "papers": [
     {
@@ -21,15 +21,15 @@
       "doi": "10.1080/27678490.2026.2731754",
       "summary": {
         "en": "A paper on constructing a reservoir flood-control scheduling knowledge graph through collaboration between large language models and domain experts.",
-        "zh": null
+        "zh": "一篇关于通过大语言模型与领域专家协作构建水库防洪调度知识图谱的论文。"
       },
       "details": {
         "en": "The work focuses on reservoir flood-control scheduling and uses large language models together with domain experts to co-create a knowledge graph.",
-        "zh": null
+        "zh": "该工作聚焦于水库防洪调度，并使用大语言模型与领域专家共同创建知识图谱。"
       },
       "limitations": {
         "en": "Only the title and metadata were supplied; the abstract is empty, so specific methods, evaluations, and model details are unavailable.",
-        "zh": null
+        "zh": "仅提供了标题和元数据；摘要为空，因此具体方法、评估结果和模型细节不可用。"
       }
     },
     {
@@ -48,15 +48,15 @@
       "doi": "10.31223/x5cn6n",
       "summary": {
         "en": "A preprint analyzes subglacial hydrology and glacier sliding using physics-based simulations and interpretable machine learning, then builds a natural-language glaciological intelligence system with per-glacier JEPA specialists and an agentic LLM router.",
-        "zh": null
+        "zh": "一篇预印本使用基于物理的模拟和可解释机器学习分析冰下水文与冰川滑动，随后构建了一个自然语言冰川学智能系统，其中包含按冰川划分的 JEPA 专家和一个智能体式 LLM 路由器。"
       },
       "details": {
         "en": "The study examines how subglacial water pressure, bed geometry, meltwater input, and system state relate to glacier sliding across four glaciers. It then uses glacier-specific JEPA representations queried by Claude Sonnet/Opus to retrieve specialist information and improve natural-language answers.",
-        "zh": null
+        "zh": "该研究考察了冰下水压、冰床几何形态、融水输入和系统状态如何与四座冰川的冰川滑动相关。随后，该研究使用由 Claude Sonnet/Opus 查询的特定冰川 JEPA 表征来检索专家信息并改进自然语言回答。"
       },
       "limitations": {
         "en": "Assessment is based solely on the supplied abstract; implementation and evaluation details beyond the abstract are unavailable.",
-        "zh": null
+        "zh": "评估完全基于所提供的摘要；摘要之外的实现和评估细节不可用。"
       }
     },
     {
@@ -76,15 +76,15 @@
       "doi": "10.21203/rs.3.rs-11540644/v1",
       "summary": {
         "en": "A GeoAI platform enables natural-language exploration of multidimensional coastal flood-risk scenarios through a deterministic tool-routed LLM agent and spatially grounded map-chat interface.",
-        "zh": null
+        "zh": "一个 GeoAI 平台通过确定性的工具路由 LLM 代理和具有空间定位的地图聊天界面，实现对多维沿海洪水风险情景的自然语言探索。"
       },
       "details": {
         "en": "The preprint presents a queryable store for 141 flood scenarios and related physical and socioeconomic data, plus an LLM agent that translates compound natural-language planning questions into geospatial tool calls.",
-        "zh": null
+        "zh": "该预印本介绍了一个可查询的存储库，其中包含 141 个洪水情景及相关的物理和社会经济数据，以及一个将复合自然语言规划问题转换为地理空间工具调用的 LLM 代理。"
       },
       "limitations": {
         "en": "Assessment is based solely on the supplied title and abstract; implementation details and quantitative evaluation results are not provided.",
-        "zh": null
+        "zh": "评估完全基于所提供的标题和摘要；未提供实现细节和定量评估结果。"
       }
     },
     {
@@ -104,15 +104,15 @@
       "doi": "10.1016/j.hydroa.2026.100234",
       "summary": {
         "en": "Evaluates whether large language models improve hydrologic model calibration.",
-        "zh": null
+        "zh": "评估大语言模型是否能改进水文模型校准。"
       },
       "details": {
         "en": "The title frames a direct evaluation of LLM use in hydrologic model calibration.",
-        "zh": null
+        "zh": "标题对 LLM 在水文模型校准中的使用进行了直接评估。"
       },
       "limitations": {
         "en": "Only the title and metadata were supplied; the abstract, methods, datasets, and quantitative results are unavailable.",
-        "zh": null
+        "zh": "仅提供了标题和元数据；摘要、方法、数据集和定量结果均不可用。"
       }
     },
     {
@@ -133,15 +133,15 @@
       "doi": "10.1145/3847238.3849040",
       "summary": {
         "en": "A case study of an agentic digital transformation across a large watershed, its dams, sensors, operators, and water-management workflows.",
-        "zh": null
+        "zh": "一项关于大型流域及其水坝、传感器、操作人员和水资源管理工作流程中代理式数字化转型的案例研究。"
       },
       "details": {
         "en": "The paper evaluates agent readiness through field logistics, network automation, stormwater planning, sensor reporting, and audited translation of operator questions into water-modeling workflows.",
-        "zh": null
+        "zh": "该论文通过现场物流、网络自动化、雨洪水规划、传感器报告，以及将操作人员的问题经审计后转化为水建模工作流程，评估代理就绪度。"
       },
       "limitations": {
         "en": "The supplied abstract does not identify the specific LLM or agent model architecture, but it directly documents substantive AI-agent operation and evaluation in water workflows.",
-        "zh": null
+        "zh": "所提供的摘要未确定具体的 LLM 或代理模型架构，但直接记录了水工作流程中实质性的 AI 代理运行与评估。"
       }
     },
     {
@@ -161,15 +161,15 @@
       "doi": "10.13182/xyz-46633",
       "summary": {
         "en": "A large language model is used for technical language generation in the predictive maintenance of circulating water systems at nuclear power plants.",
-        "zh": null
+        "zh": "使用大型语言模型为核电厂循环水系统的预测性维护生成技术语言。"
       },
       "details": {
         "en": "The title indicates a water-system predictive-maintenance application in which an LLM generates accurate technical language.",
-        "zh": null
+        "zh": "标题表明，这是一个水系统预测性维护应用，其中 LLM 生成准确的技术语言。"
       },
       "limitations": {
         "en": "The abstract is empty, so the decision relies on the title and supplied metadata; implementation details and evaluation evidence are unavailable.",
-        "zh": null
+        "zh": "摘要为空，因此判断依赖于标题和所提供的元数据；实施细节和评估证据不可用。"
       }
     },
     {
@@ -187,15 +187,15 @@
       "doi": "10.5281/zenodo.23640610",
       "summary": {
         "en": "Data and code supporting an analysis of investment sequencing in the Waikato water-supply decision, including illustrative timing chronologies, successor-attribution comparisons, reproduction scripts, and an analytical figure.",
-        "zh": null
+        "zh": "支持对Waikato供水决策中的投资排序进行分析的数据和代码，包括说明性时序、后续归因比较、复现脚本和分析图。"
       },
       "details": {
         "en": "The release documents assumptions, historical sources, calculations, code, and visualisation for reconstructing the historical design of the 2021–2022 Waikato water-supply decision. The calculations and timing relationships are explicitly illustrative rather than observations of implemented supply or policy outcomes.",
-        "zh": null
+        "zh": "该发布内容记录了用于重构2021–2022年Waikato供水决策历史设计的假设、历史来源、计算、代码和可视化。计算结果和时间关系明确是说明性的，而非对已实施供水或政策结果的观测。"
       },
       "limitations": {
         "en": "The record states that the calculations are illustrative and that the associated manuscript is separate and as-yet-unsubmitted; the extent of human versus LLM contribution is not further quantified.",
-        "zh": null
+        "zh": "该记录说明这些计算是说明性的，相关手稿是独立的且尚未提交；人类与LLM贡献的程度尚未进一步量化。"
       }
     },
     {
@@ -213,15 +213,15 @@
       "doi": "10.5281/zenodo.23615019",
       "summary": {
         "en": "A preregistration for testing whether rain-versus-snow precipitation changes event-scale streamflow delivery across snow-affected US catchments.",
-        "zh": null
+        "zh": "一份预注册方案，用于检验降雨与降雪降水是否会改变受积雪影响的美国流域中事件尺度的河流流量输送。"
       },
       "details": {
         "en": "The work specifies matched-catchment, within-catchment, and dose-response analyses of 7-, 30-, and 90-day quickflow delivery fractions. It is outcome-blind at deposit, with no snow-versus-rain contrast yet examined. An AI agent wrote and ran the analysis code under a predefined protocol.",
-        "zh": null
+        "zh": "该工作规定了对7天、30天和90天快速流量输送比例进行匹配流域、流域内和剂量-反应分析。该方案在数据存档时对结果保持盲态，尚未检验降雪与降雨之间的对比。一名AI代理根据预定义协议编写并运行了分析代码。"
       },
       "limitations": {
         "en": "This is a preregistration and reports no completed snow-versus-rain contrast or substantive scientific results. The supplied text supports code-writing and code-execution involvement, but does not specify further LLM reasoning or interpretation.",
-        "zh": null
+        "zh": "这是一份预注册方案，未报告已完成的降雪与降雨对比或实质性科学结果。所提供的文本支持代码编写和代码执行参与，但未说明进一步的LLM推理或解释。"
       }
     },
     {
