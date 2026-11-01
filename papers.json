@@ -1,8 +1,34 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-31T11:59:10+00:00",
-  "count": 212,
+  "generated_at": "2026-11-01T07:30:12+00:00",
+  "count": 213,
   "papers": [
+    {
+      "id": "SRC_DOI_10-3390-w18212721_a5f29a753bc4",
+      "title": "From Text to Simulation: Building EPANET Models from Formalized Network Descriptions with a Local Language Model",
+      "type": "published",
+      "included_on": "2026-11-01",
+      "date": "2026-10-30",
+      "authors": [
+        "Michał Gorawski"
+      ],
+      "authors_total": 1,
+      "venue": "Water",
+      "url": "https://doi.org/10.3390/w18212721",
+      "doi": "10.3390/w18212721",
+      "summary": {
+        "en": "A software pipeline uses a local LLM to construct and correct EPANET water-distribution-network models from formalized natural-language descriptions.",
+        "zh": null
+      },
+      "details": {
+        "en": "The paper presents HydraKG, which builds EPANET models from tabular or verbal network descriptions, validates the resulting models, and uses an LLM for extraction and correction in the verbal workflow. It evaluates the approach on seven networks, including a real distribution zone.",
+        "zh": null
+      },
+      "limitations": {
+        "en": "Assessment is based only on the supplied title and abstract; implementation details beyond the described LLM workflow are not available.",
+        "zh": null
+      }
+    },
     {
       "id": "SRC_DOI_10-1080-27678490-2026-2731754_4171c2688f50",
       "title": "Construction of a reservoir flood control scheduling knowledge graph through co-creation between large language models and domain experts",
@@ -16,20 +42,20 @@
         "Qiankun Li"
       ],
       "authors_total": 7,
-      "venue": "LHB",
+      "venue": "La Houille Blanche",
       "url": "https://doi.org/10.1080/27678490.2026.2731754",
       "doi": "10.1080/27678490.2026.2731754",
       "summary": {
-        "en": "A paper on constructing a reservoir flood-control scheduling knowledge graph through collaboration between large language models and domain experts.",
-        "zh": "一篇关于通过大语言模型与领域专家协作构建水库防洪调度知识图谱的论文。"
+        "en": "The paper proposes an expert–LLM co-creation method for constructing a reservoir flood-control scheduling knowledge graph from unstructured documents.",
+        "zh": null
       },
       "details": {
-        "en": "The work focuses on reservoir flood-control scheduling and uses large language models together with domain experts to co-create a knowledge graph.",
-        "zh": "该工作聚焦于水库防洪调度，并使用大语言模型与领域专家共同创建知识图谱。"
+        "en": "LECERI combines autonomous LLM-based exploration with expert refinement to improve the accuracy and completeness of a knowledge graph supporting reservoir flood-control scheduling. It reports precision, recall, and F1 scores of 0.52, 0.61, and 0.56.",
+        "zh": null
       },
       "limitations": {
-        "en": "Only the title and metadata were supplied; the abstract is empty, so specific methods, evaluations, and model details are unavailable.",
-        "zh": "仅提供了标题和元数据；摘要为空，因此具体方法、评估结果和模型细节不可用。"
+        "en": "Assessment is based only on the supplied abstract; implementation details and broader evaluation context are not available.",
+        "zh": null
       }
     },
     {
@@ -71,7 +97,7 @@
         "Miho Mazereeuw"
       ],
       "authors_total": 3,
-      "venue": null,
+      "venue": "Research Square",
       "url": "https://doi.org/10.21203/rs.3.rs-11540644/v1",
       "doi": "10.21203/rs.3.rs-11540644/v1",
       "summary": {
