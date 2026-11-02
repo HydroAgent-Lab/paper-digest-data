@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-01T07:30:12+00:00",
+  "generated_at": "2026-11-02T07:30:12+00:00",
   "count": 213,
   "papers": [
     {
@@ -42,7 +42,7 @@
         "Qiankun Li"
       ],
       "authors_total": 7,
-      "venue": "La Houille Blanche",
+      "venue": "LHB",
       "url": "https://doi.org/10.1080/27678490.2026.2731754",
       "doi": "10.1080/27678490.2026.2731754",
       "summary": {
@@ -97,7 +97,7 @@
         "Miho Mazereeuw"
       ],
       "authors_total": 3,
-      "venue": "Research Square",
+      "venue": null,
       "url": "https://doi.org/10.21203/rs.3.rs-11540644/v1",
       "doi": "10.21203/rs.3.rs-11540644/v1",
       "summary": {
