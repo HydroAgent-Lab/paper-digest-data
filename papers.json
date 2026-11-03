@@ -1,8 +1,37 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-02T07:30:12+00:00",
-  "count": 213,
+  "generated_at": "2026-11-03T07:30:10+00:00",
+  "count": 214,
   "papers": [
+    {
+      "id": "SRC_DOI_10-2118-235328-ms_14b04a68b7d7",
+      "title": "Schema-Primed Knowledge-Augmented Approach to Water Injection Diagnostics and Closed-Loop Reservoir Dynamic Analysis",
+      "type": "published",
+      "included_on": "2026-11-03",
+      "date": "2026-11-02",
+      "authors": [
+        "X. Liu",
+        "X. Li",
+        "Q. Zeng",
+        "M. Yang"
+      ],
+      "authors_total": 5,
+      "venue": "Abu Dhabi International Petroleum Exhibition & Conference (ADIPEC)",
+      "url": "https://doi.org/10.2118/235328-ms",
+      "doi": "10.2118/235328-ms",
+      "summary": {
+        "en": "A schema-primed knowledge-augmented language-model framework with persistent agentic memory supports water-injection diagnosis and closed-loop reservoir dynamic analysis.",
+        "zh": "一种以模式为先、知识增强且具有持久智能体记忆的语言模型框架，支持注水诊断和储层动态闭环分析。"
+      },
+      "details": {
+        "en": "The study extracts field reports, well files, and operational logs into a typed graph, records diagnoses and interventions with expected water-cut responses, and later compares those expectations with production outcomes. It evaluates retrieval, structured reservoir-engineering question answering, agentic memory integrity, and follow-up verdicts at the Wangyao oilfield.",
+        "zh": "该研究将现场报告、井文件和操作日志提取为类型化图谱，记录诊断和干预措施及预期含水率响应，随后将这些预期与生产结果进行比较。研究在王窑油田评估检索、结构化储层工程问答、智能体记忆完整性和后续判定。"
+      },
+      "limitations": {
+        "en": "Evaluation is limited to one oilfield, one model identity, producer-side water-cut expectations, and a single three-month follow-up window; causal attribution remains outside the study scope.",
+        "zh": "评估仅限于一个油田、一种模型身份、生产井侧含水率预期以及单个为期三个月的后续观察窗口；因果归因不在研究范围内。"
+      }
+    },
     {
       "id": "SRC_DOI_10-3390-w18212721_a5f29a753bc4",
       "title": "From Text to Simulation: Building EPANET Models from Formalized Network Descriptions with a Local Language Model",
@@ -18,15 +47,15 @@
       "doi": "10.3390/w18212721",
       "summary": {
         "en": "A software pipeline uses a local LLM to construct and correct EPANET water-distribution-network models from formalized natural-language descriptions.",
-        "zh": null
+        "zh": "一种软件流水线使用本地 LLM，根据形式化的自然语言描述构建和校正 EPANET 水分配网络模型。"
       },
       "details": {
         "en": "The paper presents HydraKG, which builds EPANET models from tabular or verbal network descriptions, validates the resulting models, and uses an LLM for extraction and correction in the verbal workflow. It evaluates the approach on seven networks, including a real distribution zone.",
-        "zh": null
+        "zh": "本文介绍了 HydraKG，该方法根据表格或文字网络描述构建 EPANET 模型，验证所得模型，并在文字工作流中使用 LLM 进行提取和校正。该方法在七个网络上进行了评估，其中包括一个真实的配水分区。"
       },
       "limitations": {
         "en": "Assessment is based only on the supplied title and abstract; implementation details beyond the described LLM workflow are not available.",
-        "zh": null
+        "zh": "评估仅基于所提供的标题和摘要；除所描述的 LLM 工作流之外的实现细节不可用。"
       }
     },
     {
@@ -47,15 +76,15 @@
       "doi": "10.1080/27678490.2026.2731754",
       "summary": {
         "en": "The paper proposes an expert–LLM co-creation method for constructing a reservoir flood-control scheduling knowledge graph from unstructured documents.",
-        "zh": null
+        "zh": "该论文提出了一种专家–LLM协同创建方法，用于从非结构化文档构建水库防洪调度知识图谱。"
       },
       "details": {
         "en": "LECERI combines autonomous LLM-based exploration with expert refinement to improve the accuracy and completeness of a knowledge graph supporting reservoir flood-control scheduling. It reports precision, recall, and F1 scores of 0.52, 0.61, and 0.56.",
-        "zh": null
+        "zh": "LECERI将基于自主LLM的探索与专家细化相结合，以提高支持水库防洪调度的知识图谱的准确性和完整性。报告的精确率、召回率和F1分数分别为0.52、0.61和0.56。"
       },
       "limitations": {
         "en": "Assessment is based only on the supplied abstract; implementation details and broader evaluation context are not available.",
-        "zh": null
+        "zh": "评估仅基于所提供的摘要；实现细节和更广泛的评估背景不可得。"
       }
     },
     {
