@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-04T07:30:00+00:00",
+  "generated_at": "2026-11-05T07:30:07+00:00",
   "count": 217,
   "papers": [
     {
@@ -48,16 +48,16 @@
       "url": "https://doi.org/10.1080/13658816.2026.2749047",
       "doi": "10.1080/13658816.2026.2749047",
       "summary": {
-        "en": "A paper on using large language models and knowledge graphs to represent the spatiotemporal evolution of floods as 3D scenes from social media.",
-        "zh": "一篇关于利用大型语言模型和知识图谱将社交媒体中的洪水时空演化表示为3D场景的论文。"
+        "en": "Uses ontology-constrained LLMs and knowledge graphs to extract flood spatiotemporal knowledge from social media, reconstruct flood evolution pathways, and represent them as 3D scenes.",
+        "zh": "使用受本体约束的LLM和知识图谱从社交媒体中提取洪水时空知识，重建洪水演化路径，并将其表示为3D场景。"
       },
       "details": {
-        "en": "The work connects social-media information, large language models, and knowledge graphs for flood spatiotemporal-evolution representation and 3D scene generation or modeling.",
-        "zh": "该工作将社交媒体信息、大型语言模型和知识图谱连接起来，用于洪水时空演化表示以及3D场景生成或建模。"
+        "en": "The study analyzes 34,731 tweets from the 2021 European floods and develops a prototype for 3D flood representation. It evaluates flood knowledge extraction and evolutionary pathway reconstruction, reporting improved interpretability for understanding flood processes and supporting disaster prevention and mitigation.",
+        "zh": "该研究分析了2021年欧洲洪水期间的34,731条推文，并开发了一个用于3D洪水表示的原型。研究评估了洪水知识提取和演化路径重建，报告称其提高了理解洪水过程以及支持灾害预防和减灾的可解释性。"
       },
       "limitations": {
-        "en": "The supplied abstract is only \".\"; the scope decision is based on the title and metadata.",
-        "zh": "所提供的摘要仅为“.”；范围判断基于标题和元数据。"
+        "en": "Evidence is limited to the supplied title and abstract; implementation details and quantitative evaluation metrics are not provided.",
+        "zh": "证据仅限于所提供的标题和摘要；未提供实施细节和定量评估指标。"
       }
     },
     {
@@ -67,23 +67,24 @@
       "included_on": "2026-11-04",
       "date": "2026-11-03",
       "authors": [
+        "Sompote Youwai",
         "Youwai, Sompote"
       ],
-      "authors_total": 1,
-      "venue": null,
-      "url": "https://zenodo.org/records/23918670",
-      "doi": "10.5281/zenodo.23918670",
+      "authors_total": 2,
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "url": "https://doi.org/10.5281/zenodo.23918669",
+      "doi": "10.5281/zenodo.23918669",
       "summary": {
-        "en": "Flumen is a GPU-accelerated hydrodynamic program for flood, river-network, estuarine, and coastal flow simulation, with an MCP interface enabling a language-model agent to build, run, and calibrate models.",
-        "zh": "Flumen 是一个 GPU 加速的水动力学程序，用于洪水、河网、河口和沿海流动模拟，并通过 MCP 接口使语言模型代理能够构建、运行和校准模型。"
+        "en": "Flumen is a GPU-accelerated hydrodynamic program for flood and coastal-flow simulation that exposes model-building, execution, and calibration capabilities to a language-model agent.",
+        "zh": "Flumen 是一个 GPU 加速的水动力学程序，用于洪水和沿海流动模拟，并向语言模型代理提供模型构建、执行和校准功能。"
       },
       "details": {
-        "en": "The paper presents Rust CPU and CUDA engines for two- and three-dimensional shallow-water and hydrostatic/non-hydrostatic flow, coupled river networks, rainfall and infiltration. It reports verification, flood, estuary, solitary-wave, and runup benchmarks, including calibration and solver limitations. A 43-tool Model Context Protocol server and remote compute service support engineer or language-model-agent operation of the models.",
-        "zh": "该论文介绍了用于二维和三维浅水流以及静水/非静水流、耦合河网、降雨和入渗的 Rust CPU 和 CUDA 引擎。论文报告了验证、洪水、河口、孤立波和波浪爬高基准测试，包括校准和求解器局限性。一个包含 43 个工具的 Model Context Protocol 服务器和远程计算服务支持工程师或语言模型代理操作这些模型。"
+        "en": "The paper describes Rust CPU/GPU solvers for shallow-water, river-network, estuarine, and dispersive-wave problems, and evaluates them against verification, flood, and laboratory coastal-hydrodynamics benchmarks.",
+        "zh": "论文介绍了用于浅水、河网、河口和色散波问题的 Rust CPU/GPU 求解器，并根据验证、洪水和实验室沿海水动力学基准对其进行了评估。"
       },
       "limitations": {
-        "en": "The abstract establishes that a language-model agent can perform model building, execution, and calibration, but does not report separate quantitative evaluation of the agent itself.",
-        "zh": "摘要表明，语言模型代理可以执行模型构建、运行和校准，但未报告对该代理本身的单独定量评估。"
+        "en": "The supplied abstract does not identify a specific language-model implementation or provide a separate quantitative evaluation of the agent itself, but it explicitly assigns the agent model-building, execution, and calibration functions.",
+        "zh": "所提供的摘要未指出具体的语言模型实现，也未提供对代理本身的单独定量评估，但明确将模型构建、执行和校准功能分配给代理。"
       }
     },
     {
