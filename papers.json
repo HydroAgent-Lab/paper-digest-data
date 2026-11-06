@@ -1,8 +1,34 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-05T07:30:07+00:00",
-  "count": 217,
+  "generated_at": "2026-11-06T07:30:05+00:00",
+  "count": 218,
   "papers": [
+    {
+      "id": "SRC_DOI_10-1111-gwat-70128_fe7782dd0b93",
+      "title": "Not Faster, but Better: Experience and Guidelines from a Year of AI Use in Groundwater Modeling",
+      "type": "published",
+      "included_on": "2026-11-06",
+      "date": "2026-11-04",
+      "authors": [
+        "Christopher T. Muffels"
+      ],
+      "authors_total": 1,
+      "venue": "Ground Water",
+      "url": "https://doi.org/10.1111/gwat.70128",
+      "doi": "10.1111/gwat.70128",
+      "summary": {
+        "en": "The article reports a year of AI-assisted consulting experience in groundwater modeling and presents a staged workflow for using language models to improve planning, critique, and implementation.",
+        "zh": "该文章报告了一年的 AI 辅助地下水建模咨询经验，并介绍了使用语言模型改进规划、批评和实施的分阶段工作流程。"
+      },
+      "details": {
+        "en": "It describes how AI use changed the balance between planning and implementation in groundwater modeling, explains role-based and staged use of models, discusses model limitations and costs, and relates the experience to water and its allocation.",
+        "zh": "文章描述了 AI 的使用如何改变地下水建模中规划与实施之间的平衡，解释了基于角色和分阶段使用模型的方法，讨论了模型的局限性和成本，并将这一经验与水及其分配联系起来。"
+      },
+      "limitations": {
+        "en": "Assessment is based only on the supplied metadata and abstract; specific model identities, experiments, and quantitative results are not provided.",
+        "zh": "评估仅基于所提供的元数据和摘要；未提供具体的模型身份、实验和定量结果。"
+      }
+    },
     {
       "id": "SRC_DOI_10-1109-icmla69890-2026-00073_b071292f22fa",
       "title": "Mechanistic Interpretability-Guided Selective Fine-Tuning of Vision–Language Models for Centimeter-Level Flood Depth Estimation",
