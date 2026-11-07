@@ -1,8 +1,65 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-06T07:30:05+00:00",
-  "count": 218,
+  "generated_at": "2026-11-07T07:30:19+00:00",
+  "count": 220,
   "papers": [
+    {
+      "id": "SRC_DOI_10-31223-x5223v_6d1d827bce3e",
+      "title": "Global news reports reveal the human dimensions of water scarcity",
+      "type": "preprint",
+      "included_on": "2026-11-07",
+      "date": "2026-11-05",
+      "authors": [
+        "Arushi Arnav",
+        "Lav R. Varshney",
+        "Megan Konar"
+      ],
+      "authors_total": 3,
+      "venue": null,
+      "url": "https://doi.org/10.31223/x5223v",
+      "doi": "10.31223/x5223v",
+      "summary": {
+        "en": "The study uses large language models to identify reported water-scarcity events across 190 countries and compares their global patterns with hydrologic assessments.",
+        "zh": "该研究使用大型语言模型识别190个国家报告的缺水事件，并将其全球模式与水文评估进行比较。"
+      },
+      "details": {
+        "en": "It analyzes news reports from 2014–2024 to reveal human, infrastructural, institutional, and geographic dimensions of reported water scarcity, finding patterns that only partially align with hydrology-based maps.",
+        "zh": "该研究分析2014–2024年的新闻报道，以揭示报告的缺水现象在人口、基础设施、制度和地理方面的维度，发现这些模式仅与基于水文的地图部分一致。"
+      },
+      "limitations": {
+        "en": "The abstract does not specify the particular language models, prompting, validation procedure, or extraction performance.",
+        "zh": "摘要未说明具体的语言模型、提示、验证程序或提取性能。"
+      }
+    },
+    {
+      "id": "SRC_DOI_10-5194-egusphere-2026-6762_142e5fc94986",
+      "title": "A Skill-Guided LLM Agent for Process-Aware Calibration of Large-Scale Hydrological Models: Demonstration with VIC v5.1.0",
+      "type": "preprint",
+      "included_on": "2026-11-07",
+      "date": "2026-11-06",
+      "authors": [
+        "Cheng Yang Qian",
+        "Guoqiang Peng",
+        "Yujing Sun",
+        "Cheng Zeng"
+      ],
+      "authors_total": 5,
+      "venue": null,
+      "url": "https://doi.org/10.5194/egusphere-2026-6762",
+      "doi": "10.5194/egusphere-2026-6762",
+      "summary": {
+        "en": "A Skill-guided LLM agent is developed for process-aware calibration of the VIC hydrological model and evaluated in the Jialing River Basin.",
+        "zh": "开发了一种由技能引导的 LLM 智能体，用于对 VIC 水文模型进行过程感知校准，并在嘉陵江流域进行了评估。"
+      },
+      "details": {
+        "en": "The study organizes hydrological knowledge into Diagnosis, Adjustment, Evaluation, and Verification skills. The agent diagnoses streamflow errors, proposes physically constrained parameter changes, and verifies them through deterministic simulations, improving selected streamflow and flood-event metrics relative to baseline and comparison methods.",
+        "zh": "该研究将水文知识组织为 Diagnosis、Adjustment、Evaluation 和 Verification 技能。该智能体诊断流量误差，提出受物理约束的参数变化，并通过确定性模拟对其进行验证；与基线方法和对比方法相比，选定的流量和洪水事件指标得到改善。"
+      },
+      "limitations": {
+        "en": "Evidence is limited to the supplied title and abstract; implementation details beyond the described workflow are unavailable.",
+        "zh": "证据仅限于所提供的标题和摘要；无法获得所述工作流程之外的实现细节。"
+      }
+    },
     {
       "id": "SRC_DOI_10-1111-gwat-70128_fe7782dd0b93",
       "title": "Not Faster, but Better: Experience and Guidelines from a Year of AI Use in Groundwater Modeling",
@@ -3535,7 +3592,7 @@
       "title": "CFDID: a China Flood Disaster Impact Database from 1994 to 2023",
       "type": "preprint",
       "included_on": "2026-08-02",
-      "date": "2026-08-12",
+      "date": "2026-11-05",
       "authors": [
         "Shibo Cui",
         "Ni Li",
@@ -3543,9 +3600,9 @@
         "Zhiqi Wan"
       ],
       "authors_total": 24,
-      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
-      "url": "https://doi.org/10.5194/essd-2026-607",
-      "doi": "10.5194/essd-2026-607",
+      "venue": "Earth system science data",
+      "url": "https://doi.org/10.5194/essd-18-8129-2026",
+      "doi": "10.5194/essd-18-8129-2026",
       "summary": {
         "en": "CFDID combines OCR, LLM extraction, and manual verification to structure 1,716 Chinese flood-impact records from 66 official documents covering 1994–2023.",
         "zh": "CFDID结合OCR、LLM提取和人工核验，对1994–2023年66份官方文件中的1,716条中国洪灾影响记录进行结构化处理。"
@@ -4311,7 +4368,7 @@
         "Ran Duan"
       ],
       "authors_total": 6,
-      "venue": null,
+      "venue": "2025 International Conference on Equipment Intelligent Operation and Maintenance (ICEIOM)",
       "url": "https://doi.org/10.1109/iceiom65271.2025.11239974",
       "doi": "10.1109/iceiom65271.2025.11239974",
       "summary": {
