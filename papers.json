@@ -1,8 +1,36 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-07T07:30:19+00:00",
-  "count": 220,
+  "generated_at": "2026-11-08T07:30:14+00:00",
+  "count": 221,
   "papers": [
+    {
+      "id": "SRC_DOI_10-1609-aaaiss-v10i1-43454_624d05711f24",
+      "title": "Data Fragmentation as a Critical Bottleneck in Disaster Response Planning: The EVAC-AI Case Study for Flood Risk Assessment",
+      "type": "published",
+      "included_on": "2026-11-08",
+      "date": "2026-11-06",
+      "authors": [
+        "Gayatri Ramchandra Vaidya",
+        "Yasas Senarath",
+        "Hemant Purohit"
+      ],
+      "authors_total": 3,
+      "venue": "Proceedings of the AAAI Symposium Series",
+      "url": "https://doi.org/10.1609/aaaiss.v10i1.43454",
+      "doi": "10.1609/aaaiss.v10i1.43454",
+      "summary": {
+        "en": "EVAC-AI integrates fragmented coastal flood and evacuation data in a knowledge graph and provides natural-language, map-linked decision support for flood evacuation planning.",
+        "zh": "EVAC-AI 将碎片化的沿海洪水和疏散数据整合到知识图谱中，并为洪水疏散规划提供自然语言、地图关联的决策支持。"
+      },
+      "details": {
+        "en": "The paper presents a Neo4j knowledge graph combining FEMA flood zones, NOAA tide readings, evacuation routes, and crowdsourced reports, with a natural-language query pipeline for coastal flood evacuation planning in Virginia Beach.",
+        "zh": "该论文介绍了一个 Neo4j 知识图谱，结合了 FEMA 洪水区、NOAA 潮汐读数、疏散路线和众包报告，并配备用于弗吉尼亚海滩沿海洪水疏散规划的自然语言查询流程。"
+      },
+      "limitations": {
+        "en": "Assessment is based on the supplied abstract; detailed implementation and quantitative evaluation results are not provided.",
+        "zh": "评估基于所提供的摘要；未提供详细的实现信息和定量评估结果。"
+      }
+    },
     {
       "id": "SRC_DOI_10-31223-x5223v_6d1d827bce3e",
       "title": "Global news reports reveal the human dimensions of water scarcity",
