@@ -1,8 +1,58 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-08T07:30:14+00:00",
-  "count": 221,
+  "generated_at": "2026-11-09T07:30:05+00:00",
+  "count": 223,
   "papers": [
+    {
+      "id": "SRC_DOI_10-1016-j-ijdrr-2026-106530_a97d3bbd109a",
+      "title": "Extraction and validation of flood disaster impacts from news reports with large language models",
+      "type": "published",
+      "included_on": "2026-11-09",
+      "date": null,
+      "authors": [],
+      "authors_total": 0,
+      "venue": "International Journal of Disaster Risk Reduction",
+      "url": "https://www.sciencedirect.com/science/article/pii/S221242092600542X?dgcid=rss_sd_all",
+      "doi": "10.1016/j.ijdrr.2026.106530",
+      "summary": {
+        "en": "A study on extracting and validating flood-disaster impacts from news reports using large language models.",
+        "zh": "一项使用大型语言模型从新闻报道中提取和验证洪水灾害影响的研究。"
+      },
+      "details": {
+        "en": "The work applies large language models to information extraction and validation concerning flood disaster impacts reported in news sources.",
+        "zh": "该研究将大型语言模型应用于从新闻来源报道中提取和验证有关洪水灾害影响的信息。"
+      },
+      "limitations": {
+        "en": "Only the title and metadata were supplied; the abstract is empty, so detailed methods and evaluation results cannot be assessed.",
+        "zh": "仅提供了标题和元数据；摘要为空，因此无法评估详细的方法和评价结果。"
+      }
+    },
+    {
+      "id": "SRC_DOI_10-5281-zenodo-24037995_696e00b1c3dc",
+      "title": "Data and code for \"Mapping drought and water-use research in potato: a bibliometric analysis of 1,358 Scopus-indexed articles (2000–2024)\"",
+      "type": "published",
+      "included_on": "2026-11-09",
+      "date": "2026-11-07",
+      "authors": [
+        "Thomas Keller"
+      ],
+      "authors_total": 1,
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "url": "https://doi.org/10.5281/zenodo.24037995",
+      "doi": "10.5281/zenodo.24037995",
+      "summary": {
+        "en": "A research artifact containing data and code for a bibliometric mapping study of drought and water-use research in potato, including LLM-assisted relevance and thematic classification validated against human judgements.",
+        "zh": "一个研究工件，包含关于马铃薯干旱和水资源利用研究的文献计量学绘图研究的数据和代码，其中包括经过人类判断验证的 LLM 辅助相关性和主题分类。"
+      },
+      "details": {
+        "en": "The record provides the Scopus search protocol, Python analysis pipeline, included and excluded records, summary tables, validation samples, classification judgements, evaluation metrics, SDG queries, and figures. LLM-assisted first-pass judgements were used for relevance and thematic classification.",
+        "zh": "该记录提供了 Scopus 检索方案、Python 分析流程、纳入和排除的记录、汇总表、验证样本、分类判断、评估指标、SDG 查询和图表。LLM 辅助的初步判断用于相关性和主题分类。"
+      },
+      "limitations": {
+        "en": "The supplied metadata does not identify the specific LLM, prompting method, or extent of LLM-generated judgements. It does establish LLM-assisted classification and its validation role.",
+        "zh": "所提供的元数据未确定具体的 LLM、提示方法或 LLM 生成判断的程度。但它确实确立了 LLM 辅助分类及其验证作用。"
+      }
+    },
     {
       "id": "SRC_DOI_10-1609-aaaiss-v10i1-43454_624d05711f24",
       "title": "Data Fragmentation as a Critical Bottleneck in Disaster Response Planning: The EVAC-AI Case Study for Flood Risk Assessment",
