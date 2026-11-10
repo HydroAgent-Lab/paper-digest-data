@@ -1,8 +1,37 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-09T07:30:05+00:00",
-  "count": 223,
+  "generated_at": "2026-11-10T07:30:09+00:00",
+  "count": 224,
   "papers": [
+    {
+      "id": "SRC_DOI_10-1080-17538947-2026-2749231_5cbcf7a48329",
+      "title": "From inundation rasters to draft action briefs: integrating spatial computing and LLM agents for urban waterlogging emergency decision support",
+      "type": "published",
+      "included_on": "2026-11-10",
+      "date": "2026-11-08",
+      "authors": [
+        "Shuai Hong",
+        "Jie Shen",
+        "Christophe Lienert",
+        "Xi Chen"
+      ],
+      "authors_total": 7,
+      "venue": "International Journal of Digital Earth",
+      "url": "https://doi.org/10.1080/17538947.2026.2749231",
+      "doi": "10.1080/17538947.2026.2749231",
+      "summary": {
+        "en": "A decision-support framework combines event-specific inundation and spatial analysis with retrieval-augmented LLM agents to draft evacuation and resource-allocation action briefs for urban waterlogging emergencies.",
+        "zh": "一个决策支持框架将特定事件的内涝和空间分析与检索增强型 LLM 智能体相结合，为城市内涝紧急情况起草疏散和资源分配行动简报。"
+      },
+      "details": {
+        "en": "The study applies the MAEDF-UW framework to the 20 July 2021 Zhengzhou rainstorm. It derives inundation, water-depth, road-accessibility, and rescue-island information, then combines structured spatial facts with local contingency-plan rules. LLM-based agents generate schema- and rule-checked JSON briefs for human review, with evaluation dimensions covering consistency, spatial-input accuracy, and latency.",
+        "zh": "该研究将 MAEDF-UW 框架应用于2021年7月20日郑州暴雨。研究获取内涝、水深、道路可达性和救援岛信息，然后将结构化空间事实与当地应急预案规则相结合。基于 LLM 的智能体生成经过模式和规则检查的 JSON 简报，供人工审核，评估维度涵盖一致性、空间输入准确性和延迟。"
+      },
+      "limitations": {
+        "en": "The abstract states that independent validation is still needed to establish the performance and operational effectiveness of the full workflow.",
+        "zh": "摘要指出，仍需进行独立验证，以确定完整工作流程的性能和运行有效性。"
+      }
+    },
     {
       "id": "SRC_DOI_10-1016-j-ijdrr-2026-106530_a97d3bbd109a",
       "title": "Extraction and validation of flood disaster impacts from news reports with large language models",
