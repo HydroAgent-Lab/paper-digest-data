@@ -1,8 +1,35 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-10T07:30:09+00:00",
-  "count": 224,
+  "generated_at": "2026-11-11T07:30:27+00:00",
+  "count": 225,
   "papers": [
+    {
+      "id": "SRC_DOI_10-26434-chemrxiv-15011905-v1_9fa0fe6afbce",
+      "title": "Desalination LLM: Large Language Model Agents Design Efficient Graphene Membranes for Water Desalination",
+      "type": "preprint",
+      "included_on": "2026-11-11",
+      "date": "2026-11-10",
+      "authors": [
+        "Omid Barati Farimani",
+        "Amir Barati Farimani"
+      ],
+      "authors_total": 2,
+      "venue": null,
+      "url": "https://doi.org/10.26434/chemrxiv.15011905/v1",
+      "doi": "10.26434/chemrxiv.15011905/v1",
+      "summary": {
+        "en": "LLM agents design graphene nanopores for water desalination, using predictor feedback to optimize water flux and ion rejection.",
+        "zh": "LLM 代理为水脱盐设计石墨烯纳米孔，利用预测器反馈优化水通量和离子截留率。"
+      },
+      "details": {
+        "en": "The preprint presents a tool-using LLM design framework that grows graphene nanopores atom by atom and uses pretrained predictors to evaluate water flux and ion rejection. It compares two LLM agents with conversation-only versions and non-LLM scaffold baselines.",
+        "zh": "该预印本介绍了一种使用工具的 LLM 设计框架，该框架逐个原子地构建石墨烯纳米孔，并使用预训练预测器评估水通量和离子截留率。该框架将两个 LLM 代理与仅对话版本以及非 LLM 支架基线进行了比较。"
+      },
+      "limitations": {
+        "en": "Assessment is based only on the supplied metadata and abstract; implementation details beyond the abstract are unavailable.",
+        "zh": "评估仅基于所提供的元数据和摘要；摘要之外的实现细节不可用。"
+      }
+    },
     {
       "id": "SRC_DOI_10-1080-17538947-2026-2749231_5cbcf7a48329",
       "title": "From inundation rasters to draft action briefs: integrating spatial computing and LLM agents for urban waterlogging emergency decision support",
