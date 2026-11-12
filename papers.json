@@ -1,8 +1,84 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-11T07:30:27+00:00",
-  "count": 225,
+  "generated_at": "2026-11-12T07:30:18+00:00",
+  "count": 228,
   "papers": [
+    {
+      "id": "SRC_DOI_10-5281-zenodo-24117169_f890b32ebe12",
+      "title": "Uncovering Gaps in Critical Infrastructure Flood Exposure Assessment: A Hybrid Rule–LLM Framework",
+      "type": "published",
+      "included_on": "2026-11-12",
+      "date": "2026-11-10",
+      "authors": [
+        "Chang Li"
+      ],
+      "authors_total": 1,
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "url": "https://doi.org/10.5281/zenodo.24117169",
+      "doi": "10.5281/zenodo.24117169",
+      "summary": {
+        "en": "A hybrid rule–LLM framework for identifying gaps in critical infrastructure flood exposure assessment.",
+        "zh": "一种用于识别关键基础设施洪水暴露评估中空白的混合规则–LLM框架。"
+      },
+      "details": {
+        "en": "The work addresses flood exposure assessment for critical infrastructure using a hybrid rule-based and LLM framework. The abstract only describes the item as supplemental tables for a manuscript.",
+        "zh": "该工作使用基于规则和LLM的混合框架，对关键基础设施进行洪水暴露评估。摘要仅将该项目描述为论文的补充表格。"
+      },
+      "limitations": {
+        "en": "The supplied metadata provides no methodological, evaluation, or model-specific details beyond the title and brief abstract description.",
+        "zh": "所提供的元数据除了标题和简短的摘要描述外，未提供方法、评估或模型特定的详细信息。"
+      }
+    },
+    {
+      "id": "SRC_DOI_10-1021-acs-est-6c09725_2776fb045c27",
+      "title": "TP-Agent: An Auditable LLM Agent for Predicting Pollutant Transformation Products in Oxidative Water Treatment",
+      "type": "published",
+      "included_on": "2026-11-12",
+      "date": "2026-11-12",
+      "authors": [
+        "Shifa Zhong"
+      ],
+      "authors_total": 1,
+      "venue": "Environmental Science &amp;\nTechnology",
+      "url": "https://doi.org/10.1021/acs.est.6c09725",
+      "doi": "10.1021/acs.est.6c09725",
+      "summary": {
+        "en": "TP-Agent is an auditable LLM-driven system for ranking transformation-product candidates of organic micropollutants during oxidative water treatment.",
+        "zh": "TP-Agent 是一个由 LLM 驱动且可审计的系统，用于在氧化水处理过程中对有机微污染物的转化产物候选物进行排序。"
+      },
+      "details": {
+        "en": "The paper evaluates TP-Agent on standardized-parent-disjoint reactions, comparing it with a bare LLM, RAG, and TP-Transformer, while assessing structural traceability, candidate-linked rationales, latency, and cost.",
+        "zh": "该论文在标准化母体不相交反应上评估 TP-Agent，并将其与裸 LLM、RAG 和 TP-Transformer 进行比较，同时评估结构可追溯性、与候选物关联的依据、延迟和成本。"
+      },
+      "limitations": {
+        "en": "Evidence is limited to the supplied title and abstract; detailed implementation and experimental protocol are not available.",
+        "zh": "证据仅限于所提供的标题和摘要；详细的实现和实验方案不可用。"
+      }
+    },
+    {
+      "id": "SRC_URL_https-www-sciencedirect-com-science-article-pii_1e241e7c6e48",
+      "title": "Extraction and validation of flood disaster impacts from news reports with large language models",
+      "type": "published",
+      "included_on": "2026-11-12",
+      "date": null,
+      "authors": [],
+      "authors_total": 0,
+      "venue": "International Journal of Disaster Risk Reduction",
+      "url": "https://www.sciencedirect.com/science/article/pii/S221242092600542X?dgcid=rss_sd_all",
+      "doi": null,
+      "summary": {
+        "en": "Extracts and validates flood-disaster impacts from news reports using large language models.",
+        "zh": "使用大型语言模型从新闻报道中提取并验证洪水灾害影响。"
+      },
+      "details": {
+        "en": "The work targets flood disaster impact information and applies large language models to extraction and validation from news reports.",
+        "zh": "该研究针对洪水灾害影响信息，应用大型语言模型从新闻报道中进行提取和验证。"
+      },
+      "limitations": {
+        "en": "Only the title and feed metadata were supplied; the abstract, methods, and evaluation details are unavailable.",
+        "zh": "仅提供了标题和订阅源元数据；摘要、方法和评估细节不可用。"
+      }
+    },
     {
       "id": "SRC_DOI_10-26434-chemrxiv-15011905-v1_9fa0fe6afbce",
       "title": "Desalination LLM: Large Language Model Agents Design Efficient Graphene Membranes for Water Desalination",
@@ -14,7 +90,7 @@
         "Amir Barati Farimani"
       ],
       "authors_total": 2,
-      "venue": null,
+      "venue": "ChemRxiv",
       "url": "https://doi.org/10.26434/chemrxiv.15011905/v1",
       "doi": "10.26434/chemrxiv.15011905/v1",
       "summary": {
