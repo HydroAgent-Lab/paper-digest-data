@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-12T07:30:18+00:00",
+  "generated_at": "2026-11-13T07:30:14+00:00",
   "count": 228,
   "papers": [
     {
@@ -90,7 +90,7 @@
         "Amir Barati Farimani"
       ],
       "authors_total": 2,
-      "venue": "ChemRxiv",
+      "venue": null,
       "url": "https://doi.org/10.26434/chemrxiv.15011905/v1",
       "doi": "10.26434/chemrxiv.15011905/v1",
       "summary": {
