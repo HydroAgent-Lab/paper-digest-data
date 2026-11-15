@@ -1,8 +1,36 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-14T07:30:16+00:00",
-  "count": 228,
+  "generated_at": "2026-11-15T07:30:19+00:00",
+  "count": 229,
   "papers": [
+    {
+      "id": "SRC_DOI_10-3390-w18222841_cb53c91d8848",
+      "title": "Comparison of Multimodal Large Language Models for Phytoplankton Identification from Microscopy Images",
+      "type": "published",
+      "included_on": "2026-11-15",
+      "date": "2026-11-13",
+      "authors": [
+        "Agnieszka Krzyżewska",
+        "Marta Ziółek",
+        "Magdalena Kończak"
+      ],
+      "authors_total": 3,
+      "venue": "Water",
+      "url": "https://doi.org/10.3390/w18222841",
+      "doi": "10.3390/w18222841",
+      "summary": {
+        "en": "Compares multimodal large language models for phytoplankton identification from microscopy images, evaluating their suitability for ecological monitoring and water quality assessment.",
+        "zh": "比较多模态大语言模型根据显微镜图像进行浮游植物识别的能力，评估其对生态监测和水质评估的适用性。"
+      },
+      "details": {
+        "en": "The paper compares six off-the-shelf multimodal models on expert-verified phytoplankton images and evaluates GPT-5.6 Sol on an expanded dataset. It reports taxonomic-resolution-dependent performance and concludes that current systems may support preliminary screening but require expert verification.",
+        "zh": "该论文在经专家验证的浮游植物图像上比较了六个现成的多模态模型，并在扩展数据集上评估了 GPT-5.6 Sol。论文报告了取决于分类学分辨率的性能，并得出结论：当前系统可能支持初步筛查，但需要专家验证。"
+      },
+      "limitations": {
+        "en": "The supplied abstract does not provide detailed model implementation or prompting information, but it clearly establishes the hydro application and substantive multimodal-LLM evaluation.",
+        "zh": "所提供的摘要未提供详细的模型实现或提示信息，但明确说明了水文应用以及实质性的多模态-LLM评估。"
+      }
+    },
     {
       "id": "SRC_DOI_10-5281-zenodo-24117169_f890b32ebe12",
       "title": "Uncovering Gaps in Critical Infrastructure Flood Exposure Assessment: A Hybrid Rule–LLM Framework",
@@ -39,7 +67,7 @@
         "Shifa Zhong"
       ],
       "authors_total": 1,
-      "venue": "Environmental Science & Technology",
+      "venue": "Environmental Science &amp;\nTechnology",
       "url": "https://doi.org/10.1021/acs.est.6c09725",
       "doi": "10.1021/acs.est.6c09725",
       "summary": {
