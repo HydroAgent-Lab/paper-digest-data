@@ -1,8 +1,37 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-15T07:30:19+00:00",
-  "count": 229,
+  "generated_at": "2026-11-16T07:30:27+00:00",
+  "count": 230,
   "papers": [
+    {
+      "id": "SRC_DOI_10-1177-15579018261504213_72e839d8feb8",
+      "title": "Ontology and LLM-based Extraction of Wastewater Unit Process Data from Permit Documents for Improved Sector-Level Cost and Emissions Analysis",
+      "type": "published",
+      "included_on": "2026-11-16",
+      "date": "2026-11-14",
+      "authors": [
+        "Daly Wettermark",
+        "Constance Rouffet",
+        "Fletcher Chapin",
+        "Ashley C. Ramirez"
+      ],
+      "authors_total": 5,
+      "venue": "Environmental Engineering Science",
+      "url": "https://doi.org/10.1177/15579018261504213",
+      "doi": "10.1177/15579018261504213",
+      "summary": {
+        "en": "The paper develops and validates an ontology-assisted LLM method to extract wastewater treatment unit-process data from NPDES permits, then uses the resulting dataset to estimate infrastructure investment needs and greenhouse gas emissions for California facilities.",
+        "zh": "该论文开发并验证了一种本体辅助的 LLM 方法，用于从 NPDES 许可证中提取废水处理单元工艺数据，然后使用所得数据集估算 California 设施的基础设施投资需求和温室气体排放量。"
+      },
+      "details": {
+        "en": "It compares keyword extraction, predefined-list LLM extraction, and Water Treatment ontology-based LLM extraction. The ontology-based approach using GPT-5 mini achieves a unit-process F1 score of 0.89 and is applied to 609 California facilities with active permits.",
+        "zh": "该方法比较了关键词提取、预定义列表 LLM 提取和基于 Water Treatment 本体的 LLM 提取。使用 GPT-5 mini 的基于本体的方法达到了 0.89 的单元工艺 F1 分数，并应用于 609 个持有有效许可证的 California 设施。"
+      },
+      "limitations": {
+        "en": "The assessment is based on the supplied title and abstract only; implementation details beyond the abstract are unavailable.",
+        "zh": "该评估仅基于所提供的标题和摘要；摘要之外的实施细节不可用。"
+      }
+    },
     {
       "id": "SRC_DOI_10-3390-w18222841_cb53c91d8848",
       "title": "Comparison of Multimodal Large Language Models for Phytoplankton Identification from Microscopy Images",
