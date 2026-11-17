@@ -49,6 +49,10 @@ authors and publishers — follow the links for the originals.
 | `venue`, `doi` | String or `null` |
 | `url` | `http(s)` only, or `null` |
 | `summary`, `details`, `limitations` | Exactly `en` and `zh`, each a string or `null`. A missing language is `null` and is **not** replaced by the other language |
+| `domains`, `methods` (optional per paper) | Up to two distinct labels per field from its controlled vocabulary |
+| `updated_at` (optional per paper) | Timestamp with a time zone for a public change |
+| `aliases` (optional, top level) | Maps former public IDs directly to current paper IDs |
+| `highlights` (optional, top level) | Monday `week_start`, timezone-aware `updated_at`, and up to three distinct current paper IDs with bilingual `why_it_matters` |
 
 No other keys are allowed: screening evidence, scope rationale, full-text paths and review items never leave
 the server. `python validate.py papers.json` checks all of the above; the `Validate` workflow runs it on every
