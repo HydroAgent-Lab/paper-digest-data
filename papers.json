@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-18T07:30:27+00:00",
-  "count": 232,
+  "generated_at": "2026-11-19T05:44:58+00:00",
+  "count": 231,
   "papers": [
     {
       "id": "SRC_DOI_10-1080-17538947-2026-2761704_ddc68c088619",
@@ -26,8 +26,8 @@
         "zh": "该论文使用 Greater Manchester 河流监测数据，评估用于查询理解、检索、数据分析、可视化和基于依据的响应生成的专门化智能体。该研究评估水质趋势、污染热点、监测覆盖范围和监测站状态，并报告准确性、完整性、基于依据的程度和幻觉结果。"
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The supplied evidence is limited to the abstract: evaluation is reported for 50 representative natural-language queries using UK Environment Agency data from Greater Manchester (291 stations and 45,342 observations from 2024–2026, with 2026 only partially covered). The abstract does not report detailed implementation or agent-ablation information, or evaluation outside this dataset and query set.",
+        "zh": "材料范围：所提供的证据仅限于摘要：评估基于50个具有代表性的自然语言查询，使用英国环境署大曼彻斯特地区的数据（291个监测站、2024年至2026年共45,342条观测记录，其中2026年仅覆盖部分年份）。摘要未报告详细的实现信息、各智能体的消融分析，也未报告在该数据集和查询集之外的评估结果。"
       },
       "domains": [
         "water_quality_ecology"
@@ -36,39 +36,7 @@
         "rag_knowledge_graphs",
         "multi_agent"
       ],
-      "updated_at": "2026-11-18T07:30:27+00:00"
-    },
-    {
-      "id": "SRC_DOI_10-1109-tmc-2026-3745584-mm1_37e0ab2296bf",
-      "title": "LLM Agent-Driven UAV Swarm for PoI Continual Monitoring in Hydraulic Metaverses_supp1-3745584.pdf",
-      "type": "published",
-      "included_on": "2026-11-18",
-      "date": null,
-      "authors": [
-        "Min Chen"
-      ],
-      "authors_total": 1,
-      "venue": null,
-      "url": "https://doi.org/10.1109/tmc.2026.3745584/mm1",
-      "doi": "10.1109/tmc.2026.3745584/mm1",
-      "summary": {
-        "en": "A supplemental appendix for an LLM-agent-driven UAV swarm system performing continual monitoring in hydraulic metaverses.",
-        "zh": "一个由LLM代理驱动的UAV集群系统的补充附录，该系统在水利元宇宙中执行持续监测。"
-      },
-      "details": {
-        "en": "The supplied abstract only states that the supplemental material contains an appendix; the title identifies the hydro-related monitoring setting and the LLM-agent-driven UAV swarm.",
-        "zh": "所提供的摘要仅说明补充材料包含一个附录；标题确定了与水文相关的监测场景以及由LLM代理驱动的UAV集群。"
-      },
-      "limitations": {
-        "en": null,
-        "zh": null
-      },
-      "domains": [],
-      "methods": [
-        "agents_tool_use",
-        "multi_agent"
-      ],
-      "updated_at": "2026-11-18T07:30:27+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_DOI_10-1177-15579018261504213_72e839d8feb8",
@@ -95,8 +63,8 @@
         "zh": "该方法比较了关键词提取、预定义列表 LLM 提取和基于 Water Treatment 本体的 LLM 提取。使用 GPT-5 mini 的基于本体的方法达到了 0.89 的单元工艺 F1 分数，并应用于 609 个拥有有效许可证的加利福尼亚州设施。"
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The abstract describes validation on 15 California facilities and application to 609 California facilities with active permits. It does not report performance or applicability beyond this California, permit-based scope, and implementation details beyond the abstract are unavailable.",
+        "zh": "材料范围：摘要描述了对加利福尼亚州15座设施的验证，以及对609座持有效许可证设施的应用。摘要未报告超出这一加利福尼亚州、基于许可证范围的性能或适用性，且未提供摘要之外的实施细节。"
       },
       "domains": [
         "urban_water",
@@ -105,7 +73,7 @@
       "methods": [
         "prompting"
       ],
-      "updated_at": "2026-11-17T07:30:06+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_DOI_10-3390-w18222841_cb53c91d8848",
@@ -131,8 +99,8 @@
         "zh": "该论文在经专家验证的浮游植物图像上比较了六种现成的多模态模型，并在扩展数据集上评估了 GPT-5.6 Sol。论文报告了依赖分类学分辨率的性能，并得出结论：当前系统可支持初步筛查，但需要专家验证。"
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The supplied abstract does not report detailed prompting, model configuration or implementation, or the composition and selection criteria of the microscopy-image cases beyond the stated sample counts and expert verification.\n\nReported study limitations: The evaluated systems were not sufficiently reliable for autonomous identification at the genus or species level. Performance was inconsistent across runs and phytoplankton groups, with recurring taxon-specific misclassification.",
+        "zh": "材料范围：所提供的摘要未报告详细的提示词、模型配置或实现信息，也未说明显微图像案例的构成和选择标准；摘要仅给出了样本数量和专家验证信息。\n\n研究报告的局限：所评估的系统在属级或种级自主识别方面的可靠性不足。 模型在不同运行和浮游植物类群之间的表现不一致，并反复出现类群特异性的误分类。"
       },
       "domains": [
         "water_quality_ecology"
@@ -141,7 +109,7 @@
         "multimodal",
         "benchmarks"
       ],
-      "updated_at": "2026-11-17T07:30:06+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_DOI_10-5281-zenodo-24117169_f890b32ebe12",
@@ -165,8 +133,8 @@
         "zh": "该工作使用基于规则和LLM的混合框架，对关键基础设施进行洪水暴露评估。摘要仅将该项目描述为论文的补充表格。"
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The supplied material includes the title and only the phrase “Suplemental tables for manuscript”; it does not report the framework’s methods, data, evaluation, results, or specific assessment scope.",
+        "zh": "材料范围：所提供材料仅包含标题和“Suplemental tables for manuscript”这一短语；未报告该框架的方法、数据、评估、结果或具体评估范围。"
       },
       "domains": [
         "floods"
@@ -174,7 +142,7 @@
       "methods": [
         "prompting"
       ],
-      "updated_at": "2026-11-17T07:30:06+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_DOI_10-1021-acs-est-6c09725_2776fb045c27",
@@ -198,8 +166,8 @@
         "zh": "该论文在标准化母体不相交反应上评估 TP-Agent，并将其与裸 LLM、RAG 和 TP-Transformer 进行比较，同时评估结构可追溯性、与候选物关联的推理依据、延迟和成本。"
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The supplied evidence is limited to the title and abstract. The abstract does not provide full implementation or experimental-protocol details, or validation beyond the 231 standardized-parent-disjoint reactions.\n\nReported study limitations: The structural records support traceability but do not establish whether the predicted transformations are mechanistically valid.",
+        "zh": "材料范围：所提供的证据仅限于标题和摘要。摘要未提供完整的实现细节或实验方案，也未报告超出231个标准化亲本互斥反应的数据验证。\n\n研究报告的局限：结构记录支持可追溯性，但不能证明所预测的转化在机理上有效。"
       },
       "domains": [
         "water_quality_ecology"
@@ -208,7 +176,7 @@
         "agents_tool_use",
         "rag_knowledge_graphs"
       ],
-      "updated_at": "2026-11-17T07:30:06+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_URL_https-www-sciencedirect-com-science-article-pii_1e241e7c6e48",
@@ -258,8 +226,8 @@
         "zh": "该预印本介绍了一种使用工具的 LLM 设计框架，该框架逐原子构建石墨烯纳米孔，并使用预训练预测器评估水通量和离子截留率。该框架将两个 LLM agent 与仅进行对话的版本和非 LLM 支架基线进行了比较。"
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The abstract does not report implementation details for the pretrained predictors, scaffold-only baselines, or the datasets used for the MD and DRL comparisons, so these aspects cannot be assessed from the supplied material.",
+        "zh": "材料范围：摘要未报告预训练预测器、仅支架基线以及用于 MD 和 DRL 比较的数据集的实现细节，因此无法依据所提供材料评估这些方面。"
       },
       "domains": [
         "water_resources_reservoirs"
@@ -268,7 +236,7 @@
         "agents_tool_use",
         "benchmarks"
       ],
-      "updated_at": "2026-11-17T07:30:06+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_DOI_10-1080-17538947-2026-2749231_5cbcf7a48329",
@@ -295,8 +263,8 @@
         "zh": "该研究将 MAEDF-UW 框架应用于 2021 年 7 月 20 日郑州暴雨事件。研究获取淹没、水深、道路可通行性和救援岛信息，然后将结构化空间事实与当地应急预案规则相结合。基于 LLM 的智能体生成经过模式和规则检查的 JSON 简报，供人工审查，评估维度涵盖一致性、空间输入准确性和延迟。"
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The supplied abstract describes a case analysis for the 20 July 2021 Zhengzhou rainstorm but does not provide quantitative evaluation results for instruction consistency, spatial-input accuracy, processing latency, or operational effectiveness.\n\nReported study limitations: The study explicitly reports that independent validation is still required to establish the performance and operational effectiveness of the full workflow.",
+        "zh": "材料范围：所提供的摘要描述了2021年7月20日郑州暴雨的案例分析，但未提供指令一致性、空间输入准确性、处理延迟或运行有效性的定量评估结果。\n\n研究报告的局限：研究明确指出，仍需开展独立验证，以确定完整工作流程的性能和运行有效性。"
       },
       "domains": [
         "floods",
@@ -306,7 +274,7 @@
         "multi_agent",
         "rag_knowledge_graphs"
       ],
-      "updated_at": "2026-11-17T07:30:06+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_DOI_10-1016-j-ijdrr-2026-106530_a97d3bbd109a",
@@ -355,14 +323,14 @@
         "zh": "该记录提供了 Scopus 检索方案、Python 分析流程、纳入和排除的记录、汇总表、验证样本、分类判断、评估指标、SDG 查询和图表。LLM 辅助的初步判断用于相关性和主题分类。"
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The supplied abstract describes a data-and-code record, not the bibliometric study’s findings or full methodological limitations. It does not report the numerical precision, recall, and kappa values, or identify the specific LLM and prompting method used for the LLM-assisted judgements.\n\nReported study limitations: Individual records cannot be fully redistributed because the abstracts, author lists, affiliations, keywords, and funding texts are restricted by the Scopus licence.",
+        "zh": "材料范围：所提供的摘要介绍的是数据与代码记录，而不是该文献计量研究的研究结果或完整方法学局限。摘要未报告精确率、召回率和κ值的具体数值，也未说明用于辅助判断的具体大型语言模型及提示方法。\n\n研究报告的局限：由于 Scopus 许可限制，单条记录的摘要、作者名单、机构信息、关键词和资助文本无法完整再分发。"
       },
       "domains": [
         "water_resources_reservoirs"
       ],
       "methods": [],
-      "updated_at": "2026-11-17T07:30:06+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_DOI_10-1609-aaaiss-v10i1-43454_624d05711f24",
@@ -388,8 +356,8 @@
         "zh": "该论文介绍了一个 Neo4j 知识图谱，将 FEMA 洪水区、NOAA 潮汐读数、疏散路线和众包报告相结合，并配备用于弗吉尼亚海滩沿海洪水疏散规划的自然语言查询流程。"
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The supplied material is limited to the abstract and does not report quantitative evaluation results or detailed implementation details.",
+        "zh": "材料范围：所提供的材料仅包含摘要，未报告定量评估结果或详细的实现细节。"
       },
       "domains": [
         "floods"
@@ -397,7 +365,7 @@
       "methods": [
         "rag_knowledge_graphs"
       ],
-      "updated_at": "2026-11-17T07:30:06+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_DOI_10-31223-x5223v_6d1d827bce3e",
@@ -423,8 +391,8 @@
         "zh": "该研究分析2014–2024年的新闻报道，以揭示报告的水资源短缺的人文、基础设施、制度和地理维度，发现这些模式仅与基于水文的地图部分一致。"
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The abstract does not specify which large language models were used or how their identification of news reports was validated.\n\nReported study limitations: Reported scarcity patterns may be influenced by differences in media reporting, which could affect comparisons across regions. Quote: \"although differences in media reporting may also contribute.\"",
+        "zh": "材料范围：摘要未说明所使用的具体大型语言模型，也未说明其识别新闻报道的方法如何得到验证。\n\n研究报告的局限：所报道的缺水模式可能受到媒体报道差异的影响，从而影响跨区域比较。原文引句：“although differences in media reporting may also contribute。”"
       },
       "domains": [
         "water_resources_reservoirs"
@@ -432,7 +400,7 @@
       "methods": [
         "prompting"
       ],
-      "updated_at": "2026-11-17T07:30:06+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_DOI_10-5194-egusphere-2026-6762_142e5fc94986",
@@ -459,8 +427,8 @@
         "zh": "该研究将水文知识组织为诊断、调整、评估和验证技能。该智能体诊断流量误差，提出受物理约束的参数变化，并通过确定性模拟进行验证；与基线方法和对比方法相比，改善了选定的流量指标和洪水事件指标。"
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The supplied evidence is limited to the title and abstract; implementation details beyond the described workflow are not available in the supplied material.\n\nReported study limitations: The reported improvements were not uniform across hydrological signatures.",
+        "zh": "材料范围：所提供的证据仅限于标题和摘要；除所述工作流程之外的实施细节在所提供材料中未报告。\n\n研究报告的局限：报告的改进在不同水文特征之间并不一致。"
       },
       "domains": [
         "catchment_hydrology"
@@ -468,7 +436,7 @@
       "methods": [
         "agents_tool_use"
       ],
-      "updated_at": "2026-11-17T07:30:06+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_DOI_10-1111-gwat-70128_fe7782dd0b93",
@@ -492,8 +460,8 @@
         "zh": "文章描述了 AI 的使用如何改变地下水建模中规划与实施之间的平衡，解释了基于角色和分阶段使用模型的方法，讨论了模型的局限性和成本，并将这一经验与水及其分配联系起来。"
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The supplied abstract covers one author’s consulting experience over one year. It does not report specific AI model identities, a broader sample, or an independent quantitative evaluation beyond the described experience.\n\nReported study limitations: The workflow is designed to account for models’ tendency to produce agreeable answers, which may affect the reliability of their feedback. The workflow also accounts for performance degradation as the amount of context increases.",
+        "zh": "材料范围：所提供的摘要仅涵盖一位作者为期一年的咨询实践。摘要未报告具体的人工智能模型身份、更广泛的样本，或除所述实践经验之外的独立定量评估。\n\n研究报告的局限：该工作流程需要应对模型倾向于给出迎合性回答的问题，这可能影响其反馈的可靠性。 该工作流程还需要应对模型在上下文不断增加时性能下降的问题。"
       },
       "domains": [
         "groundwater"
@@ -502,7 +470,7 @@
         "prompting",
         "agents_tool_use"
       ],
-      "updated_at": "2026-11-17T07:30:06+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_DOI_10-1109-icmla69890-2026-00073_b071292f22fa",
@@ -558,8 +526,8 @@
         "zh": "该研究分析了2021年欧洲洪灾的34,731条推文，并开发了一个用于3D洪水表示的原型。研究评估了洪水知识提取和演化路径重建，报告称这提高了理解洪水过程以及支持灾害预防和减灾的可解释性。"
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The available evidence is limited to the supplied title and abstract. The abstract does not specify implementation details or quantitative evaluation metrics.",
+        "zh": "材料范围：可用证据仅限于所提供的标题和摘要。摘要未说明具体实现细节或定量评估指标。"
       },
       "domains": [
         "floods"
@@ -567,7 +535,7 @@
       "methods": [
         "rag_knowledge_graphs"
       ],
-      "updated_at": "2026-11-17T07:30:06+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_DOI_10-5281-zenodo-23918670_f7a8611d3a75",
@@ -592,8 +560,8 @@
         "zh": "该论文介绍了用于浅水、河网、河口和色散波问题的 Rust CPU/GPU 求解器，并根据验证、洪水和实验室沿海水动力学基准对其进行了评估。"
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The abstract does not identify the language-model implementation or provide a separate quantitative evaluation of the agent’s model-building, execution, or calibration performance.\n\nReported study limitations: The largest breaking-wave case still substantially underpredicted splash height, with the splash remaining 60–67% too low. The benchmarks revealed a non-hydrostatic-solver depth-limit error and an unexplained drawdown discrepancy at one Monai gauge.",
+        "zh": "材料范围：摘要未说明语言模型的具体实现，也未单独量化评估该智能体在建模、运行或校准方面的性能。\n\n研究报告的局限：在最大破碎波情形下，飞溅高度仍被明显低估，飞溅高度仍低估了60–67%。 基准测试发现了非静力求解器的水深限制误差，并且Monai的一个测点存在尚未解释的回落差异。"
       },
       "domains": [
         "floods"
@@ -602,7 +570,7 @@
         "agents_tool_use",
         "benchmarks"
       ],
-      "updated_at": "2026-11-17T07:30:06+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_DOI_10-2118-235328-ms_14b04a68b7d7",
@@ -629,8 +597,8 @@
         "zh": "该研究将现场报告、井文件和作业日志提取为类型化图谱，记录诊断和干预措施及预期含水率响应，随后将这些预期与生产结果进行比较。研究在王窑油田评估检索、结构化油藏工程问答、智能体记忆完整性和后续判定。"
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: Only the supplied title and abstract are available; detailed benchmark scores, confidence-interval values, the model identity, and the rationale for the selection-rule amendment are not reported in this material.\n\nReported study limitations: The reported findings are bounded to one field, one model identity, producer-side water-cut expectations, and a single three-month follow-up window. The study does not cover session-to-session inheritance or causal attribution of individual outcomes.",
+        "zh": "材料范围：目前仅提供标题和摘要；该材料未报告详细的基准测试分数、置信区间数值、模型身份以及选择规则修订的理由。\n\n研究报告的局限：研究结果仅限于一个油田、单一模型身份、生产井侧含水率预期以及一次为期三个月的随访窗口。 本研究不涉及会话间继承，也不涉及个体结果的因果归因。"
       },
       "domains": [
         "water_resources_reservoirs"
@@ -639,7 +607,7 @@
         "rag_knowledge_graphs",
         "agents_tool_use"
       ],
-      "updated_at": "2026-11-17T07:30:06+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_DOI_10-3390-w18212721_a5f29a753bc4",
@@ -663,8 +631,8 @@
         "zh": "该论文介绍了 HydraKG，它根据表格或文字形式的网络描述构建 EPANET 模型，验证生成的模型，并在文字工作流中使用 LLM 进行提取和校正。该方法在七个网络上进行了评估，其中包括一个真实的分配区域。"
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The abstract reports results for seven networks in the tabular evaluation and six networks in the verbal evaluation; performance outside these tested networks and further implementation details are not reported.\n\nReported study limitations: For larger networks, the initial verbal extraction omitted groups of elements in every run, requiring correction rounds to restore them.",
+        "zh": "材料范围：摘要仅报告了表格路径在7个网络、 verbal路径在6个网络上的结果；这些测试网络之外的性能以及更多实现细节未在摘要中说明。\n\n研究报告的局限：对于较大的网络，初始的自然语言提取在每次运行中都遗漏了一些元素组，需要通过纠正轮次将其恢复。"
       },
       "domains": [
         "urban_water",
@@ -674,7 +642,7 @@
         "agents_tool_use",
         "fine_tuning_domain_models"
       ],
-      "updated_at": "2026-11-17T07:30:06+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_DOI_10-1080-27678490-2026-2731754_4171c2688f50",
@@ -701,8 +669,8 @@
         "zh": "LECERI结合基于LLM的自主探索与专家完善，以提高支持水库防洪调度的知识图谱的准确性和完整性。该方法报告的精确率、召回率和F1分数分别为0.52、0.61和0.56。"
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The abstract does not report implementation details, the evaluation setting, comparison baselines, or how the reported metrics vary across datasets or application contexts.",
+        "zh": "材料范围：摘要未报告实现细节、评估设置、对比基线，也未说明所报告指标在不同数据集或应用场景中的差异。"
       },
       "domains": [
         "water_resources_reservoirs",
@@ -711,7 +679,7 @@
       "methods": [
         "rag_knowledge_graphs"
       ],
-      "updated_at": "2026-11-17T07:30:06+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_DOI_10-31223-x5cn6n_7b40d5aa6259",
@@ -736,8 +704,8 @@
         "zh": "该研究考察了四条冰川中冰下水压、床面几何形态、融水输入和系统状态与冰川滑动之间的关系。随后，研究使用按冰川划分的 JEPA 表征，并通过 Claude Sonnet/Opus 进行查询，以检索专家信息并改进自然语言回答。"
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The supplied material is limited to the abstract; detailed implementation, training, and evaluation protocols are not reported.",
+        "zh": "材料范围：所提供的材料仅限于摘要；摘要未报告详细的实现、训练和评估方案。"
       },
       "domains": [
         "catchment_hydrology"
@@ -745,7 +713,7 @@
       "methods": [
         "agents_tool_use"
       ],
-      "updated_at": "2026-11-17T07:30:06+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_DOI_10-21203-rs-3-rs-11540644-v1_72445df86324",
@@ -771,8 +739,8 @@
         "zh": "该预印本介绍了一个可查询的存储库，其中包含141个洪水情景及相关的物理和社会经济数据，以及一个将复合自然语言规划问题转换为地理空间工具调用的LLM代理。"
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The supplied material is limited to the title and abstract; the abstract does not report implementation details or quantitative evaluation results.",
+        "zh": "材料范围：所提供的材料仅包括标题和摘要；摘要未报告实现细节或定量评估结果。"
       },
       "domains": [
         "floods"
@@ -780,7 +748,7 @@
       "methods": [
         "agents_tool_use"
       ],
-      "updated_at": "2026-11-17T07:30:06+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_DOI_10-1016-j-hydroa-2026-100234_acf1c748fbf1",
@@ -836,8 +804,8 @@
         "zh": "该论文通过现场物流、网络自动化、雨洪水规划、传感器报告，以及将操作员问题经过审计后转化为水文建模工作流程，评估智能体的就绪程度。"
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The supplied abstract reports one watershed case study and does not specify the model identities or architectures, the duration of evaluation, or validation across additional watersheds.\n\nReported study limitations: The study explicitly reports a constraint-related limitation: more capable models captured more hydrologic events but violated battery limits more aggressively, and this feasibility blindness had been quantified only on synthetic benchmarks.",
+        "zh": "材料范围：所提供的摘要报告了一个流域案例研究，但未说明模型的具体名称或架构、评估持续时间，或在其他流域中的验证情况。\n\n研究报告的局限：研究明确报告了一项与约束相关的局限：能力更强的模型捕获了更多水文事件，但更激进地违反电池限制；此外，这种可行性盲点截至目前仅在合成基准上进行了量化。"
       },
       "domains": [
         "catchment_hydrology",
@@ -846,7 +814,7 @@
       "methods": [
         "agents_tool_use"
       ],
-      "updated_at": "2026-11-17T07:30:06+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_DOI_10-13182-xyz-46633_816ecfa07675",
@@ -899,14 +867,14 @@
         "zh": "该发布内容记录了用于重建2021–2022年Waikato供水决策历史设计的假设、历史来源、计算、代码和可视化。计算和时间关系明确仅为说明性内容，而非对已实施供水或政策结果的观察。"
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The supplied material is an archive description for data and code; it does not report findings from the associated manuscript or independent empirical validation.\n\nReported study limitations: The calculations use stipulated illustrative dates and capacities and therefore do not establish real-world commencement, entitlements, implemented supply, financial consequences, or policy effectiveness. The calculations and figure are illustrative and analytical rather than observations from an experiment.",
+        "zh": "材料范围：所提供材料是数据和代码档案的说明；其中未报告相关手稿的研究结果或独立的实证验证。\n\n研究报告的局限：计算采用规定的示例性日期和供水能力，因此不能确立实际开工、现有权利、已实施供水、财务后果或政策有效性。 这些计算和图示属于示例性和分析性内容，而非实验观测结果。"
       },
       "domains": [
         "water_resources_reservoirs"
       ],
       "methods": [],
-      "updated_at": "2026-11-17T07:30:06+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_DOI_10-5281-zenodo-23615019_19d2f2d0e97e",
@@ -930,15 +898,15 @@
         "zh": "该研究规定了对7天、30天和90天快流输送比例进行匹配集水区、集水区内和剂量-反应分析。该研究在存放时对结果不知情，目前尚未检验降雪与降雨之间的对比。一名AI智能体根据预先定义的方案编写并运行了分析代码。"
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The abstract states that no snow-versus-rain contrast has been computed or examined; therefore, results for the preregistered hypotheses are not reported in the supplied material.\n\nReported study limitations: The near-threshold within-catchment Design A was demoted because its corrected minimum detectable ratio exceeded the prespecified limit after phase-classifier attenuation.",
+        "zh": "材料范围：摘要说明尚未计算或检验降雪与降雨之间的对比，因此，所提供材料未报告预注册假设的结果。\n\n研究报告的局限：由于相位分类器衰减后校正的最小可检测比率超过预设限值，接近阈值的流域内匹配设计A被降级。"
       },
       "domains": [
         "catchment_hydrology",
         "water_resources_reservoirs"
       ],
       "methods": [],
-      "updated_at": "2026-11-17T07:30:06+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_DOI_10-5281-zenodo-23565420_350428bab8b8",
@@ -962,8 +930,8 @@
         "zh": "该研究在塞萨利、瓦莱州和瓦伦西亚设计了 75 个洪灾响应案例，涵盖调度、疏散、救援、住房和分诊，以检验在需求保持不变的情况下，当受影响人员、地点或提示语言发生变化时，LLM 的决策是否会改变。"
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The supplied abstract describes a preregistered study design archived before any study results; empirical findings and evaluated outcome data are therefore not reported in the supplied material.",
+        "zh": "材料范围：所提供的摘要描述的是一项在任何研究结果出现之前存档的预注册研究设计；因此，所提供材料未报告实证发现或评估结果数据。"
       },
       "domains": [
         "floods"
@@ -972,7 +940,7 @@
         "prompting",
         "benchmarks"
       ],
-      "updated_at": "2026-11-17T07:30:06+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_ARXIV_2610-30660_99525e42ff51",
@@ -999,8 +967,8 @@
         "zh": "该框架接受地点名称、绘制的区域或上传的边界；检索高程、降雨、土壤、土地覆盖、暴露度和基础设施数据；提取地形洼地；对候选流域进行排序；并提供交互式地图和报告。该框架包含人工检查点，并使用 D8 汇流路由模型在多个研究区域评估流域一致性。"
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The supplied abstract does not specify the language model or detailed implementation, and reports evaluation only for one named case study plus four further study areas; broader geographic validation and outcome-based screening accuracy are not described.",
+        "zh": "材料范围：所提供的摘要未说明所使用的语言模型或详细实现，并且仅报告了一个明确命名的案例研究和另外四个研究区域的评估；摘要未描述更广泛的地理验证或基于结果的筛查准确性。"
       },
       "domains": [
         "floods",
@@ -1009,7 +977,7 @@
       "methods": [
         "agents_tool_use"
       ],
-      "updated_at": "2026-11-17T07:30:06+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_DOI_10-3389-frsus-2026-1966241_f17469fdc0c5",
@@ -1036,8 +1004,8 @@
         "zh": "该研究综述了洪水易发地区关于基于自然的解决方案的185篇出版物，使用LLM进行筛选、结构化数据提取、语义聚类和证据综合，并通过人工验证。"
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The abstract does not report the specific LLM used, search strings, eligibility criteria, or detailed human-validation procedures.\n\nReported study limitations: The included evidence relied mainly on scenario modeling and short monitoring periods, limiting the reported basis for longer-term empirical assessment. Social equity, public acceptance, and maintenance outcomes were rarely assessed with standardized metrics.",
+        "zh": "材料范围：摘要未报告所使用的具体大语言模型、检索式、纳入与排除标准或详细的人工验证流程。\n\n研究报告的局限：纳入证据主要依赖情景建模和较短的监测周期，因此对长期实证评估的依据有限。 社会公平、公众接受度和维护结果很少使用标准化指标进行评估。"
       },
       "domains": [
         "floods",
@@ -1046,7 +1014,7 @@
       "methods": [
         "prompting"
       ],
-      "updated_at": "2026-11-17T07:30:06+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_DOI_10-5281-zenodo-23464625_04be7ccda744",
@@ -1073,8 +1041,8 @@
         "zh": "该存档说明了综述方案、数据库检索、引文追踪、筛选程序、去重材料，以及对废水–人类 AMR 一致性进行计划中的分析。Claude 被用于起草、数据库界面操作、去重代码，以及第三次不参与决策的标题/摘要评级。"
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The supplied material is a protocol and search-strategy deposit, not a completed systematic review; it reports no pooled concordance estimates or meta-analysis results. It also does not report an evaluation of the LLM-assisted workflow.",
+        "zh": "材料范围：所提供材料是方案和检索策略存档，而非已完成的系统综述；其中未报告汇总一致性估计值或荟萃分析结果，也未报告对大型语言模型辅助工作流程的评估。"
       },
       "domains": [
         "urban_water",
@@ -1084,7 +1052,7 @@
         "agents_tool_use",
         "prompting"
       ],
-      "updated_at": "2026-11-17T07:30:06+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_DOI_10-5281-zenodo-23465955_4297679df2b8",
@@ -1110,8 +1078,8 @@
         "zh": "该工作提供了 IntelliCal Agent 的源代码，该智能体在用于水文模型参数指定的迭代推理—验证工作流中，结合了水文诊断、参数语义和多模态 LLM。"
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The supplied abstract describes the framework and repository but does not report a specific large language model, evaluation dataset, or quantitative results.",
+        "zh": "材料范围：所提供的摘要介绍了该框架和代码仓库，但未报告具体的大语言模型、评估数据集或定量结果。"
       },
       "domains": [
         "catchment_hydrology"
@@ -1120,7 +1088,7 @@
         "agents_tool_use",
         "multimodal"
       ],
-      "updated_at": "2026-11-17T07:30:06+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_DOI_10-1007-978-3-032-41794-7-32_c02a5a2f7529",
@@ -1147,8 +1115,8 @@
         "zh": "该论文介绍了 Water Sustainability Platform，这是一个旨在应对基于被动 SCADA 的水文信息学工作流局限性并支持对地下水相关监管违规行为进行监督的自主系统。"
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The supplied abstract is truncated after “This paper introduces the Water Sustainability Platform, a...”. It therefore does not report the system’s detailed architecture, model implementation, evaluation methods, or findings.",
+        "zh": "材料范围：所提供的摘要在“本文介绍水可持续性平台，一个……”处截断。因此，其中未报告系统的详细架构、模型实现、评估方法或研究结果。"
       },
       "domains": [
         "groundwater"
@@ -1156,7 +1124,7 @@
       "methods": [
         "multi_agent"
       ],
-      "updated_at": "2026-11-17T07:30:06+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_ARXIV_2610-23377_2fc5afcb26ea",
@@ -1183,8 +1151,8 @@
         "zh": "该工作引入了一个包含洪水图像块以及洪水严重程度和演变文本描述的基准，随后提出了带有洪水先验和多时相像素解码器模块的 FloodVLM-Pix。该工作将语言级洪水描述和像素级洪水分割与现有 VLM 和洪水分割模型进行了对比评估。"
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The supplied abstract does not report the benchmark’s geographic and temporal coverage, data-construction details, evaluation protocols, quantitative results, or implementation details beyond the high-level model components.",
+        "zh": "材料范围：所提供的摘要未报告该基准数据的地理与时间覆盖范围、数据构建细节、评估协议、定量结果，或除模型组件概述之外的具体实现细节。"
       },
       "domains": [
         "floods"
@@ -1193,7 +1161,7 @@
         "multimodal",
         "benchmarks"
       ],
-      "updated_at": "2026-11-17T07:30:06+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_DOI_10-1016-j-engstruct-2026-123954_f586a90a3495",
@@ -1249,8 +1217,8 @@
         "zh": "一个结构化提示提供了流量、废水特性和预算限制，以生成人工湿地配置、材料、植被和运行方案。所提出的水平潜流人工湿地与工程标准和专业文献进行了比较。"
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The supplied evidence is limited to an abstract. It reports preliminary design outputs and comparison with technical criteria and literature, but does not provide details of any experimental validation, validation results, or the full assessment procedure.\n\nReported study limitations: The generated proposals require verification against engineering criteria, specialized literature, and experimental validation.",
+        "zh": "材料范围：所提供的证据仅限于摘要。摘要报告了初步设计结果以及与技术标准和文献的比较，但未提供实验验证的具体过程、验证结果或完整评估方法。\n\n研究报告的局限：生成的方案需要依据工程标准、专业文献并通过实验验证进行核查。"
       },
       "domains": [
         "water_quality_ecology",
@@ -1259,7 +1227,7 @@
       "methods": [
         "prompting"
       ],
-      "updated_at": "2026-11-17T07:30:06+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_DOI_10-1016-j-ssci-2026-107515_b46c9c3851e8",
@@ -1286,8 +1254,8 @@
         "zh": "该论文结合文献、官方灾害报告和访谈，识别洪水情景下的通信故障模式，然后将 5G 软件定义能力映射到这些与洪水相关的挑战。"
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The abstract does not specify which LLM was used, how it was prompted, or the quantitative contribution of the LLM-assisted analysis.",
+        "zh": "材料范围：摘要未说明所使用的具体大语言模型、提示方法，或大语言模型辅助分析的量化贡献。"
       },
       "domains": [
         "floods"
@@ -1295,7 +1263,7 @@
       "methods": [
         "prompting"
       ],
-      "updated_at": "2026-11-17T07:30:06+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_DOI_10-3389-fmars-2026-1977051_33719ee1bb27",
@@ -1322,8 +1290,8 @@
         "zh": "该论文在 Argo 浮标剖面、NDBC 浮标时间序列和 AdapAD 基准数据集上评估 DriftGuard。其流程结合了异构传感器图、Hybrid Temporal Transformer 和 Graph Attention Network、跨传感器一致性损失、保形预测，以及由 LangGraph 编排并由 RAG 提供支持的智能体循环，用于自主校正和运行中的传感器状态决策。"
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The supplied abstract reports evaluations on North Atlantic Argo profiles, NDBC buoy stations, and the AdapAD benchmark, but does not provide results for other regions, sensor networks, or drift settings. It also does not report confidence intervals or other measures of statistical variability for the presented metrics.",
+        "zh": "材料范围：所提供的摘要报告了北大西洋 Argo 剖面、NDBC 浮标站点和 AdapAD 基准测试上的评估，但未提供其他区域、传感器网络或漂移情境下的结果。摘要也未报告所示指标的置信区间或其他统计变异性度量。"
       },
       "domains": [
         "water_quality_ecology"
@@ -1332,7 +1300,7 @@
         "agents_tool_use",
         "rag_knowledge_graphs"
       ],
-      "updated_at": "2026-11-16T11:54:37+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_DOI_10-2139-ssrn-7611039_e6bfd3194b9f",
@@ -1358,8 +1326,8 @@
         "zh": "该预印本将水动力–水质模型与基于 ReAct 的 LLM agent 连接起来，后者保留源假设，并比较未使用观测块处的预测差异。该方法在合成河流污染事件上进行了评估，并与普通 ReAct、固定观测计划和确定性选择器进行了对比。"
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The supplied abstract reports development and evaluation on synthetic events under conceptual-network and offline-observation conditions; it does not report evaluation on real-world river incidents or online observations.",
+        "zh": "材料范围：所提供的摘要仅报告了在概念性网络和离线观测条件下对合成事件的开发与评估；未报告真实河流污染事件或在线观测条件下的评估。"
       },
       "domains": [
         "water_quality_ecology",
@@ -1368,7 +1336,7 @@
       "methods": [
         "agents_tool_use"
       ],
-      "updated_at": "2026-11-17T07:30:06+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_DOI_10-1016-j-trd-2026-105685_2bbb683bc78a",
@@ -1395,8 +1363,8 @@
         "zh": "灾害感知轨迹生成器将LLM代理与基于代理的框架相结合，并利用2021年郑州洪灾期间的13.2亿条记录评估洪灾引发的出行模式。"
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The abstract reports validation against the 2021 Zhengzhou flood, but does not report performance in other flood events, locations, or conditions. It also does not provide details on uncertainty analysis, data representativeness, or the full experimental setup.",
+        "zh": "材料范围：摘要报告了对2021年郑州洪灾的验证，但未报告该方法在其他洪灾事件、地点或条件下的表现；也未提供不确定性分析、数据代表性或完整实验设置的详细信息。"
       },
       "domains": [
         "floods"
@@ -1404,7 +1372,7 @@
       "methods": [
         "agents_tool_use"
       ],
-      "updated_at": "2026-11-17T07:30:06+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_DOI_10-5281-zenodo-23122827_1c4b9cce8229",
@@ -1429,8 +1397,8 @@
         "zh": "该存档提供固定字段的基准软件和任务文件，包括源存在任务和对照任务、环境条件变换、评估器答案、评分、回放验证以及基线控制器。"
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The supplied abstract describes benchmark contents and access arrangements but does not report quantitative cohort results or identify the specific language-model families evaluated; scoring records are deposited separately.\n\nReported study limitations: Access to the full benchmark files is restricted because they contain precise geographical coordinates of drinking-water source areas.",
+        "zh": "材料范围：所提供的摘要描述了基准测试内容和访问安排，但未报告模型群体的定量结果，也未指出所评估的具体语言模型系列；评分记录另行存放。\n\n研究报告的局限：由于完整基准测试文件包含饮用水源区域的精确地理坐标，其访问受到限制。"
       },
       "domains": [
         "water_quality_ecology"
@@ -1439,7 +1407,7 @@
         "benchmarks",
         "agents_tool_use"
       ],
-      "updated_at": "2026-11-17T07:30:06+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_DOI_10-3390-s26206497_70051921d45c",
@@ -1465,8 +1433,8 @@
         "zh": "HydroPrior 将冻结的 LLM 先验与轻量级基于残差的预警相结合，评估预测误差和代理事件预警性能，并在一个公开的水电轴承振动数据集上报告结果。"
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The abstract reports evaluation on a public hydropower bearing-vibration dataset and an evaluated unit record using rapid vibration transitions as proxy events. It does not report validation against verified fault labels or operational deployment beyond this evaluation setting.",
+        "zh": "材料范围：摘要仅报告了在公开水电轴承振动数据集和一个被评估机组记录上进行的评估，并使用快速振动变化作为代理事件。摘要未报告基于经验证故障标签的验证，也未报告超出该评估环境的实际运行部署。"
       },
       "domains": [
         "water_resources_reservoirs"
@@ -1474,7 +1442,7 @@
       "methods": [
         "prompting"
       ],
-      "updated_at": "2026-11-17T07:30:06+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_DOI_10-5281-zenodo-23340633_d789be8630d4",
@@ -1498,8 +1466,8 @@
         "zh": "该记录提前提交带哈希的预测文件，并规定后续发布和评分程序。预测涵盖卡里巴湖发电用水释放、干旱声明、ENSO读数、人道主义响应、融资、保险以及跨系统联系。基于Claude的代理撰写并质疑每项预测，并阅读了用于确定滞后期、效应量和基准发生率的资料。"
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The supplied material does not include the private prediction texts, resolved outcomes, or skill scores; the abstract describes the commitment and fingerprints but not the underlying prediction details or results.\n\nReported study limitations: The commitment demonstrates that the predictions existed unchanged, but does not establish their quality. Because several predictions depend on the same rainy season, the 19 predictions represent substantially fewer independent bets.",
+        "zh": "材料范围：所提供的材料不包括私有的预测文本、已解决的结果或技能评分；摘要描述了承诺和指纹，但未提供预测的具体内容或结果。\n\n研究报告的局限：该承诺只能证明这些预测当时已存在且未被更改，不能证明其质量。 由于若干预测依赖同一个雨季，这19个预测所代表的独立投注数明显少于19个。"
       },
       "domains": [
         "catchment_hydrology",
@@ -1509,7 +1477,7 @@
         "benchmarks",
         "agents_tool_use"
       ],
-      "updated_at": "2026-11-17T07:30:06+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_DOI_10-1038-s41545-026-00631-1_7e40ca265ef5",
@@ -1536,8 +1504,8 @@
         "zh": "标题描述了使用数据驱动优化和AI辅助语音自动化实现公平供水。"
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: Only the title and publication metadata are supplied; the abstract does not report the methods, data, evaluation, findings, or scope of the work.",
+        "zh": "材料范围：仅提供了标题和出版元数据；摘要未报告研究方法、数据、评估、研究结果或工作范围。"
       },
       "domains": [
         "urban_water"
@@ -1545,7 +1513,7 @@
       "methods": [
         "agents_tool_use"
       ],
-      "updated_at": "2026-11-17T07:30:06+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_ARXIV_2609-35753_513c8e42a241",
@@ -1572,8 +1540,8 @@
         "zh": "该工作报告了基于测站和高水位标记的洪水模拟准确性、CPU/GPU 一致性，以及对降水和沿海强迫对淹没和社会暴露影响的归因。标题声称有 LLM 辅助，但所提供的摘要未描述这种辅助。"
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The abstract reports simulation and attribution results for Hurricane Harvey but does not describe performance across additional events, regions, or hazard settings. Although the title identifies an LLM-assisted ecosystem, the abstract does not specify the LLM, its inputs or outputs, or any evaluated LLM-dependent capability.",
+        "zh": "材料范围：摘要报告了飓风哈维案例的模拟与归因结果，但未说明该系统在其他事件、地区或灾害情境下的表现。尽管标题指出这是一个由大语言模型辅助的生态系统，摘要未说明所使用的大语言模型、其输入或输出，也未报告任何依赖大语言模型的能力评估。"
       },
       "domains": [
         "floods"
@@ -1581,7 +1549,7 @@
       "methods": [
         "agents_tool_use"
       ],
-      "updated_at": "2026-11-17T07:30:06+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_DOI_10-1080-28375807-2026-2745819_b4005abd83fd",
@@ -1607,8 +1575,8 @@
         "zh": "该论文通过 swmm_api、PySWMM 和 MCP 服务器将 LLM 连接到 SWMM，以解决特定领域的雨水建模问题。论文评估了八个 LLM 在基准任务完成情况、计算效率、响应详细程度以及提示-响应行为方面的表现。"
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The supplied material is limited to the title and abstract; detailed implementation, benchmark design, evaluation procedures, and broader validation are not reported.",
+        "zh": "材料范围：所提供材料仅包含标题和摘要；摘要未报告详细的实现方法、基准任务设计、评估流程及更广泛的验证情况。"
       },
       "domains": [
         "urban_water"
@@ -1616,7 +1584,7 @@
       "methods": [
         "agents_tool_use"
       ],
-      "updated_at": "2026-11-17T07:30:06+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_DOI_10-1016-j-watres-2026-126968_016c1ea9351b",
@@ -1642,14 +1610,14 @@
         "zh": "论文认为，执行轨迹和人类治理能够支持水资源管理中可复用的智能体技能和工作流控制器。第2节报告了一项受控对比，使用相同的本地水库调度知识库和量化的 Qwen3.6–27B 模型。在158个问题中，据报告，Agentic RAG 将证据完整性从81%提高到100%，将答案准确率从42%提高到92%，而首次响应时间从18.2 s增加到27–28 s。更广泛的技能学习循环和城市洪水响应路径被提出为框架，而非已部署并得到验证的系统。"
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The supplied abstract describes a Perspective and does not report empirical validation, comparative evaluation, implementation details, or operational outcomes for the proposed human-governed learning loop.",
+        "zh": "材料范围：所提供的摘要将本文描述为一篇观点文章，未报告所提出的人类治理学习闭环的实证验证、对比评估、实施细节或实际运行结果。"
       },
       "domains": [],
       "methods": [
         "agents_tool_use"
       ],
-      "updated_at": "2026-11-17T07:30:06+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_DOI_10-1038-s44488-026-00024-w_9cf361af88e9",
@@ -1676,8 +1644,8 @@
         "zh": "该论文将水力压力敏感性信息、管网分区、传感器布置、基于图的漏损检测和自主故障修复集成到由LLM协调的多智能体工作流中，并在五个供水管网上进行了评估。"
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The supplied material is limited to the title and abstract; the abstract does not provide implementation details or the full evaluation protocol.",
+        "zh": "材料范围：所提供的材料仅包括标题和摘要；摘要未提供实现细节或完整的评估方案。"
       },
       "domains": [
         "urban_water"
@@ -1686,7 +1654,7 @@
         "multi_agent",
         "multimodal"
       ],
-      "updated_at": "2026-11-17T07:30:06+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_ARXIV_2610-06330_bbfbfb24d8c5",
@@ -1711,8 +1679,8 @@
         "zh": "该研究介绍了一种涵盖痛苦评估、感知效能与能动性，以及关系—制度联结的洪水福祉测量工具，随后利用大型语言模型大规模提取这些测量指标，并分析压力源激活和中介路径。"
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The abstract does not specify the particular large language models, prompting setup, or validation procedure used in the reasoning pipeline.",
+        "zh": "材料范围：摘要未说明推理流程所使用的具体大型语言模型、提示设置或验证程序。"
       },
       "domains": [
         "floods"
@@ -1720,7 +1688,7 @@
       "methods": [
         "prompting"
       ],
-      "updated_at": "2026-11-18T07:30:27+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_DOI_10-3390-app16199874_9501077cc4af",
@@ -1747,8 +1715,8 @@
         "zh": "该系统管理并检索多源水文、水力、标准、模型和软件知识，然后在冻结基准测试上评估检索质量和拒答行为。"
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The supplied abstract covers technical retrieval, refusal, and a small cross-domain benchmark, but does not provide evidence for educational effectiveness, expert-validated professional correctness, or broader cross-domain generalizability. It also does not specify the provider states, permissions, or complete availability needed to reproduce hosted calls and restricted or third-party sources exactly.\n\nReported study limitations: The cross-domain evidence is exploratory and based on a 20-question holdout, so generalizable cross-domain performance is not established. The evaluation included no students or domain experts; consequently, it does not establish educational effectiveness or expert-validated professional correctness.",
+        "zh": "材料范围：所提供的摘要涵盖了技术检索、拒答和小规模跨领域基准测试，但未提供教育有效性、专家验证的专业正确性或更广泛跨领域可推广性的证据。摘要也未说明完整复现托管模型调用以及受限或第三方来源所需的提供商状态、权限或材料可用性。\n\n研究报告的局限：跨领域证据基于包含20个问题的留出测试，且属于探索性结果，因此尚未确立可推广的跨领域性能。 评估未纳入学生或领域专家，因此无法确立教育有效性或经专家验证的专业正确性。"
       },
       "domains": [
         "catchment_hydrology"
@@ -1757,7 +1725,7 @@
         "rag_knowledge_graphs",
         "benchmarks"
       ],
-      "updated_at": "2026-11-18T07:30:27+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_DOI_10-5281-zenodo-23144167_fe1206fa469b",
@@ -1782,8 +1750,8 @@
         "zh": "该报告介绍了 Pallade Idrico，这是一个经过微调的意大利语 LLM，与监管文件摄取、分层时间重排序和检索管道相结合。报告围绕供水服务费率、技术质量、计量和用户保护法规对该系统进行评估，并由基于 Gemini 的 AI 智能体进行自动化测试。"
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The supplied abstract reports benchmark testing but does not report independent external validation or real-world deployment outcomes. It also states that the system is a decision-support and regulatory-orientation tool, not binding legal counsel or a replacement for official rulings.\n\nReported study limitations: The model’s v1.0 knowledge base is time-bounded: later regulatory acts may not be covered unless the vector database is updated or the model undergoes incremental fine-tuning.",
+        "zh": "材料范围：所提供的摘要报告了基准测试，但未报告独立的外部验证或真实部署结果。摘要还明确指出，该系统仅用于决策支持和法规参考，不构成具有约束力的法律意见，也不能替代官方裁定。\n\n研究报告的局限：该模型 v1.0 的知识库具有时间范围限制：后续发布的监管文件可能不会被覆盖，除非更新向量数据库或进行增量微调。"
       },
       "domains": [
         "urban_water"
@@ -1792,7 +1760,7 @@
         "rag_knowledge_graphs",
         "fine_tuning_domain_models"
       ],
-      "updated_at": "2026-11-18T07:30:27+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_DOI_10-1002-adma-75148_e2cc8dc2f413",
@@ -1819,8 +1787,8 @@
         "zh": "论文介绍了Photothermal-Seek，该系统基于2771篇出版物构建，用于连接太阳能界面蒸发材料的合成、结构和性能信息。它结合了LLM辅助提取、图推理和全文证据检索，然后利用所得知识库指导聚吡咯涂层木材蒸发器的构建和测试，并评估一种未见过的设计。"
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The abstract does not specify the LLM(s), prompting, extraction and benchmark protocols, audit-sampling details, or implementation details. It also does not report uncertainty estimates or validation beyond the described corpus, benchmarks, and evaporator cases.",
+        "zh": "材料范围：摘要未说明所使用的具体大语言模型、提示方法、信息抽取与基准评估方案、审计抽样细节或实现细节；也未报告所述语料库、基准评估和蒸发器案例之外的不确定性估计或验证结果。"
       },
       "domains": [
         "water_quality_ecology",
@@ -1830,7 +1798,7 @@
         "rag_knowledge_graphs",
         "benchmarks"
       ],
-      "updated_at": "2026-11-18T07:30:27+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_DOI_10-5281-zenodo-23060554_c3951cebf19f",
@@ -1856,8 +1824,8 @@
         "zh": "GGS提供地质和裂缝网络建模、水热地热模拟、CO₂储存和组分模拟、动态地热资源评估以及AI-Agent辅助建模。"
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The supplied abstract is a feature overview and does not report validation results, benchmark comparisons, accuracy or computational-performance measurements, or detailed implementation and model specifications.",
+        "zh": "材料范围：所提供的摘要是一份功能概述，未报告验证结果、基准对比、准确性或计算性能测量，也未提供详细的实现和模型规格。"
       },
       "domains": [
         "water_resources_reservoirs",
@@ -1866,7 +1834,7 @@
       "methods": [
         "agents_tool_use"
       ],
-      "updated_at": "2026-11-18T07:30:27+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_DOI_10-3390-ijgi15100447_8912bd00758e",
@@ -1893,8 +1861,8 @@
         "zh": "该论文评估了中文郑州和 Forlì 洪水案例中运行时的接受情况，以及运行后与产品、溯源和行动契约的对齐情况。该论文还测试了基于确定性 SAR 的洪水范围处理的配置敏感性，并指出，仅凭完成率不足以评估由 LLM 编排的洪水 GIS。"
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The available evidence is limited to the supplied title and abstract; details beyond the abstract are not available here.\n\nReported study limitations: The study is limited to a finite, study-authored benchmark and does not establish hydrological accuracy, operational decision validity, or open-world error detection. The configuration-specific results do not validate hydrological accuracy or identify universal optimal defaults.",
+        "zh": "材料范围：现有证据仅限于所提供的标题和摘要；摘要之外的详细信息在此处不可用。\n\n研究报告的局限：该研究局限于有限的、由研究者编制的基准，未能确立水文准确性、运营决策有效性或开放世界错误检测能力。 这些特定配置的结果未验证水文准确性，也未确定普适的最优默认设置。"
       },
       "domains": [
         "floods"
@@ -1903,7 +1871,7 @@
         "agents_tool_use",
         "benchmarks"
       ],
-      "updated_at": "2026-11-18T07:30:27+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_ARXIV_2610-02048_5cb38dd5c9c3",
@@ -1930,8 +1898,8 @@
         "zh": "该研究在 C-Town 及其他 EPANET 供水网络上评估了 Jev、规则、一个监督分类器和七个云端 LLM，并报告了归因性能、速度以及减少的 LLM 审查工作量。"
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The abstract does not identify the seven cloud LLMs or report their prompting and implementation details. It also does not provide the numbers, selection criteria, or operational characteristics of the evaluated events and networks, so the representativeness of the reported evaluation cannot be determined from the supplied material.",
+        "zh": "材料范围：摘要未说明所比较的七个云端大语言模型的具体名称，也未报告其提示词和实现细节。此外，摘要未提供所评估事件和网络的数量、选择标准或运行特征，因此仅凭所提供材料无法判断该评估的代表性。"
       },
       "domains": [
         "urban_water"
@@ -1939,7 +1907,7 @@
       "methods": [
         "benchmarks"
       ],
-      "updated_at": "2026-11-18T07:30:27+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_DOI_10-3390-w18192427_f1bbb8725f26",
@@ -1966,8 +1934,8 @@
         "zh": "该论文开发并部署了一个防洪会商平台，该平台协调专业化智能体，检索历史洪水案例和技术规范，分析实时水文信息，并生成符合水库安全要求的运行建议。"
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The abstract does not report quantitative performance results, baseline definitions, or detailed evaluation methods; the reported deployment and improvements are described without supporting numerical evidence.",
+        "zh": "材料范围：该摘要未报告量化性能结果、基线定义或详细评估方法；其中所述的部署情况和改进效果未提供数值证据支持。"
       },
       "domains": [
         "floods",
@@ -1977,7 +1945,7 @@
         "multi_agent",
         "rag_knowledge_graphs"
       ],
-      "updated_at": "2026-11-18T07:30:27+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_DOI_10-17615-3m0y-v258_0cd32d0a5cac",
@@ -2001,8 +1969,8 @@
         "zh": "该研究评估了监测、铅源消除、预算、管道法规和政策环境，发现执法以及可操作的铅消除措施方面仍存在持续性缺口。"
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The abstract does not report the specific language models or document-sourcing procedures used, the standardized grading criteria, or country-level results for the 28 countries.",
+        "zh": "材料范围：摘要未报告所使用的具体语言模型或文件搜集流程、标准化评分标准，也未提供这28个国家的国家层面结果。"
       },
       "domains": [
         "water_quality_ecology",
@@ -2011,7 +1979,7 @@
       "methods": [
         "prompting"
       ],
-      "updated_at": "2026-11-18T07:30:27+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_DOI_10-1007-s43762-026-00300-6_bc0b97da2c6e",
@@ -2035,8 +2003,8 @@
         "zh": "使用人工监督的 ChatGPT-4 图像解读、人工验证、主题分类、情感分析和主题标签考察，对约2,700条 Instagram 帖子进行了分析，涵盖洪灾响应和恢复阶段。"
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The supplied evidence is limited to the abstract. It describes approximately 2,700 Instagram posts concerning the July 2021 flooding in western Germany, but does not report the sampling criteria, data-collection procedures, or whether the findings apply to other disasters, regions, or platforms.",
+        "zh": "材料范围：所提供的证据仅限于摘要。摘要描述了约2,700条有关2021年7月德国西部洪灾的Instagram帖子，但未报告抽样标准、数据收集程序，也未说明这些发现是否适用于其他灾害、地区或平台。"
       },
       "domains": [
         "floods"
@@ -2044,7 +2012,7 @@
       "methods": [
         "multimodal"
       ],
-      "updated_at": "2026-11-18T07:30:27+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_DOI_10-5194-essd-2026-667_4cbb43a30129",
@@ -2071,8 +2039,8 @@
         "zh": "该研究从 3,675 份文档中恢复并验证了 4,775 条地理参考地下水记录，包括水文地质和地质参数，并评估了转录保真度和数据再利用风险。"
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The supplied title and abstract do not specify the implementation details of the large language model used in the extraction workflow.\n\nReported study limitations: Reuse of the conductivity data is limited by mixed measurement supports; aggregating them without filtering biases regional estimates downward by about 48-fold.",
+        "zh": "材料范围：所提供的标题和摘要未说明提取流程中所使用的大语言模型的具体实现细节。\n\n研究报告的局限：电导率数据的再利用受到测量支撑类型混杂的限制；未经筛选进行汇总会使区域估计值向下偏差约48倍。"
       },
       "domains": [
         "groundwater"
@@ -2080,7 +2048,7 @@
       "methods": [
         "multimodal"
       ],
-      "updated_at": "2026-11-18T07:30:27+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_DOI_10-31223-x5p51q_a441381dd754",
@@ -2107,15 +2075,15 @@
         "zh": "一个多用户框架在来自克莱德河口、持续一周的潮位计图上比较了11种数字化工具和两个LLM。LLM的误差超过观测潮差的10%，而大多数传统工具的误差低于1%。"
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The supplied evidence is limited to the title and abstract. The abstract reports evaluation using one early-twentieth-century, one-week marigram from the Clyde Estuary and does not provide implementation details, prompting setup, or broader dataset coverage.\n\nReported study limitations: The conventional digitisation tools still required substantial human input. Scaling the fastest approach to century-long records would require more than a working year, making large-dataset application challenging.",
+        "zh": "材料范围：所提供的证据仅限于标题和摘要。摘要报告的评估基于克莱德河口一份包含一周观测数据的20世纪初海图记录，但未提供实现细节、提示设置或更广泛的数据集覆盖范围。\n\n研究报告的局限：传统数字化工具仍然需要大量人工输入。 将最快的方法扩展到持续一个世纪的记录需要超过一年的工作时间，因此应用于大型数据集具有挑战性。"
       },
       "domains": [],
       "methods": [
         "multimodal",
         "benchmarks"
       ],
-      "updated_at": "2026-11-18T07:30:27+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_URL_https-www-sciencedirect-com-science-article-pii_8b3883d69099",
@@ -2167,8 +2135,8 @@
         "zh": "该论文构建了一个防洪知识图谱，使用LLM进行反向推理问题生成和结构化预案生成，并将闭环工作流与独立LLM和传统RAG方法进行评估。"
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The supplied evidence is limited to the title and abstract. The abstract does not report implementation details or specific evaluation metrics.",
+        "zh": "材料范围：所提供的证据仅限于标题和摘要。摘要未报告具体的实现细节或评价指标。"
       },
       "domains": [
         "floods",
@@ -2178,7 +2146,7 @@
         "rag_knowledge_graphs",
         "prompting"
       ],
-      "updated_at": "2026-11-18T07:30:27+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_ARXIV_2609-22251_6cab835e9f88",
@@ -2205,8 +2173,8 @@
         "zh": "该研究基于Edwards Aquifer约79年的观测数据评估了多个机器学习模型系列，发现极端梯度提升模型在各预测时段均最为可靠。五智能体架构可自动完成运行预测和报告工作流程。"
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The supplied abstract describes evaluation using approximately 79 years of observations from the Edwards Aquifer, Texas, but does not report external sites or independent out-of-region validation. It also does not identify the language model, prompting method, or implementation details of the five-agent architecture.",
+        "zh": "材料范围：所提供的摘要描述了基于德克萨斯州爱德华兹含水层约79年观测数据的评估，但未报告外部地点或独立的区域外验证。摘要也未说明所使用的语言模型、提示方法或五智能体架构的实现细节。"
       },
       "domains": [
         "catchment_hydrology",
@@ -2216,7 +2184,7 @@
         "multi_agent",
         "benchmarks"
       ],
-      "updated_at": "2026-11-18T07:30:27+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_ARXIV_2509-04772_501793939a1b",
@@ -2242,8 +2210,8 @@
         "zh": "该预印本介绍了 FloodVision，它将通用 VLM 与 FloodKG 相结合。FloodKG 是一个包含规范物体尺寸和组件地标的知识库，用于提供具有几何依据的洪水深度估计。该方法在 654 张众包城市洪水图像上进行了评估，结果显示其误差低于仅使用 VLM 的基线方法。"
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The supplied abstract does not report the specific current limitations discussed by the paper, detailed implementation or model-configuration information, or evaluation beyond the 654 crowdsourced MyCoast New York images and resident-reported proxy depths.",
+        "zh": "材料范围：所提供的摘要未说明论文所讨论的具体当前局限，也未报告详细的实现或模型配置细节，或超出654张MyCoast New York众包图像及居民报告代理深度之外的评估情况。"
       },
       "domains": [
         "floods",
@@ -2253,7 +2221,7 @@
         "rag_knowledge_graphs",
         "multimodal"
       ],
-      "updated_at": "2026-11-18T07:30:27+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_DOI_10-5281-zenodo-22982768_a8e7dc60c10b",
@@ -2280,8 +2248,8 @@
         "zh": "该存档包含数据、分析代码、图表、田块边界、语言模型对照片的分类结果及推理文本、分类器可靠性分析，以及 Sentinel-1/NISAR 雷达提取结果。该研究评估了田块和社区尺度上对同步干燥的检测，并记录了雷达和阈值相关的影响。"
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The abstract does not identify the specific vision-capable language model or provide quantitative results for the classifier reliability analysis. The deposited field photographs are not included in the supplied material and are available only on request, subject to community consent.\n\nReported study limitations: At the individual-terrace scale, the radar data cannot distinguish flooded fields from drained fields at either wavelength. Apparent field-scale detections may be produced by systematic relative-orbit offsets and by thresholds fitted to the labels used for validation.",
+        "zh": "材料范围：摘要未说明所使用的具体视觉语言模型，也未提供分类器可靠性分析的定量结果。所提供材料不包含田间照片；这些照片须经社区同意后按要求提供。\n\n研究报告的局限：在单个梯田尺度上，雷达数据无法在任一波长下区分积水田与排水田。 相对轨道之间的系统性偏移，以及针对用于验证的标签拟合阈值，可能造成表观的田块尺度检测。"
       },
       "domains": [
         "water_resources_reservoirs"
@@ -2289,7 +2257,7 @@
       "methods": [
         "multimodal"
       ],
-      "updated_at": "2026-11-18T07:30:27+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_DOI_10-1016-j-ecolind-2026-115572_1f9b602021d5",
@@ -2316,8 +2284,8 @@
         "zh": "该研究整合水质、气象、社会经济和水文地形数据，使用CNN-LSTM-attention模型预测六项河流水质指标。基于文献的检索有助于配置超参数，同时，LLM支持的多智能体系统利用领域知识和专家经验执行水质等级分类并生成改善建议。"
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The supplied evidence is limited to the title and abstract; detailed implementation and full evaluation are not reported here.",
+        "zh": "材料范围：所提供的证据仅限于标题和摘要；其中未报告详细的实施过程和完整评估结果。"
       },
       "domains": [
         "water_quality_ecology",
@@ -2327,7 +2295,7 @@
         "rag_knowledge_graphs",
         "agents_tool_use"
       ],
-      "updated_at": "2026-11-18T07:30:27+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_DOI_10-1021-acs-est-6c09278_243098e9a511",
@@ -2354,8 +2322,8 @@
         "zh": "AutoWWTP-ASM 将废水处理过程描述转换为受库约束的结构化活性污泥模型配置，支持执行和校准，并评估多种 LLM 主干、智能体模块、部署设置、标准化 BSM1 场景和全规模 WWTP 数据。"
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: Assessment is limited to the supplied title and abstract. The abstract does not provide detailed implementation or calibration procedures, task-level error breakdowns, or evaluation beyond the 37 tasks, six IWA BSM1 scenarios, and one full-scale WWTP dataset described.",
+        "zh": "材料范围：评估仅基于所提供的标题和摘要。摘要未提供详细的实现或校准流程、按任务划分的误差分析，也未说明超出所述37项任务、6个IWA BSM1场景和1个全规模污水处理厂数据集之外的评估情况。"
       },
       "domains": [
         "water_quality_ecology"
@@ -2364,7 +2332,7 @@
         "agents_tool_use",
         "benchmarks"
       ],
-      "updated_at": "2026-11-18T07:30:27+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_DOI_10-31223-x50r5w_afa366bf8234",
@@ -2391,8 +2359,8 @@
         "zh": "该研究针对中国大连校准并验证了1D–2D MIKE FLOOD模型，然后将模拟结果与20,825个视频推导的积水水位进行比较。研究量化了发生、时间、严重程度和持续时间方面的误差，并发现尽管峰值水深RMSE较低，过程保真度仍存在显著误差。"
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The supplied abstract reports one case study in Dalian, China. It does not specify how broadly the findings generalize beyond this setting, or quantify the uncertainty of the video-derived observations and detailed model configuration.",
+        "zh": "材料范围：所提供的摘要仅报告了中国大连的一个案例研究。摘要未说明这些发现能在多大程度上推广到其他情境，也未量化视频推导观测的不确定性或详细模型配置。"
       },
       "domains": [
         "floods",
@@ -2401,7 +2369,7 @@
       "methods": [
         "multimodal"
       ],
-      "updated_at": "2026-11-16T11:54:37+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_ARXIV_2609-25774_c578948c8a0a",
@@ -2428,8 +2396,8 @@
         "zh": "BioWater是一个拥有80亿参数、在废水处理知识上进行微调的LLM，研究对其回顾性认知、理解保真度和前瞻性外推能力进行了基准测试。该研究还报告了由实验室实验支持的人类–LLM假设生成，并比较了全球废水处理厂中本地小规模与基于云的大规模LLM部署的可持续性。"
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: This assessment is limited to the supplied title and abstract. The abstract does not provide the full benchmark design, participant and comparison details, laboratory-experiment protocols, or the assumptions and methods underlying the economic and environmental deployment analysis.",
+        "zh": "材料范围：本评估仅限于所提供的标题和摘要。摘要未提供完整的基准测试设计、参与者与比较对象的详细信息、实验室实验方案，或经济与环境部署分析所依据的假设和方法。"
       },
       "domains": [
         "water_quality_ecology",
@@ -2439,7 +2407,7 @@
         "fine_tuning_domain_models",
         "benchmarks"
       ],
-      "updated_at": "2026-11-18T07:30:27+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_DOI_10-1016-j-engappai-2026-116334_0ad1a23df31a",
@@ -2466,8 +2434,8 @@
         "zh": "该研究结合了结构化知识提取、可执行的评价规划、迭代式证据支撑生成以及基于LLM的评价指标。研究使用历史报告和证据文档对该工作流进行评估，并通过结论支持率和幻觉率，将标准RAG与所提出的方法进行比较。"
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The supplied abstract does not report the exact LLM models, implementation details, or expert-annotation protocol beyond stating that the evaluation was validated against expert annotations and used for comparative evaluation.\n\nReported study limitations: In this setting, additional evidence supplementation increased hallucination risk, so the best observed trade-off was limited to a single augmentation round.",
+        "zh": "材料范围：所提供的摘要未报告具体的LLM模型、实现细节或专家标注流程；除说明评估结果经过专家标注验证并用于比较性评估外，相关信息未作说明。\n\n研究报告的局限：在该情境下，进一步补充证据增加了幻觉风险，因此观察到的最佳权衡仅限于进行一轮增强。"
       },
       "domains": [
         "water_resources_reservoirs"
@@ -2476,7 +2444,7 @@
         "rag_knowledge_graphs",
         "benchmarks"
       ],
-      "updated_at": "2026-11-18T07:30:27+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_DOI_10-5281-zenodo-21478283_22904e55b0a5",
@@ -2500,8 +2468,8 @@
         "zh": "Planetary Intelligence System 是一种多智能体架构，监督器通过类型化消息、分层记忆和检索增强知识层，在感知、地理空间、时间模式和环境领域智能体之间分配工作。论文报告了在四个模拟数据集和两个源自真实世界的数据集上的评估，涵盖山洪、野火、空气质量和地震异常类别；与所述的单智能体和多智能体基线相比，其 F1 更高、延迟更低且误报更少。它作为跨领域、与水文学相邻的 Agent 证据具有相关性，而不是一个专用的业务化洪水系统。"
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The supplied abstract reports evaluation on four simulated and two real-world-derived datasets but does not provide dataset-specific results or operational deployment details.",
+        "zh": "材料范围：所提供的摘要报告了在四个模拟数据集和两个源自真实世界的数据集上的评估，但未提供按数据集细分的结果或实际运行部署的详细信息。"
       },
       "domains": [
         "catchment_hydrology",
@@ -2511,7 +2479,7 @@
         "multi_agent",
         "agents_tool_use"
       ],
-      "updated_at": "2026-11-18T07:30:27+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_DOI_10-1109-icetis70504-2026-11633385_a857ba6c7818",
@@ -2537,15 +2505,15 @@
         "zh": "该框架将公共灾害观测规范化为证据账本，比较相互竞争的灾害假设，执行类型化 GIS 和数值工具，检索响应指南，并通过独立安全批评器检查答案。论文报告了包含 1,250 个案例的 PubDis-Reason，以及来自 DisasterQA、HumAID、CrisisMMD 和 xBD 的 5,000 个问题。报告的宏平均 F1 为 78.2，而 ReAct 为 72.4；不安全行动率分别为 3.6% 和 7.9%。一个洪水案例拒绝了位于预测淹没区内的避难所。结果是多灾种指标的汇总，而非仅针对洪水的性能。"
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The supplied abstract reports aggregate results on the public PubDis-Reason benchmark but does not specify flood-specific metrics, the exact base LLM, or independently reproduced results.",
+        "zh": "材料范围：所提供的摘要报告了公开 PubDis-Reason 基准上的总体结果，但未说明洪水专项指标、确切的基础大语言模型，也未报告经独立复现的结果。"
       },
       "domains": [],
       "methods": [
         "agents_tool_use",
         "benchmarks"
       ],
-      "updated_at": "2026-11-18T07:30:27+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_DOI_10-5281-zenodo-22808353_9872c3e0c57e",
@@ -2569,8 +2537,8 @@
         "zh": "该工作汇编了2010–2025年368个地级单位的5,888条单位-年份记录，识别出2,299起经过核验的干旱影响事件，并标注其社会经济表现类型。使用Qwen3-Max结合网络搜索识别已报告的影响，并生成可追溯的证据陈述。"
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: This assessment is based only on the supplied title and abstract; the abstract does not provide the full implementation details, search parameters, or source-coverage details.\n\nReported study limitations: The database does not cover Taiwan, Hong Kong, or Macao because of network access restrictions.",
+        "zh": "材料范围：本评估仅基于所提供的标题和摘要；摘要未提供完整的实施细节、检索参数或来源覆盖范围细节。\n\n研究报告的局限：由于网络访问限制，该数据库未覆盖台湾、香港和澳门。"
       },
       "domains": [
         "water_resources_reservoirs"
@@ -2578,7 +2546,7 @@
       "methods": [
         "rag_knowledge_graphs"
       ],
-      "updated_at": "2026-11-18T07:30:27+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_DOI_10-31223-x5d517_d92544877462",
@@ -2605,8 +2573,8 @@
         "zh": "该研究构建了一个全球数据库，包含10年间约33,000条海岸洪水记录，并使用经潮位计数据校准的LLM识别事件。研究评估了GTSM和ECCC风暴潮产品，并比较了基于事件的检测与传统基于潮位计的指标。"
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The supplied material is limited to the title and abstract. The abstract does not report detailed LLM implementation or calibration procedures, nor the full benchmark-construction methodology.",
+        "zh": "材料范围：所提供的材料仅包括标题和摘要。摘要未报告LLM的具体实现或校准程序，也未详细说明基准数据集的完整构建方法。"
       },
       "domains": [
         "floods"
@@ -2614,7 +2582,7 @@
       "methods": [
         "benchmarks"
       ],
-      "updated_at": "2026-11-18T07:30:27+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_DOI_10-1038-s41545-026-00638-8_a4eea7f15cd5",
@@ -2641,8 +2609,8 @@
         "zh": "一项受控的 SWMM 案例研究比较了三种用于协调校准过程的智能体组织方式。研究报告称，校准模型的准确性相当，但在可靠性、成本、语言模型能力要求和 token 消耗方面存在差异。"
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The evidence is limited to one controlled SWMM calibration case study. The abstract does not report the specific datasets, language-model implementations, calibration metrics, or results for other drainage contexts.",
+        "zh": "材料范围：证据仅限于一个受控的 SWMM 校准案例研究。摘要未报告具体数据集、语言模型实现、校准指标，也未报告其他排水场景中的结果。"
       },
       "domains": [
         "urban_water"
@@ -2651,7 +2619,7 @@
         "agents_tool_use",
         "multi_agent"
       ],
-      "updated_at": "2026-11-18T07:30:27+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_DOI_10-1038-s41598-024-64954-0_193cf572e6cd",
@@ -2678,8 +2646,8 @@
         "zh": "论文针对手动或基于自然语言提示的水库调度规则提取成本高且不稳定的问题。论文细化提取标签，使用 Backus–Naur Form 对其进行编码，引导大型语言模型生成结构化数据，并为调度专业人员开发 AI agent。报告的实体和关系提取 F1 分数均高于 80%。"
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The supplied evidence is limited to the abstract; it does not report the specific large language model, datasets, implementation details, or evaluation protocol.",
+        "zh": "材料范围：所提供的证据仅限于摘要；摘要未报告所使用的具体大型语言模型、数据集、实现细节或评估方案。"
       },
       "domains": [
         "water_resources_reservoirs",
@@ -2689,7 +2657,7 @@
         "prompting",
         "agents_tool_use"
       ],
-      "updated_at": "2026-11-18T07:30:27+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_DOI_10-1007-s12145-026-02222-7_e09504f749c5",
@@ -2716,8 +2684,8 @@
         "zh": "该论文介绍了一个 Planner-Worker-Synthesizer 系统，该系统基于水文库文档使用 RAG，并支持客户端执行。该系统评估了跨库水文工作流、60 个特定领域任务和研讨会部署情况，并报告了不同 LLM 后端在函数检索准确率和延迟方面的差异。"
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The supplied material is limited to the abstract; detailed implementation and benchmark protocols are not described in the abstract.\n\nReported study limitations: The abstract reports limitations in advanced statistical workflows, but does not specify their nature or extent.",
+        "zh": "材料范围：所提供的材料仅限于摘要；摘要未描述详细的实现细节和基准测试方案。\n\n研究报告的局限：摘要指出高级统计工作流存在局限，但未说明这些局限的具体性质或程度。"
       },
       "domains": [
         "catchment_hydrology"
@@ -2726,7 +2694,7 @@
         "rag_knowledge_graphs",
         "agents_tool_use"
       ],
-      "updated_at": "2026-11-18T07:30:27+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_DOI_10-1007-978-3-032-32237-1-22_9f8882621300",
@@ -2753,8 +2721,8 @@
         "zh": "该方法针对人工评估LLM在水电开放式问题上的表现时存在的领域适应性有限、效率低和主观性强等问题。现有摘要表明，所提出的自动化评估方法基于LLM，但其具体实现细节已被截断。"
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The supplied abstract is truncated after “automatic...”; therefore, the evaluator design, datasets, and evaluation procedures are not reported in the available material.",
+        "zh": "材料范围：所提供的摘要在“automatic...”处截断；因此，现有材料未报告评估器设计、数据集和评估流程。"
       },
       "domains": [
         "water_resources_reservoirs"
@@ -2762,7 +2730,7 @@
       "methods": [
         "benchmarks"
       ],
-      "updated_at": "2026-11-18T07:30:27+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_DOI_10-5281-zenodo-22801508_25946798676e",
@@ -2786,8 +2754,8 @@
         "zh": "该研究评估了服务于粮食生产和高价值移动索取方的水库在三种分配规则下的粮食底线突破情况和总体福利。研究使用语言模型索取方，在两个模型系列中复现制度比较，并报告了复现和推理审计方案。"
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The abstract reports results on a stylised flow-limited reservoir and does not establish how they apply to any particular basin. It does not identify the two model families or provide the full details of the claimant interaction protocol.",
+        "zh": "材料范围：该摘要报告的是在一个风格化的流量受限水库上的结果，未说明这些结果如何适用于任何特定流域。摘要未说明两个模型系列的具体身份，也未提供索赔方互动协议的完整细节。"
       },
       "domains": [
         "water_resources_reservoirs"
@@ -2796,7 +2764,7 @@
         "agents_tool_use",
         "benchmarks"
       ],
-      "updated_at": "2026-11-18T07:30:27+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_DOI_10-1061-jcemd4-coeng-18113_eefff1240ddb",
@@ -2823,8 +2791,8 @@
         "zh": "该研究结合对比句嵌入、通用语言模型、交互式语义特征融合、深度文本匹配以及知识检索/推理，为水电建设风险因素推荐相关的安全事前控制知识。研究报告称，在所述数据集上，语义匹配的F1-score为97.57%，召回排名前10项知识的平均精度为98.95%。"
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: This assessment is limited to the supplied abstract. The abstract does not report detailed implementation specifications, including the precise architecture or scale of the general language model.",
+        "zh": "材料范围：本评估仅限于所提供的摘要。摘要未报告详细的实现规格，包括通用语言模型的具体架构或规模。"
       },
       "domains": [
         "water_resources_reservoirs"
@@ -2832,7 +2800,7 @@
       "methods": [
         "rag_knowledge_graphs"
       ],
-      "updated_at": "2026-11-18T07:30:27+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_DOI_10-3390-a18110713_36c1ca3bf823",
@@ -2859,8 +2827,8 @@
         "zh": "该研究通过将 LLMs/RAG 与洪水知识图谱相结合，处理洪水风险管理和沟通问题。研究报告称，洪水决策支持的可靠性有所提高，并针对洪水约束下的疏散规划等运营用途，提出了专家验证和安全层。"
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The supplied abstract does not report implementation details, evaluation design, or operational deployment conditions.\n\nReported study limitations: The study explicitly identifies governance issues, hallucination risks, and limited physical-modeling capabilities as important drawbacks of LLM-based flood management.",
+        "zh": "材料范围：所提供的摘要未报告实施细节、评估设计或实际部署条件。\n\n研究报告的局限：该研究明确指出，治理问题、幻觉风险以及物理建模能力不足是基于大语言模型的洪水管理面临的重要缺点。"
       },
       "domains": [
         "floods",
@@ -2870,7 +2838,7 @@
         "rag_knowledge_graphs",
         "multimodal"
       ],
-      "updated_at": "2026-11-18T07:30:27+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_DOI_10-1016-j-apenergy-2026-128819_0ae290e0f119",
@@ -2897,8 +2865,8 @@
         "zh": "该研究结合了POA分解、确定性水力和物理评估、硬可行性筛选以及LLM辅助的自适应策略设计。该方法在丰水年、平水年和枯水年以及蒙特卡洛风光场景下进行评估。"
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The supplied abstract does not provide detailed implementation, data, parameter, or reproducibility information, and does not fully specify the tested cascade system and scenarios.",
+        "zh": "材料范围：所提供的摘要未提供详细的实现、数据、参数或可复现性信息，也未完整说明所测试的梯级系统和场景。"
       },
       "domains": [
         "water_resources_reservoirs"
@@ -2907,7 +2875,7 @@
         "prompting",
         "agents_tool_use"
       ],
-      "updated_at": "2026-11-18T07:30:27+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_DOI_10-1088-2631-8695-aea5e5_f4382054ed46",
@@ -2931,8 +2899,8 @@
         "zh": "该方法对多源振动和图关系进行编码，选择物理引导的稀疏证据子图，将信号和退化证据组织成提示，并利用冻结的大语言模型进行诊断推理。该方法在旋转机械数据集和多机组水电数据集上进行了评估。"
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The supplied abstract does not identify the specific large language model architecture or provide detailed quantitative results for the reported comparisons.",
+        "zh": "材料范围：所提供的摘要未说明具体的大语言模型架构，也未提供所述比较的详细定量结果。"
       },
       "domains": [
         "water_resources_reservoirs"
@@ -2940,7 +2908,7 @@
       "methods": [
         "prompting"
       ],
-      "updated_at": "2026-11-18T07:30:27+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_DOI_10-37965-jdmd-2026-1595_114aa5494a37",
@@ -2967,8 +2935,8 @@
         "zh": "该论文针对水电设备诊断中的运行工况漂移问题。在 LLM 框架内，它结合了周期性和瞬态振动特征的语义投影、面向故障的表征解耦以及时间适配器，并报告了在水电数据集和其他数据集上的评估结果。"
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The supplied abstract does not report dataset sizes, the specific operating-condition shifts evaluated, statistical variability or uncertainty, computational requirements, or real-world deployment performance.",
+        "zh": "材料范围：所提供的摘要未报告数据集规模、所评估的具体运行工况变化、统计变异性或不确定性、计算需求，或实际部署性能。"
       },
       "domains": [
         "water_resources_reservoirs"
@@ -2976,7 +2944,7 @@
       "methods": [
         "fine_tuning_domain_models"
       ],
-      "updated_at": "2026-11-16T11:54:37+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_DOI_10-1038-s43247-026-04049-y_0cfc5611b6ad",
@@ -3002,8 +2970,8 @@
         "zh": "该研究将洪水掩膜地理定位和经过微调的视觉语言模型应用于旧金山的社交媒体图像，将所得的洪水灾后信息与机构报告进行比较，并考察社会不均衡的可见性。"
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The abstract reports an application in San Francisco but does not provide evidence from other locations or detailed model-training and evaluation procedures.",
+        "zh": "材料范围：摘要报告了在旧金山的应用，但未提供其他地点的证据，也未说明模型训练和评估程序的详细信息。"
       },
       "domains": [
         "floods",
@@ -3013,7 +2981,7 @@
         "fine_tuning_domain_models",
         "multimodal"
       ],
-      "updated_at": "2026-11-18T07:30:27+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_DOI_10-3390-w18182240_2a74f2b3f90a",
@@ -3040,8 +3008,8 @@
         "zh": "该论文使用 SETX 水质数据和多个预测模型，对安全和不安全的地表水状况进行分类。随后，一个基于 LLM 的诊断代理分析预测结果，生成水质评估和风险分类，总结结果，并识别具有影响力的参数。"
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The abstract does not specify the LLM model or prompts, nor does it report a quantitative evaluation of the LLM-based diagnosis component. It also provides limited information about the two datasets beyond SETX and describes simulations rather than a reported physical sensor deployment.",
+        "zh": "材料范围：摘要未说明所使用的LLM模型或提示词，也未报告基于LLM的诊断组件的定量评估结果。此外，除SETX数据集外，摘要对另外两个数据集提供的信息有限，并描述的是仿真而非实际部署的传感器系统。"
       },
       "domains": [
         "water_quality_ecology"
@@ -3049,7 +3017,7 @@
       "methods": [
         "agents_tool_use"
       ],
-      "updated_at": "2026-11-18T07:30:27+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_DOI_10-1016-j-ijdrr-2026-106431_8e4178f579a2",
@@ -3106,8 +3074,8 @@
         "zh": "该系统按推理类型对问题进行分类，生成后续问题以检索缺失的证据，区分已知信息与不确定信息，并将科学细节改写为易于理解的基于角色的语言。系统使用以人为中心的完整性指标，在超过 160 个问题上进行评估。"
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The abstract does not report the underlying language model, prompting or training procedures, or the exact water-quality questions and actions evaluated.\n\nReported study limitations: The evaluation indicates that the tuned judge has only moderate agreement with human completeness ratings, limiting its reliability as a completeness measure.",
+        "zh": "材料范围：摘要未报告所使用的底层语言模型、提示或训练过程，也未说明所评估的具体水质问题和行动。\n\n研究报告的局限：评估表明，经过调优的评判器与人类对完整性的评价仅具有中等一致性，因此其作为完整性衡量指标的可靠性有限。"
       },
       "domains": [
         "water_quality_ecology"
@@ -3115,7 +3083,7 @@
       "methods": [
         "rag_knowledge_graphs"
       ],
-      "updated_at": "2026-11-18T07:30:27+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_DOI_10-1016-j-watres-2026-126823_c7bbfc3e3680",
@@ -3142,8 +3110,8 @@
         "zh": "研究考察了五个 LLM 在 C-Town 供水网络上的单目标泵能耗最小化和多目标能耗—韧性优化。研究发现，将节点委托给 ReAct 代理会增加资源使用，并可能导致工作流结构性故障，而优化质量对控制分配相对不敏感。"
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The supplied abstract reports two WDN optimisation tasks on the C-Town benchmark across five LLMs. It does not describe detailed implementation or evaluation procedures, or evaluation on other networks, tasks, or settings.",
+        "zh": "材料范围：所提供的摘要报告了在 C-Town 基准网络上、使用五种 LLM 评估两项 WDN 优化任务。摘要未说明详细的实现或评估流程，也未介绍其他网络、任务或情境下的评估。"
       },
       "domains": [
         "urban_water"
@@ -3152,7 +3120,7 @@
         "agents_tool_use",
         "benchmarks"
       ],
-      "updated_at": "2026-11-18T07:30:27+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_DOI_10-1016-j-envsoft-2026-107142_231266919690",
@@ -3204,8 +3172,8 @@
         "zh": null
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The supplied evidence is limited to the abstract. It does not specify the LLM architecture, prompting and retrieval configuration, or detailed evaluation protocol, and reports evaluations only on samples from Dalian and Hong Kong.",
+        "zh": "材料范围：所提供的证据仅限于摘要。摘要未说明LLM架构、提示词与检索配置或详细评估方案，且仅报告了基于大连和香港样本的评估结果。"
       },
       "domains": [
         "urban_water"
@@ -3213,7 +3181,7 @@
       "methods": [
         "rag_knowledge_graphs"
       ],
-      "updated_at": "2026-11-16T11:54:37+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_DOI_10-1016-j-watres-2026-126492_53e8d209df6c",
@@ -3270,8 +3238,8 @@
         "zh": null
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The abstract reports evaluation on 2017 hydropower license documents, but does not specify the data-splitting procedure, external validation, or category-level performance results.",
+        "zh": "材料范围：摘要报告了对2017份水电许可证文件的评估，但未说明数据划分方法、外部验证情况或各类别性能结果。"
       },
       "domains": [
         "water_resources_reservoirs"
@@ -3280,7 +3248,7 @@
         "rag_knowledge_graphs",
         "fine_tuning_domain_models"
       ],
-      "updated_at": "2026-11-16T11:54:37+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_DOI_10-1088-1748-9326-ae9ee0_1776102c364e",
@@ -3307,8 +3275,8 @@
         "zh": null
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The supplied material is limited to the title and abstract. The abstract reports testing at Folsom Lake over a 21-year simulation but does not provide implementation details, full experimental protocols, or evidence about generalization to other reservoirs or settings.",
+        "zh": "材料范围：所提供的材料仅包括标题和摘要。摘要报告了在福尔瑟姆湖进行的21年模拟测试，但未提供实现细节、完整实验方案，也未说明研究结果能否推广到其他水库或场景。"
       },
       "domains": [
         "water_resources_reservoirs"
@@ -3317,7 +3285,7 @@
         "agents_tool_use",
         "prompting"
       ],
-      "updated_at": "2026-11-16T11:54:37+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_DOI_10-1016-j-jhydrol-2026-136358_cca93af01cb2",
@@ -3344,8 +3312,8 @@
         "zh": null
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The supplied material is limited to the title and abstract. The abstract does not report uncertainty estimates, statistical significance, baseline comparisons, or evaluation beyond the stated modelling tasks, LLMs, and CAMELS catchments.\n\nReported study limitations: The study reports that long-horizon task planning remains a central constraint on LLM execution of hydrological modelling tasks.",
+        "zh": "材料范围：所提供材料仅包括标题和摘要。摘要未报告不确定性估计、统计显著性、基线比较，也未说明超出所述建模任务、LLM 和 CAMELS 流域范围的评估情况。\n\n研究报告的局限：该研究报告称，长程任务规划仍是限制 LLM 执行水文建模任务的核心瓶颈。"
       },
       "domains": [
         "catchment_hydrology"
@@ -3354,7 +3322,7 @@
         "agents_tool_use",
         "multi_agent"
       ],
-      "updated_at": "2026-11-16T11:54:37+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_DOI_10-1016-j-aei-2026-105176_4183a51c3491",
@@ -3381,8 +3349,8 @@
         "zh": null
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The supplied material is limited to the abstract; it does not provide detailed implementation specifications, the identity of the LLM backbone, or full evaluation procedures.",
+        "zh": "材料范围：所提供材料仅限于摘要；其中未提供详细的实现规格、所用大语言模型骨干的具体身份或完整的评估流程。"
       },
       "domains": [
         "urban_water",
@@ -3392,7 +3360,7 @@
         "rag_knowledge_graphs",
         "prompting"
       ],
-      "updated_at": "2026-11-16T11:54:37+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_DOI_10-1016-j-ress-2026-113235_0e9a7fb64e94",
@@ -3444,15 +3412,15 @@
         "zh": "该研究使用结合贝叶斯优化和SHAP解释的TCN-Attention深度学习模型预测六项河流水质指标。Qwen3-Next为无锡市新吴区的河流生成水质等级评估和针对性的改进建议。"
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The supplied abstract reports results for rivers in Xinwu District, Wuxi City, and does not provide detailed information on dataset composition, validation procedures, or the implementation of the prediction–large-language-model interface.",
+        "zh": "材料范围：所提供的摘要报告了无锡市新吴区河流的结果，但未提供数据集构成、验证流程或预测模型与大语言模型接口实现的详细信息。"
       },
       "domains": [
         "water_quality_ecology",
         "urban_water"
       ],
       "methods": [],
-      "updated_at": "2026-11-18T07:30:27+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_URL_https-scholarsarchive-byu-edu-etd-11393_6123aa5c41fd",
@@ -3476,8 +3444,8 @@
         "zh": null
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The abstract does not report implementation details or evaluation results for the multi-agent LLM system, nor does it provide detailed validation of the derived dataset and API features.",
+        "zh": "材料范围：摘要未报告多智能体大语言模型系统的实现细节或评估结果，也未提供衍生数据集和 API 功能的详细验证信息。"
       },
       "domains": [
         "catchment_hydrology",
@@ -3487,7 +3455,7 @@
         "agents_tool_use",
         "multi_agent"
       ],
-      "updated_at": "2026-11-16T11:54:37+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_DOI_10-1016-j-jenvman-2026-130753_f530fc643901",
@@ -3513,8 +3481,8 @@
         "zh": null
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The supplied evidence is limited to the title and abstract. The abstract does not report data-preprocessing procedures, station-selection criteria, missing-data handling, external validation, or sufficient implementation details for independent reproduction.",
+        "zh": "材料范围：所提供的证据仅限于标题和摘要。摘要未报告数据预处理流程、监测站选择标准、缺失数据处理、外部验证，或足以支持独立复现的实施细节。"
       },
       "domains": [
         "water_quality_ecology"
@@ -3522,7 +3490,7 @@
       "methods": [
         "rag_knowledge_graphs"
       ],
-      "updated_at": "2026-11-16T11:54:37+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_DOI_10-1038-s41598-026-67903-1_fd6c0c141a72",
@@ -3549,8 +3517,8 @@
         "zh": null
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The abstract does not report the names of the evaluated LLMs, the detailed preprocessing or feature-selection procedures, or the specific desalination technology and operational setting represented by the synthetic dataset.",
+        "zh": "材料范围：摘要未报告所评估的大语言模型名称、详细的数据预处理或特征选择流程，也未说明合成数据集所代表的具体脱盐技术和运行场景。"
       },
       "domains": [
         "water_quality_ecology"
@@ -3558,7 +3526,7 @@
       "methods": [
         "prompting"
       ],
-      "updated_at": "2026-11-16T11:54:37+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_ARXIV_2608-22950_ee29cbc83f60",
@@ -3585,8 +3553,8 @@
         "zh": null
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The abstract reports a dataset collected in rural Bangladesh but does not provide evidence of performance validation in other geographic settings. It also does not report detailed per-category or operational-deployment results.\n\nReported study limitations: The reported fine-tuned model still leaves most instances undetected.",
+        "zh": "材料范围：摘要报告了一个在孟加拉国农村地区采集的数据集，但未提供在其他地理环境中进行性能验证的证据，也未报告详细的分类别结果或实际部署结果。\n\n研究报告的局限：报告显示，微调后的模型仍有大多数实例未被检测到。"
       },
       "domains": [
         "water_quality_ecology"
@@ -3595,7 +3563,7 @@
         "benchmarks",
         "fine_tuning_domain_models"
       ],
-      "updated_at": "2026-11-16T11:54:37+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_ARXIV_2608-18836_d6928bf0027c",
@@ -3622,8 +3590,8 @@
         "zh": null
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The abstract does not identify the large language model or provide prompting and implementation details.",
+        "zh": "材料范围：摘要未说明所用大语言模型的具体身份，也未提供提示词和实现细节。"
       },
       "domains": [
         "urban_water"
@@ -3632,7 +3600,7 @@
         "agents_tool_use",
         "benchmarks"
       ],
-      "updated_at": "2026-11-16T11:54:37+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_DOI_10-1016-j-compag-2026-112267_23e854340f16",
@@ -3688,8 +3656,8 @@
         "zh": null
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The supplied abstract describes evaluation on the EPANET hydraulic simulation platform but does not report quantitative results, benchmark details, dataset characteristics, or field-deployment validation.",
+        "zh": "材料范围：所提供的摘要描述了在 EPANET 水力模拟平台上的评估，但未报告定量结果、基准对比细节、数据集特征或现场部署验证。"
       },
       "domains": [
         "urban_water"
@@ -3697,7 +3665,7 @@
       "methods": [
         "agents_tool_use"
       ],
-      "updated_at": "2026-11-16T11:54:37+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_ARXIV_2608-05151_cdcbc67b06c8",
@@ -3723,8 +3691,8 @@
         "zh": null
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The supplied evidence is limited to the title and abstract. It does not report full plant-selection details, benchmark construction and annotation procedures, simulator validation against real-plant data, or complete evaluation protocols.\n\nReported study limitations: The abstract reports that the static parameter-injection table did not transfer to a biologically distinct plant.",
+        "zh": "材料范围：所提供的证据仅限于标题和摘要。摘要未完整报告工厂选择细节、基准测试的构建与标注流程、模拟器相对于真实工厂数据的验证情况，或完整的评估方案。\n\n研究报告的局限：摘要报告称，静态参数注入表无法迁移到生物学特征不同的工厂。"
       },
       "domains": [
         "water_quality_ecology",
@@ -3734,7 +3702,7 @@
         "rag_knowledge_graphs",
         "agents_tool_use"
       ],
-      "updated_at": "2026-11-16T11:54:37+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_DOI_10-1016-j-watres-2026-126862_784e6bf16f36",
@@ -3791,14 +3759,14 @@
         "zh": null
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The supplied material consists of the title and an abstract excerpt that ends while describing D2’s knowledge retrieval. It does not report evaluation design, datasets, comparison methods, quantitative results, deployment conditions, or author-stated limitations.",
+        "zh": "材料范围：所提供材料仅包括标题和一段在描述 D2 的知识检索时结束的摘要节选。其中未报告评估设计、数据集、比较方法、定量结果、部署条件或作者明确陈述的局限性。"
       },
       "domains": [],
       "methods": [
         "agents_tool_use"
       ],
-      "updated_at": "2026-11-16T11:54:37+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_DOI_10-1061-jcemd4-coeng-17773_ffa8b403759b",
@@ -3855,8 +3823,8 @@
         "zh": null
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: Assessment is limited to the supplied title and abstract. The abstract does not report dataset composition, study-period or geographic coverage beyond the Tibetan Plateau example, baseline-model details, uncertainty analysis, or external validation beyond the stated unseen-data generalization.",
+        "zh": "材料范围：评估仅限于所提供的标题和摘要。摘要未说明数据集构成、研究时段，或除西藏高原示例之外的地理覆盖范围，也未报告基线模型细节、不确定性分析，或所述未见数据泛化之外的外部验证。"
       },
       "domains": [
         "catchment_hydrology"
@@ -3864,7 +3832,7 @@
       "methods": [
         "benchmarks"
       ],
-      "updated_at": "2026-11-16T11:54:37+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_ARXIV_2405-03989_bc94da1a118a",
@@ -3891,8 +3859,8 @@
         "zh": null
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The supplied material consists of the title and abstract only. The abstract does not report detailed evaluation metrics, comparison baselines, dataset characteristics, or experimental conditions, and therefore does not support assessment of those aspects.",
+        "zh": "材料范围：所提供的材料仅包括标题和摘要。摘要未报告详细的评估指标、比较基线、数据集特征或实验条件，因此无法据此评估这些方面。"
       },
       "domains": [
         "water_quality_ecology",
@@ -3901,7 +3869,7 @@
       "methods": [
         "rag_knowledge_graphs"
       ],
-      "updated_at": "2026-11-16T11:54:37+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_ARXIV_2601-18308_409811dc1fbd",
@@ -3925,12 +3893,12 @@
         "zh": null
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The supplied evidence is limited to the title and abstract. The abstract does not report the design and sample details of the simulations, user studies, or municipal pilot; quantitative effect estimates; comparator conditions; or evaluation duration.",
+        "zh": "材料范围：所提供的证据仅限于标题和摘要。摘要未报告模拟、用户研究或市政试点的设计与样本详情、定量效果估计、对照条件或评估持续时间。"
       },
       "domains": [],
       "methods": [],
-      "updated_at": "2026-11-16T11:54:37+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_DOI_10-1016-j-scsadv-2026-100044_22ae73ba87b2",
@@ -3984,8 +3952,8 @@
         "zh": null
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The abstract reports evaluation against 320 published studies and predictive metrics, but does not report long-duration operation, safety assurance, or autonomous-control performance in a full-scale treatment facility.",
+        "zh": "材料范围：摘要报告了基于320项已发表研究的评估和预测指标，但未报告长期运行、​​安全保障或全规模处理设施中的自主控制性能。"
       },
       "domains": [
         "water_quality_ecology"
@@ -3993,7 +3961,7 @@
       "methods": [
         "agents_tool_use"
       ],
-      "updated_at": "2026-11-16T11:54:37+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_DOI_10-1016-j-rsase-2026-101951_71a4de5387da",
@@ -4020,8 +3988,8 @@
         "zh": null
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The supplied abstract does not specify the sensors, water bodies, datasets, or validation settings used in the evaluation.",
+        "zh": "材料范围：所提供的摘要未说明评估所使用的传感器、水体、数据集或验证设置。"
       },
       "domains": [
         "water_quality_ecology"
@@ -4029,7 +3997,7 @@
       "methods": [
         "rag_knowledge_graphs"
       ],
-      "updated_at": "2026-11-16T11:54:37+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_DOI_10-1016-j-cageo-2026-106258_d2e106b4e805",
@@ -4056,8 +4024,8 @@
         "zh": null
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The abstract describes implementation and evaluation using NLDAS-3 data and drought-monitoring workflows; it does not report evaluation with other hydrological datasets, models, or operational settings.",
+        "zh": "材料范围：摘要所述的系统实现和评估基于 NLDAS-3 数据及干旱监测工作流；摘要未报告其在其他水文数据集、模型或业务环境中的评估。"
       },
       "domains": [
         "catchment_hydrology"
@@ -4066,7 +4034,7 @@
         "agents_tool_use",
         "multi_agent"
       ],
-      "updated_at": "2026-11-16T11:54:37+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_DOI_10-31223-x5rm6q_c208366831ff",
@@ -4093,8 +4061,8 @@
         "zh": null
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The supplied abstract does not report quantitative code-correctness metrics, controlled comparisons, or production-scale reliability evaluations; these details are not established by the abstract.",
+        "zh": "材料范围：所提供的摘要未报告量化的代码正确率指标、对照比较或生产规模的可靠性评估；这些细节无法由该摘要确定。"
       },
       "domains": [
         "catchment_hydrology"
@@ -4102,7 +4070,7 @@
       "methods": [
         "agents_tool_use"
       ],
-      "updated_at": "2026-11-16T11:54:37+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_URL_https-hdl-handle-net-10217-244562_d4ab1f4f8de5",
@@ -4128,8 +4096,8 @@
         "zh": null
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The supplied abstract reports an evaluation using 20 water quality field and test documents, but does not specify document-selection procedures, the number or diversity of participating utilities, or validation in prospective operational settings and direct water-system outcomes.",
+        "zh": "材料范围：所提供的摘要报告了使用20份水质现场和测试文件开展的评估，但未说明文件选择程序、参与公用事业单位的数量或多样性，也未报告前瞻性运营场景验证及对水系统直接结果的评估。"
       },
       "domains": [
         "urban_water",
@@ -4139,7 +4107,7 @@
         "prompting",
         "benchmarks"
       ],
-      "updated_at": "2026-11-16T11:54:37+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_DOI_10-1016-j-compag-2026-111533_40dc183ea12a",
@@ -4165,8 +4133,8 @@
         "zh": null
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The abstract reports benchmark-based evaluation of four reasoning models on 419 DEW questions across 24 domains, but does not provide details on question provenance, evaluation protocols, or validation in actual agricultural water-management deployments.",
+        "zh": "材料范围：摘要报告了对4个推理模型在24个领域的419道DEW问题上的基准评估，但未提供问题来源、评估流程或在实际农业水管理部署中的验证细节。"
       },
       "domains": [
         "water_resources_reservoirs"
@@ -4175,7 +4143,7 @@
         "rag_knowledge_graphs",
         "benchmarks"
       ],
-      "updated_at": "2026-11-16T11:54:37+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_DOI_10-1016-j-ijdrr-2025-105422_bdf2dcfd724c",
@@ -4201,8 +4169,8 @@
         "zh": null
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The supplied abstract does not specify the evaluation dataset or participant sample, baseline systems, quantitative metrics, or the duration and setting of testing and deployment.",
+        "zh": "材料范围：所提供的摘要未说明评估数据集或参与者样本、基线系统、定量指标，以及测试和部署的持续时间与具体环境。"
       },
       "domains": [
         "floods"
@@ -4211,7 +4179,7 @@
         "rag_knowledge_graphs",
         "multimodal"
       ],
-      "updated_at": "2026-11-16T11:54:37+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_DOI_10-1016-j-watres-2026-126740_1d25239607a9",
@@ -4268,8 +4236,8 @@
         "zh": null
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The supplied abstract describes a benchmark and evaluation on an NVIDIA Jetson AGX Xavier, but does not report field deployment or evaluation across other edge platforms.",
+        "zh": "材料范围：所提供的摘要描述了一个基准测试以及在 NVIDIA Jetson AGX Xavier 上的评估，但未报告实地部署或其他边缘平台上的评估。"
       },
       "domains": [
         "floods"
@@ -4278,7 +4246,7 @@
         "benchmarks",
         "multimodal"
       ],
-      "updated_at": "2026-11-16T11:54:37+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_DOI_10-1038-s44304-026-00260-1_838cf65be23a",
@@ -4305,8 +4273,8 @@
         "zh": null
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The supplied abstract reports evaluation on flash-flood narratives from the Greater New York Metropolitan Area and does not report evaluation in other regions or against direct water-depth observations.",
+        "zh": "材料范围：所提供的摘要仅报告了基于大纽约都会区山洪叙事信息的评估，未报告其他地区的评估结果，也未报告与直接积水深度观测的对照。"
       },
       "domains": [
         "floods",
@@ -4316,7 +4284,7 @@
         "fine_tuning_domain_models",
         "benchmarks"
       ],
-      "updated_at": "2026-11-16T11:54:37+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_DOI_10-1007-978-3-031-86039-3-6_28a6799dab8d",
@@ -4341,8 +4309,8 @@
         "zh": null
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The supplied abstract does not report the dataset size or duration, validation metrics, prompting or evaluation procedures, error rates, or the generalizability of the findings beyond the IoT-enabled smart water distribution system at IIT Jodhpur.",
+        "zh": "材料范围：所提供的摘要未报告数据集规模或采集时长、验证指标、提示词或评估程序、错误率，也未说明研究结果能否推广到印度理工学院焦特布尔分校物联网智能供水系统之外的情境。"
       },
       "domains": [
         "water_quality_ecology",
@@ -4352,7 +4320,7 @@
         "prompting",
         "benchmarks"
       ],
-      "updated_at": "2026-11-17T07:30:06+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_DOI_10-1016-j-watres-2026-125990_eb5babd91fa0",
@@ -4379,8 +4347,8 @@
         "zh": null
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The abstract does not specify the wastewater matrices or reaction conditions covered, the number of platform-recommended catalysts experimentally validated, or comparator baselines.",
+        "zh": "材料范围：摘要未说明所涵盖的废水基质或反应条件、经实验验证的平台推荐催化剂数量，也未说明比较基准。"
       },
       "domains": [
         "water_quality_ecology"
@@ -4389,7 +4357,7 @@
         "prompting",
         "rag_knowledge_graphs"
       ],
-      "updated_at": "2026-11-16T11:54:37+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_DOI_10-1038-s41598-026-63243-2_42f24d4b035e",
@@ -4446,8 +4414,8 @@
         "zh": null
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The abstract reports evaluation on the Astlingen benchmark and within the described SWMM tool scope; it does not provide evidence about transfer to other drainage networks, model-development stages, or operational deployment.",
+        "zh": "材料范围：摘要仅报告了在 Astlingen 基准模型和所述 SWMM 工具范围内的评估；未提供关于迁移到其他排水网络、模型开发阶段或实际运行部署的证据。"
       },
       "domains": [
         "urban_water",
@@ -4457,7 +4425,7 @@
         "agents_tool_use",
         "benchmarks"
       ],
-      "updated_at": "2026-11-16T11:54:37+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_ARXIV_2608-01906_27a540ac590e",
@@ -4484,8 +4452,8 @@
         "zh": null
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The supplied abstract reports evaluation on two benchmarks—RescueNet and FloodNet—but does not specify their geographic diversity, performance on additional datasets, or transfer to operational deployment settings.",
+        "zh": "材料范围：所提供的摘要报告了在两个基准数据集（RescueNet 和 FloodNet）上的评估，但未说明数据集的地理多样性、在其他数据集上的表现，或向实际运行部署环境迁移的情况。"
       },
       "domains": [
         "floods"
@@ -4493,7 +4461,7 @@
       "methods": [
         "multimodal"
       ],
-      "updated_at": "2026-11-16T11:54:37+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_ARXIV_2407-21045_3758a99d6641",
@@ -4520,8 +4488,8 @@
         "zh": "WaterER 研究引入了涵盖废水处理、环境修复、饮用水处理与配送、卫生设施、厌氧消化和污染物评估的 983 项基准任务。在这些任务中对七个 LLM 进行评估，以刻画其作为水工程专家模型的优势和局限性。这是支持基准测试的证据，而不是代理实现。"
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The supplied abstract describes the benchmark domains and evaluation scope but does not report quantitative findings, task-construction details, model identities, or evaluation criteria.",
+        "zh": "材料范围：所提供的摘要说明了基准测试的领域和评估范围，但未报告定量结果、任务构建细节、模型身份或评估标准。"
       },
       "domains": [
         "water_quality_ecology",
@@ -4530,7 +4498,7 @@
       "methods": [
         "benchmarks"
       ],
-      "updated_at": "2026-11-16T11:54:37+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_ARXIV_2601-05256_4af9dbf7fb1f",
@@ -4557,8 +4525,8 @@
         "zh": "NAIAD 是一个由 LLM 驱动的内陆水体监测助手，结合了检索增强生成、外部工具编排、计算图执行和智能体反思。它集成了天气数据、Sentinel-2 影像、遥感指数、叶绿素-a 估算以及成熟的监测工具。一个专门的基准测试评估不同用户专业水平下的正确性和相关性，并对不同 LLM 骨干模型进行了消融实验。"
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The supplied material provides only a high-level system description; it does not report benchmark outcomes, ablation findings, or detailed evaluation data.",
+        "zh": "材料范围：所提供材料仅给出了系统的高层次描述；未报告基准测试结果、消融实验发现或详细的评估数据。"
       },
       "domains": [
         "water_quality_ecology"
@@ -4567,7 +4535,7 @@
         "rag_knowledge_graphs",
         "agents_tool_use"
       ],
-      "updated_at": "2026-11-16T11:54:37+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_ARXIV_2605-14120_b4551593cd21",
@@ -4591,8 +4559,8 @@
         "zh": "该研究提出了五个由LLM为水文问题进行路由的、传感器专用的Joint Embedding Predictive Architecture基础模型。这些模型涵盖光学、雷达、热学、物候和地形-土壤输入；评估报告了海拔、温度、降水、土壤湿度和干旱度的预测性能，以及经过整理的路由测试和与仅使用AlphaEarth检索的配对比较。"
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The supplied abstract does not specify the geographic or temporal coverage, dataset sizes and splits, quantitative metric values, routing-test design, paired-comparison results, uncertainty analysis, or computational and deployment requirements.",
+        "zh": "材料范围：所提供的摘要未说明地理或时间覆盖范围、数据集规模与划分、定量指标数值、路由测试设计、配对比较结果、不确定性分析，以及计算和部署要求。"
       },
       "domains": [
         "catchment_hydrology"
@@ -4601,7 +4569,7 @@
         "fine_tuning_domain_models",
         "agents_tool_use"
       ],
-      "updated_at": "2026-11-16T11:54:37+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_ARXIV_2509-25034_7c59865d49d9",
@@ -4627,8 +4595,8 @@
         "zh": "MARLIN 将去中心化多智能体强化学习与一个 LLM 相结合，由该 LLM 为不确定的物理传输和环境条件下的水库管理提供实时奖励塑形信号。使用 USGS 数据的实验报告了不确定性、计算、响应时间和扩展性结果。它被保留为一种混合型 LLM 引导的水库系统，并与经典的非 LLM MARL 区分开来。"
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The supplied abstract does not specify the USGS datasets, experimental design, baselines, quantitative results, or the scope of the reported uncertainty, computation, response-time, and scaling outcomes.",
+        "zh": "材料范围：所提供的摘要未说明所使用的 USGS 数据集、实验设计、基线方法或定量结果，也未具体说明所报告的不确定性、计算、响应时间和扩展性结果的范围。"
       },
       "domains": [
         "water_resources_reservoirs"
@@ -4637,7 +4605,7 @@
         "multi_agent",
         "agents_tool_use"
       ],
-      "updated_at": "2026-11-16T11:54:37+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_ARXIV_2511-02119_a28e7cfc89e7",
@@ -4664,8 +4632,8 @@
         "zh": "该研究评估了大型语言模型在洪水保险购买概率预测中的表现，并提出了 InsurAgent——一个由 LLM 驱动的系统，包含感知、检索、推理、行动和记忆模块。检索增强生成使决策以调查数据为依据，而记忆模块支持对个体决策进行时间模拟。该工作直接针对洪水风险背景下的行为建模和政策分析。"
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The supplied abstract does not report the evaluation dataset or sample, performance metrics, comparison baselines, geographic or population scope, or validation design. These details may be available in the full paper but cannot be assessed from the abstract alone.",
+        "zh": "材料范围：所提供的摘要未报告评估数据集或样本、性能指标、对比基线、地理或人口范围，也未说明验证设计。这些信息可能在全文中提供，但无法仅根据摘要进行评估。"
       },
       "domains": [
         "floods"
@@ -4674,7 +4642,7 @@
         "rag_knowledge_graphs",
         "agents_tool_use"
       ],
-      "updated_at": "2026-11-16T11:54:37+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_ARXIV_2606-15709_0de22e6301d6",
@@ -4701,8 +4669,8 @@
         "zh": "该研究整合了EPANET水力建模、数字孪生概念、SCADA、检索增强生成、函数调用以及基于LLM的智能体，用于持续监测供水网络和提供自适应决策支持。概念验证在包含1,164个节点的Amman网络上使用离线LLM和EPYT，并报告了自动化模拟、异常检测、爆管定位和报告生成结果。"
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The supplied abstract does not report quantitative evaluation metrics, validation against field or real-time operational data, or performance beyond the offline proof-of-concept on the Amman network. It also does not provide details on generalizability to other water networks.",
+        "zh": "材料范围：所提供的摘要未报告定量评估指标、与现场或实时运行数据的验证结果，或超出安曼网络离线概念验证范围的性能表现；也未说明该方法对其他供水网络的适用性。"
       },
       "domains": [
         "urban_water"
@@ -4711,7 +4679,7 @@
         "rag_knowledge_graphs",
         "agents_tool_use"
       ],
-      "updated_at": "2026-11-16T11:54:37+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_URL_https-nhess-copernicus-org-articles-26-2609-2026_0795d981bd65",
@@ -4738,8 +4706,8 @@
         "zh": null
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The supplied abstract does not report detailed sampling or representativeness of the Wikipedia sources, definitions of the error scores, or performance by country and language.\n\nReported study limitations: Flood-impact coverage is more limited than in EM-DAT. The database comparison shows notable discrepancies for homelessness and damage information.",
+        "zh": "材料范围：所提供的摘要未报告维基百科来源的详细抽样方式或代表性、误差分数的定义，以及按国家和语言划分的表现。\n\n研究报告的局限：与 EM-DAT 相比，洪水影响的覆盖范围更有限。 数据库比较显示，无家可归和损失信息存在明显差异。"
       },
       "domains": [
         "floods"
@@ -4747,7 +4715,7 @@
       "methods": [
         "benchmarks"
       ],
-      "updated_at": "2026-11-16T11:54:37+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_DOI_10-1038-s44387-026-00124-z_1c20e0aa9aac",
@@ -4774,15 +4742,15 @@
         "zh": null
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The abstract reports evidence from 100 typhoon scenarios, one 72-hour replay of Typhoon Lekima, and deployment in one provincial government setting over one year. It does not report evidence for other hazards, regions, or institutional arrangements, or provide detailed evaluation methods and uncertainty estimates.",
+        "zh": "材料范围：摘要中的证据来自100个台风情景、一次台风“利奇马”72小时回放，以及在一个省级政府环境中为期一年的部署。摘要未报告其他灾害类型、地区或制度安排下的证据，也未提供详细的评估方法和不确定性估计。"
       },
       "domains": [],
       "methods": [
         "agents_tool_use",
         "multi_agent"
       ],
-      "updated_at": "2026-11-16T11:54:37+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_DOI_10-1038-s41467-026-75938-1_4dbfddbc27ce",
@@ -4809,8 +4777,8 @@
         "zh": null
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The abstract does not report how camera-route coverage, image quality, or street visibility affect detection, nor does it specify whether the approach extends beyond flood detection to hydraulic-state forecasting. It also does not provide the exact validation metrics, city and time-period counts, or detailed error analyses.",
+        "zh": "材料范围：摘要未说明摄像头路线覆盖范围、图像质量或街道可见性如何影响检测，也未说明该方法是否可扩展到洪水检测之外的水文状态预测。摘要还未提供确切的验证指标、城市和时间段数量，或详细的误差分析。"
       },
       "domains": [
         "floods",
@@ -4819,7 +4787,7 @@
       "methods": [
         "multimodal"
       ],
-      "updated_at": "2026-11-16T11:54:37+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_DOI_10-22541-essoar-15005047-v1_afd49fce956b",
@@ -4844,8 +4812,8 @@
         "zh": null
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The supplied abstract reports results on three geoscience benchmark datasets but does not specify the datasets, hazard-specific performance, or details of real-world operational deployment.",
+        "zh": "材料范围：所提供的摘要报告了在三个地学基准数据集上的结果，但未说明数据集、按灾害类型划分的性能，或真实业务部署的具体情况。"
       },
       "domains": [
         "floods"
@@ -4853,7 +4821,7 @@
       "methods": [
         "multimodal"
       ],
-      "updated_at": "2026-11-16T11:54:37+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_DOI_10-5281-zenodo-21699973_2e768c5b2e90",
@@ -4880,14 +4848,14 @@
         "zh": null
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The supplied abstract reports aggregate coverage ratios and the overall extraction workflow, but does not provide detailed coverage or representativeness information by region, disaster category, individual event, or indicator, nor detailed validation-error metrics.",
+        "zh": "材料范围：所提供的摘要报告了总体覆盖率和信息提取流程，但未提供按地区、灾害类别、单个事件或指标划分的详细覆盖性或代表性信息，也未提供详细的验证误差指标。"
       },
       "domains": [
         "floods"
       ],
       "methods": [],
-      "updated_at": "2026-11-16T11:54:37+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_DOI_10-1038-s41598-026-56035-1_bd96d9aea8ea",
@@ -4914,8 +4882,8 @@
         "zh": null
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The supplied abstract does not report the composition and representativeness of the domain-specific dataset, the diversity of WWTPs or operational settings evaluated, or validation under live plant conditions and real-world safety outcomes.",
+        "zh": "材料范围：所提供的摘要未说明领域特定数据集的构成与代表性、所评估污水处理厂或运行环境的多样性，也未报告在真实工厂条件下及实际安全结果方面的验证。"
       },
       "domains": [
         "water_quality_ecology"
@@ -4923,7 +4891,7 @@
       "methods": [
         "fine_tuning_domain_models"
       ],
-      "updated_at": "2026-11-16T11:54:37+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_DOI_10-21203-rs-3-rs-9816358-v1_c2252a6e70c5",
@@ -4950,8 +4918,8 @@
         "zh": null
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The abstract reports event-classification experiments and decision-support potential, but does not report live reservoir dispatch, direct execution of gate or release decisions, or operational deployment outcomes.",
+        "zh": "材料范围：摘要报告了事件分类实验和决策支持潜力，但未报告实时水库调度、闸门或泄量决策的直接执行，也未报告实际运行部署结果。"
       },
       "domains": [
         "water_resources_reservoirs",
@@ -4961,7 +4929,7 @@
         "prompting",
         "rag_knowledge_graphs"
       ],
-      "updated_at": "2026-11-16T11:54:37+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_DOI_10-31223-x5q50n_4afb62397d94",
@@ -4987,14 +4955,14 @@
         "zh": null
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The abstract describes a requirements-elicitation survey and design principles, but does not report implementation details or empirical evaluation of the proposed platforms. It also does not provide sample sizes or detailed participant-selection and analysis procedures.",
+        "zh": "材料范围：摘要介绍了需求 elicitation 调研和设计原则，但未报告所提平台的实施细节或实证评估，也未提供样本数量、参与者选择及分析程序的详细信息。"
       },
       "domains": [
         "floods"
       ],
       "methods": [],
-      "updated_at": "2026-11-16T11:54:37+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_ARXIV_2601-08559_e410f66c2e84",
@@ -5021,8 +4989,8 @@
         "zh": null
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The abstract reports RAGAS-based response-quality evaluation but does not report changes in forecasting skill or basin-management outcomes.\n\nReported study limitations: The study explicitly reports limitations in processing non-English technical documents and API latency.",
+        "zh": "材料范围：摘要报告了基于 RAGAS 的回答质量评估，但未报告预测能力或流域管理成效的变化。\n\n研究报告的局限：研究明确报告了非英语技术文档处理和 API 延迟方面的局限。"
       },
       "domains": [
         "catchment_hydrology",
@@ -5032,7 +5000,7 @@
         "rag_knowledge_graphs",
         "agents_tool_use"
       ],
-      "updated_at": "2026-11-16T11:54:37+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_URL_http-hdl-handle-net-11615-88699_b482627044fc",
@@ -5056,8 +5024,8 @@
         "zh": null
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The supplied evidence is limited to the title and a Greek-language abstract. The abstract identifies three test problems but does not report quantitative results, model/version configurations, detailed evaluation procedures, or evidence of transfer beyond these cases.",
+        "zh": "材料范围：所提供的证据仅包括题目和一篇希腊语摘要。摘要指出了三个测试问题，但未报告定量结果、模型/版本配置、详细评估流程，或超出这些案例的迁移证据。"
       },
       "domains": [
         "floods"
@@ -5066,7 +5034,7 @@
         "prompting",
         "benchmarks"
       ],
-      "updated_at": "2026-11-16T11:54:37+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_ARXIV_2606-00042_3d78ad98818d",
@@ -5092,8 +5060,8 @@
         "zh": null
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The supplied abstract reports a case in Hampton Roads, Virginia and a structured study with domain experts. It does not specify the number of experts or report evaluation in other regions, real-time flood forecasting, or transportation-operations control.",
+        "zh": "材料范围：所提供的摘要报告了弗吉尼亚州汉普顿路地区的案例以及一项领域专家结构化研究，但未说明专家人数，也未报告其他地区、实时洪水预测或交通运营控制方面的评估。"
       },
       "domains": [
         "floods",
@@ -5103,7 +5071,7 @@
         "rag_knowledge_graphs",
         "agents_tool_use"
       ],
-      "updated_at": "2026-11-16T11:54:37+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_DOI_10-2174-9798898810184125010005_7594af7c01e2",
@@ -5130,15 +5098,15 @@
         "zh": null
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The abstract describes a broad, review-oriented chapter but does not report a reproducible system evaluation, comparative metrics, or evidence of operational deployment.",
+        "zh": "材料范围：摘要描述的是一篇较为宽泛、偏综述性的章节，但未报告可复现的系统评估、比较性指标或实际运行部署证据。"
       },
       "domains": [
         "water_resources_reservoirs",
         "floods"
       ],
       "methods": [],
-      "updated_at": "2026-11-16T11:54:37+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_ARXIV_2605-16178_1df887738e2e",
@@ -5164,8 +5132,8 @@
         "zh": null
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The abstract reports evaluation across 23 Sierra Nevada watersheds over 2021–2025, but does not describe performance in other regions, over longer periods, or under operational deployment.",
+        "zh": "材料范围：摘要报告了该方法在2021—2025年间对内华达山脉23个流域的评估，但未说明其在其他地区、更长时间范围或实际业务部署中的表现。"
       },
       "domains": [
         "catchment_hydrology",
@@ -5175,7 +5143,7 @@
         "agents_tool_use",
         "multi_agent"
       ],
-      "updated_at": "2026-11-16T11:54:37+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_DOI_10-1016-j-envres-2025-121401_f834b34e2d6b",
@@ -5202,8 +5170,8 @@
         "zh": "该论文认为，废水处理运行需要多个配备工具的专业化 LLM 智能体，因为单个模型无法可靠地整合污水处理厂决策所涉及的生物、化学、物理和非结构化信息。论文以污泥膨胀案例说明协作分析和针对性建议，同时将过程控制收益界定为预期收益，而非经过验证的自主部署成果。论文明确指出，计算成本、决策风险、验证、可解释性和人工监督是实施约束。"
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The supplied abstract describes a perspective paper and mentions a sludge-bulking case study, but does not report quantitative evaluation details or evidence across other wastewater-treatment tasks and operating conditions.\n\nReported study limitations: The study acknowledges computational costs and risks associated with AI-driven decisions.",
+        "zh": "材料范围：所提供的摘要将该研究描述为一篇观点论文，并提到污泥膨胀案例研究，但未报告定量评估细节，也未提供其在其他污水处理任务和运行条件下的证据。\n\n研究报告的局限：该研究承认计算成本以及人工智能驱动决策相关的风险。"
       },
       "domains": [
         "water_quality_ecology"
@@ -5212,7 +5180,7 @@
         "multi_agent",
         "agents_tool_use"
       ],
-      "updated_at": "2026-11-16T11:54:37+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_DOI_10-3390-w18070796_8430f5c9510a",
@@ -5236,14 +5204,14 @@
         "zh": null
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The supplied abstract describes a historical and conceptual review, but does not report empirical evaluation results or operational validation details for the proposed AI vision in spatial hydrology.",
+        "zh": "材料范围：所提供的摘要描述了历史性和概念性的综述，但未报告空间水文学中所提出人工智能愿景的实证评估结果或运行验证细节。"
       },
       "domains": [
         "catchment_hydrology"
       ],
       "methods": [],
-      "updated_at": "2026-11-16T11:54:37+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_DOI_10-1016-j-autcon-2026-107041_d5f81b9c6fdf",
@@ -5270,8 +5238,8 @@
         "zh": null
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The supplied abstract reports field validation in one practical medium-scale hydropower digital-twin system. It does not provide evidence from other projects or scales, nor quantitative details of the reported reductions in cognitive load and response accuracy.",
+        "zh": "材料范围：所提供的摘要报告了在一个实际中型水电项目数字孪生系统中的现场验证，但未提供其他项目或规模的证据，也未给出所述认知负荷降低和响应准确性的定量细节。"
       },
       "domains": [
         "water_resources_reservoirs"
@@ -5280,7 +5248,7 @@
         "rag_knowledge_graphs",
         "agents_tool_use"
       ],
-      "updated_at": "2026-11-16T11:54:37+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_DOI_10-21203-rs-3-rs-8765875-v1_ddba7d06e563",
@@ -5307,8 +5275,8 @@
         "zh": null
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The abstract reports application to one hurricane (Milton), 30 sites, and three post-storm time points along Florida’s Gulf Coast; it does not provide evidence about performance in other storms, regions, or settings.\n\nReported study limitations: The study indicates that fecal indicator bacteria alone are insufficient as a regulatory indicator of post-storm microbial impairment.",
+        "zh": "材料范围：摘要仅报告了该框架在佛罗里达州墨西哥湾沿岸一次飓风（米尔顿）、30个站点和风暴后3个时间点中的应用；未提供其在其他风暴、地区或环境中的表现证据。\n\n研究报告的局限：该研究指出，仅依赖粪便指示菌不足以作为风暴后微生物污染影响的监管指标。"
       },
       "domains": [
         "water_quality_ecology",
@@ -5317,7 +5285,7 @@
       "methods": [
         "prompting"
       ],
-      "updated_at": "2026-11-16T11:54:37+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_DOI_10-3390-w18060686_9222143e1c39",
@@ -5344,8 +5312,8 @@
         "zh": null
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The abstract reports validation on a constructed dataset from the Lixia River network covering 2010–2024, with results centered on linguistic and attribute-based measures. It does not report evaluation across other regions, live noisy data streams, or effects on real emergency decision-making.",
+        "zh": "材料范围：摘要仅报告了基于2010—2024年利下河水系洪水防控记录构建数据集的验证，结果主要集中于语言和属性类指标。摘要未报告在其他地区、实时噪声数据流中的评估，也未报告对实际应急决策的影响。"
       },
       "domains": [
         "floods"
@@ -5353,7 +5321,7 @@
       "methods": [
         "prompting"
       ],
-      "updated_at": "2026-11-16T11:54:37+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_DOI_10-1038-s44304-025-00156-6_5b5d60bca89e",
@@ -5380,8 +5348,8 @@
         "zh": null
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The supplied abstract describes flash floods in the contiguous United States using NCEI Storm Events Database narratives from 2007–2024; it does not report performance metrics for the LLM pipeline or how the findings generalize beyond this dataset and period.",
+        "zh": "材料范围：所提供的摘要描述了基于美国国家环境信息中心风暴事件数据库叙述文本、针对2007—2024年美国本土闪洪的研究；摘要未报告LLM流程的性能指标，也未说明研究结果如何推广到该数据集和时期之外。"
       },
       "domains": [
         "floods"
@@ -5389,7 +5357,7 @@
       "methods": [
         "prompting"
       ],
-      "updated_at": "2026-11-16T11:54:37+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_DOI_10-31223-x5fv02_b08a0f7c3f6a",
@@ -5415,14 +5383,14 @@
         "zh": null
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The supplied abstract focuses on the framework’s development, architecture, capabilities, and intended educational potential. It does not report controlled learning outcomes, comparison groups, or evidence of sustained use or adoption.",
+        "zh": "材料范围：所提供的摘要主要介绍该框架的开发、架构、功能和预期教育价值，但未报告受控学习成效、对照组比较，或持续使用与采用的证据。"
       },
       "domains": [],
       "methods": [
         "multimodal"
       ],
-      "updated_at": "2026-11-16T11:54:37+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_DOI_10-31223-x5sv05_5e0b68b6bf20",
@@ -5448,8 +5416,8 @@
         "zh": null
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The abstract reports an author-conducted case study using one five-year daily streamflow record from a single USGS station. It does not report broader multi-station or multi-basin evaluation, independent benchmarking, or performance across other hydrological research tasks.\n\nReported study limitations: Expert review was still needed for methodological decisions beyond missing-value checks and for interpreting hydrological results.",
+        "zh": "材料范围：摘要报告的是基于单个美国地质调查局站点五年逐日流量记录的作者自 conducted 案例研究。摘要未报告更广泛的多站点或多流域评估、独立基准比较，或在其他水文学研究任务中的表现。\n\n研究报告的局限：除缺失值检查之外的方法学决策以及水文结果解释仍需要专家审查。"
       },
       "domains": [
         "catchment_hydrology"
@@ -5457,7 +5425,7 @@
       "methods": [
         "agents_tool_use"
       ],
-      "updated_at": "2026-11-16T11:54:37+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_DOI_10-2139-ssrn-6395313_b75a1f5884e1",
@@ -5484,8 +5452,8 @@
         "zh": null
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The supplied abstract reports evaluation on real-world data from one wastewater treatment plant in Yan’an, Shaanxi, covering 2021–2025. It does not describe evaluation in other plants or deployment settings.",
+        "zh": "材料范围：所提供的摘要报告了基于陕西延安一座污水处理厂、覆盖2021年至2025年的真实数据评估，但未描述在其他污水处理厂或实际部署环境中的评估。"
       },
       "domains": [
         "water_quality_ecology"
@@ -5493,7 +5461,7 @@
       "methods": [
         "prompting"
       ],
-      "updated_at": "2026-11-16T11:54:37+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_ARXIV_2604-12306_948d0f03fb79",
@@ -5520,8 +5488,8 @@
         "zh": null
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The supplied abstract does not report benchmark datasets, quantitative evaluation metrics, or details of operational validation and deployment conditions.",
+        "zh": "材料范围：所提供的摘要未报告基准测试数据集、定量评估指标，也未说明实际运行验证和部署条件的具体细节。"
       },
       "domains": [
         "floods"
@@ -5530,7 +5498,7 @@
         "agents_tool_use",
         "fine_tuning_domain_models"
       ],
-      "updated_at": "2026-11-16T11:54:37+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_DOI_10-1016-j-aiig-2026-100192_844fc3d9a65b",
@@ -5557,8 +5525,8 @@
         "zh": null
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The abstract reports component-specific evaluations on the separate FloodNet and LADI-v2 datasets, but does not report end-to-end evaluation of the combined system, field deployment, decision-maker validation, or performance on live flood-response data.",
+        "zh": "材料范围：摘要分别报告了在 FloodNet 和 LADI-v2 数据集上的组件级评估，但未报告组合系统的端到端评估、实地部署、决策者验证或在实时洪水响应数据上的表现。"
       },
       "domains": [
         "floods"
@@ -5567,7 +5535,7 @@
         "multimodal",
         "fine_tuning_domain_models"
       ],
-      "updated_at": "2026-11-16T11:54:37+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_DOI_10-48550-arxiv-2512-03672_06790fe51ff7",
@@ -5594,8 +5562,8 @@
         "zh": null
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The supplied abstract reports evaluation on a 4,000-question multiple-choice benchmark covering conceptual knowledge, engineering application, and reasoning/calculation; it does not report performance in real-world operational workflows or decision-making.",
+        "zh": "材料范围：所提供的摘要报告了基于包含4,000道选择题、涵盖概念知识、工程应用以及推理与计算能力的基准测试；但未报告模型在真实运行流程或决策中的表现。"
       },
       "domains": [
         "floods",
@@ -5604,7 +5572,7 @@
       "methods": [
         "benchmarks"
       ],
-      "updated_at": "2026-11-16T11:54:37+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_DOI_10-48550-arxiv-2508-14654_645e469ccc38",
@@ -5631,8 +5599,8 @@
         "zh": null
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The abstract reports evaluation using real-world urban topology and rainfall data, but it does not specify live emergency-service deployment or independent replication of the reported results.",
+        "zh": "材料范围：摘要报告了基于真实城市拓扑和降雨数据的评估，但未说明是否开展了真实应急服务部署或对所报告结果进行了独立复现。"
       },
       "domains": [
         "floods",
@@ -5642,7 +5610,7 @@
         "multi_agent",
         "rag_knowledge_graphs"
       ],
-      "updated_at": "2026-11-16T11:54:37+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_DOI_10-2166-wst-2025-156_ae81243b16c5",
@@ -5669,8 +5637,8 @@
         "zh": "HydroEmbed 提供了在 HydroLLM Benchmark 上训练的开源句子嵌入模型，用于选择题、判断题、填空题和开放式水文学问题。在一个包含 400 个源自教材的问题—答案对的留出集上，该研究评估了 top-k 上下文检索，随后使用 GPT-4o-mini 生成答案；与领域对齐的嵌入相比，测试的专有和开源基线表现相当或更优，其中在填空题和开放式任务上的改进最为明显。该记录作为基础性 RAG 证据保留，而非自主工作流。"
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The supplied abstract reports evaluation on a held-out set of 400 textbook-derived QA pairs, but does not provide detailed metrics, uncertainty estimates, or evidence of generalization to other datasets or non-textbook environmental content.",
+        "zh": "材料范围：所提供的摘要报告了在400个源自教材的留出问答对上的评估，但未提供详细指标、不确定性估计，或对其他数据集及非教材环境科学内容的泛化证据。"
       },
       "domains": [
         "catchment_hydrology"
@@ -5679,7 +5647,7 @@
         "fine_tuning_domain_models",
         "rag_knowledge_graphs"
       ],
-      "updated_at": "2026-11-16T11:54:37+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_ARXIV_2602-13239_4afe7d09dd56",
@@ -5705,8 +5673,8 @@
         "zh": null
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The supplied abstract reports evaluation on Hurricane Harvey across 207 ZIP-code queries; it does not report results for other disasters or regions, or describe prospective operational deployment.",
+        "zh": "材料范围：所提供的摘要报告了在飓风哈维事件中基于207个邮政编码查询的评估；摘要未报告其他灾害或地区的结果，也未描述前瞻性的实际部署。"
       },
       "domains": [
         "floods"
@@ -5715,7 +5683,7 @@
         "rag_knowledge_graphs",
         "multimodal"
       ],
-      "updated_at": "2026-11-16T11:54:37+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_DOI_10-31223-x5x44p_4444b4257bf7",
@@ -5740,8 +5708,8 @@
         "zh": null
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The supplied abstract describes NWS flood-report data from Charleston County, South Carolina, categorized using predefined labels. It does not report generalization to other locations or label schemes, nor provide numerical performance metrics.",
+        "zh": "材料范围：所提供的摘要描述了使用南卡罗来纳州查尔斯顿县的美国国家气象服务局洪水报告数据，并依据预定义标签进行分类。摘要未报告对其他地区或标签体系的泛化情况，也未提供具体的性能数值。"
       },
       "domains": [
         "floods"
@@ -5749,7 +5717,7 @@
       "methods": [
         "benchmarks"
       ],
-      "updated_at": "2026-11-16T11:54:37+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_DOI_10-1029-2025jh000649_c98e2d840e3b",
@@ -5775,8 +5743,8 @@
         "zh": "IDEA 是一个用于将 LLM 基于领域特定指令、数据、工具和计算资源的原型框架。其 Station Explorer Assistant 实现使海平面科学家能够通过自然语言提示查询沿海水位观测数据，包括垂直基准转换和洪水风险分析，并生成分析结果和可视化内容。该研究还展示了一个独立的火星部署，以测试该框架的可移植性，同时承认当前 LLM 存在不确定性。"
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The supplied abstract does not report quantitative evaluation methods or metrics, comparison baselines, user-study details, failure cases, or the scope and representativeness of the demonstrated datasets. It also does not specify which LLM limitations and uncertainties were addressed.",
+        "zh": "材料范围：所提供的摘要未报告定量评估方法或指标、比较基线、用户研究细节、失败案例，或所示范数据集的范围与代表性；也未具体说明所应对的 LLM 局限性和不确定性。"
       },
       "domains": [
         "floods"
@@ -5784,7 +5752,7 @@
       "methods": [
         "agents_tool_use"
       ],
-      "updated_at": "2026-11-16T11:54:37+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_DOI_10-2166-wpt-2025-129_7fdfd68050d4",
@@ -5811,8 +5779,8 @@
         "zh": null
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The abstract reports an overall accuracy exceeding 89% but does not specify the evaluation sample, scoring rubric, error distribution, comparison methods, or evidence of sustained use in water-utility operations.",
+        "zh": "材料范围：摘要报告了超过89%的总体准确率，但未说明评估样本、评分标准、错误分布、比较方法，或在供水运营中持续使用的证据。"
       },
       "domains": [
         "water_quality_ecology"
@@ -5820,7 +5788,7 @@
       "methods": [
         "agents_tool_use"
       ],
-      "updated_at": "2026-11-16T11:54:37+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_DOI_10-1109-iceiom65271-2025-11239974_8319616d3a21",
@@ -5847,8 +5815,8 @@
         "zh": null
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The abstract does not specify the dataset size, numerical effect sizes, independent replication, or deployment in a live hydropower maintenance system.",
+        "zh": "材料范围：摘要未说明数据集规模、数值化效果、独立重复验证，或在实际水电维护系统中的部署情况。"
       },
       "domains": [
         "water_resources_reservoirs"
@@ -5857,7 +5825,7 @@
         "rag_knowledge_graphs",
         "agents_tool_use"
       ],
-      "updated_at": "2026-11-16T11:54:37+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_DOI_10-3390-w17223260_56b018094719",
@@ -5884,8 +5852,8 @@
         "zh": null
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The abstract describes a case study using regulatory reports but does not report quantitative validation, comparisons with other approaches, operational deployment outcomes, or evidence of generalisability beyond the reported case.",
+        "zh": "材料范围：摘要描述了一个利用监管报告的案例研究，但未报告定量验证、与其他方法的比较、实际运行部署结果，或超出该案例的可推广性证据。"
       },
       "domains": [
         "water_quality_ecology"
@@ -5894,7 +5862,7 @@
         "rag_knowledge_graphs",
         "agents_tool_use"
       ],
-      "updated_at": "2026-11-16T11:54:37+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_DOI_10-3390-w17192801_b3f8dd3bb47d",
@@ -5921,8 +5889,8 @@
         "zh": null
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The abstract describes a proof-of-concept case study and does not report deployment in an operational warning service or measured changes in public response.",
+        "zh": "材料范围：摘要描述的是概念验证案例研究，未报告其在实际运行的预警服务中的部署情况，也未报告个性化信息是否改变了公众反应。"
       },
       "domains": [
         "floods"
@@ -5931,7 +5899,7 @@
         "rag_knowledge_graphs",
         "prompting"
       ],
-      "updated_at": "2026-11-16T11:54:37+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_DOI_10-3390-w17182739_7049b166c124",
@@ -5958,8 +5926,8 @@
         "zh": null
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The abstract reports testing in 340 CCTV locations in Bandung, Indonesia, over one year; performance in other cities or settings is not reported. It describes image-based flood classification but does not report water-depth estimation or flood forecasting.",
+        "zh": "材料范围：摘要报告了在印度尼西亚万隆市340个闭路电视监控点开展为期一年的测试；未报告其他城市或环境中的表现。摘要描述的是基于图像的洪水分类，但未报告水深估计或洪水预报。"
       },
       "domains": [
         "floods",
@@ -5969,7 +5937,7 @@
         "multimodal",
         "fine_tuning_domain_models"
       ],
-      "updated_at": "2026-11-16T11:54:37+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_DOI_10-2166-hydro-2025-100_201c02bc8796",
@@ -5996,15 +5964,15 @@
         "zh": null
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The supplied abstract describes evaluation on an approximately 8,800-pair hydrology question–answer dataset using accuracy and cosine similarity; it does not report evaluation of factual reliability on live data, hydrological-model execution, decision quality, or operational deployment.\n\nReported study limitations: The 32B model overfitted in the reported experiments, limiting the effectiveness of that tested model under the study conditions.",
+        "zh": "材料范围：所提供的摘要描述了基于约8,800组水文学问答数据集、采用准确率和余弦相似度进行的评估；但未报告对实时数据事实可靠性、水文模型执行、决策质量或实际部署的评估。\n\n研究报告的局限：在所报告的实验中，32B模型出现了过拟合，限制了该模型在本研究条件下的有效性。"
       },
       "domains": [],
       "methods": [
         "fine_tuning_domain_models",
         "benchmarks"
       ],
-      "updated_at": "2026-11-16T11:54:37+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_DOI_10-3390-hydrology11090148_a2330e253ea7",
@@ -6031,8 +5999,8 @@
         "zh": null
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The abstract does not specify the evaluation dataset, sample size, scoring protocol, task-level quantitative results, or details of real-time operational validation.",
+        "zh": "材料范围：摘要未说明评估数据集、样本量、评分方案、任务层面的定量结果或实时运行验证的具体细节。"
       },
       "domains": [
         "floods",
@@ -6042,7 +6010,7 @@
         "multimodal",
         "benchmarks"
       ],
-      "updated_at": "2026-11-16T11:54:37+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_DOI_10-3390-urbansci10070398_95f17a87259f",
@@ -6067,8 +6035,8 @@
         "zh": null
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The supplied abstract reports results for AlleyFloodNet and does not describe validation on other datasets, geographic settings, or deployment conditions.\n\nReported study limitations: Virtual imagery cannot replace real flood observations, so the approach remains dependent on real flood data. The benefit of virtual augmentation is conditional on the real-to-virtual training composition and the model architecture.",
+        "zh": "材料范围：所提供的摘要报告了 AlleyFloodNet 上的结果，但未描述在其他数据集、地理环境或实际部署条件下的验证情况。\n\n研究报告的局限：虚拟图像无法替代真实洪水观测，因此该方法仍依赖真实洪水数据。 虚拟增强的收益取决于真实图像与虚拟图像的训练配比以及模型架构。"
       },
       "domains": [
         "floods",
@@ -6078,7 +6046,7 @@
         "prompting",
         "multimodal"
       ],
-      "updated_at": "2026-11-16T11:54:37+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_DOI_10-1016-j-ejrh-2025-102850_f42d165a7591",
@@ -6105,8 +6073,8 @@
         "zh": null
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The supplied abstract does not detail the search strategy, inclusion and exclusion criteria, or the LLM topic-classification protocol. It reports average precision and recall but does not provide error analysis or other validation details.",
+        "zh": "材料范围：所提供的摘要未详细说明检索策略、纳入与排除标准或大语言模型主题分类流程。摘要报告了平均精确率和召回率，但未提供误差分析或其他验证细节。"
       },
       "domains": [
         "catchment_hydrology",
@@ -6115,7 +6083,7 @@
       "methods": [
         "prompting"
       ],
-      "updated_at": "2026-11-16T11:54:37+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_DOI_10-1038-s41598-026-52801-3_fb8b9f31377f",
@@ -6142,8 +6110,8 @@
         "zh": null
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The abstract reports evaluations on two groundwater-level datasets and one temperature time series, but does not specify dataset sizes, locations, forecasting horizons, or operational deployment and decision outcomes.",
+        "zh": "材料范围：摘要报告了在两个地下水位数据集和一个温度时间序列上的评估，但未说明数据集规模、地点、预测时段，或实际部署和决策结果。"
       },
       "domains": [
         "groundwater"
@@ -6151,7 +6119,7 @@
       "methods": [
         "prompting"
       ],
-      "updated_at": "2026-11-16T11:54:37+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_DOI_10-1016-bs-apmp-2025-11-004_408d9bb863a7",
@@ -6177,8 +6145,8 @@
         "zh": null
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The supplied abstract does not specify the study design, datasets, evaluation methods or metrics, quantitative results, or deployment contexts underlying the described LLM applications and case studies.",
+        "zh": "材料范围：所提供的摘要未说明所述大语言模型应用和案例研究所采用的研究设计、数据集、评估方法或指标、定量结果，或实际部署情境。"
       },
       "domains": [
         "water_resources_reservoirs"
@@ -6186,7 +6154,7 @@
       "methods": [
         "multimodal"
       ],
-      "updated_at": "2026-11-16T11:54:37+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_DOI_10-1080-20964471-2026-2676422_3fd31655a7b0",
@@ -6213,8 +6181,8 @@
         "zh": null
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The supplied abstract does not specify the bibliographic databases, detailed large-language-model extraction and validation procedures, or the criteria used to define a risk–attention mismatch.",
+        "zh": "材料范围：所提供的摘要未说明所使用的文献数据库、大语言模型信息提取与验证的详细流程，或风险—关注度错配的定义标准。"
       },
       "domains": [
         "floods"
@@ -6222,7 +6190,7 @@
       "methods": [
         "prompting"
       ],
-      "updated_at": "2026-11-16T11:54:37+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_DOI_10-2139-ssrn-7180408_20ec135fed4a",
@@ -6249,8 +6217,8 @@
         "zh": null
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The abstract reports a teaching-oriented knowledge-service benchmark with over 500 question–answer pairs, but does not specify the evaluation protocol, the full set of compared models, statistical variability, or validation in real-world operational and field settings.",
+        "zh": "材料范围：摘要报告了一个包含500多个问答对、面向教学的知识服务基准，但未说明具体评估方案、完整的模型比较范围、统计变异性，也未报告真实运营和现场环境中的验证。"
       },
       "domains": [
         "catchment_hydrology",
@@ -6259,7 +6227,7 @@
       "methods": [
         "rag_knowledge_graphs"
       ],
-      "updated_at": "2026-11-16T11:54:37+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_DOI_10-31223-x5vb78_0e45035df76f",
@@ -6286,8 +6254,8 @@
         "zh": null
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The abstract reports client-side inference throughput but does not report hydrological prediction or decision-quality outcomes, production water-agency deployment, or direct usability evaluation of Hydro AI Lab.",
+        "zh": "材料范围：摘要报告了客户端推理吞吐量，但未报告水文预测或决策质量结果、在水务机构中的生产部署，或对 Hydro AI Lab 的直接可用性评估。"
       },
       "domains": [
         "catchment_hydrology"
@@ -6295,7 +6263,7 @@
       "methods": [
         "benchmarks"
       ],
-      "updated_at": "2026-11-16T11:54:37+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_DOI_10-48550-arxiv-2502-01159_a9a325ba7ac5",
@@ -6322,8 +6290,8 @@
         "zh": null
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The abstract does not report quantitative evaluation results, benchmark size or composition, validation of the template-generated questions, or how performance generalizes to real-world atmospheric-science workflows and operational outcomes.",
+        "zh": "材料范围：摘要未报告定量评测结果、基准数据集的规模或构成、模板生成问题的验证情况，也未说明模型表现如何推广到真实的大气科学工作流程和业务运行结果。"
       },
       "domains": [
         "catchment_hydrology"
@@ -6331,7 +6299,7 @@
       "methods": [
         "benchmarks"
       ],
-      "updated_at": "2026-11-16T11:54:37+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_DOI_10-1021-acs-est-6c04967_8f933e326b1d",
@@ -6357,14 +6325,14 @@
         "zh": null
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The supplied abstract is an excerpt and does not report the full methods, model architecture, data characteristics, or complete performance context.\n\nReported study limitations: The study reports reduced transferability across facilities, identified through leave-one-location-out validation.",
+        "zh": "材料范围：所提供的摘要为节选内容，未报告完整的方法、模型架构、数据特征或完整的性能背景。\n\n研究报告的局限：研究报告称，通过留一地点验证发现模型在不同设施之间的迁移能力较低。"
       },
       "domains": [
         "water_quality_ecology"
       ],
       "methods": [],
-      "updated_at": "2026-11-16T11:54:37+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_DOI_10-31223-x5f47g_c4d95dded257",
@@ -6389,8 +6357,8 @@
         "zh": null
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The abstract describes a demonstration in the Tod Creek watershed only. It does not report results from other watersheds or assess forecast skill, operational reliability, or authorized control of drainage infrastructure.",
+        "zh": "材料范围：摘要仅描述了在 Tod Creek 流域开展的示范。摘要未报告其他流域的结果，也未评估预报能力、运行可靠性或对排水基础设施的授权控制。"
       },
       "domains": [
         "urban_water"
@@ -6398,7 +6366,7 @@
       "methods": [
         "agents_tool_use"
       ],
-      "updated_at": "2026-11-16T11:54:37+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_DOI_10-31223-x5c44q_c764478c7f81",
@@ -6424,8 +6392,8 @@
         "zh": null
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The abstract describes a case study over the Mississippi River Delta but does not report comparative task-success, scientific-validity, or production-reliability evaluations.",
+        "zh": "材料范围：摘要描述了密西西比河三角洲的案例研究，但未报告任务成功率、科学有效性或生产可靠性的比较评估。"
       },
       "domains": [
         "catchment_hydrology"
@@ -6434,7 +6402,7 @@
         "agents_tool_use",
         "multimodal"
       ],
-      "updated_at": "2026-11-16T11:54:37+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_DOI_10-1038-s41545-025-00509-8_8d561a03b550",
@@ -6461,8 +6429,8 @@
         "zh": null
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The abstract describes methodologies, dataset strategies, and a proposed evaluation benchmark, but it does not report an implemented WaterGPT system or independent benchmarking results.",
+        "zh": "材料范围：摘要介绍了方法、数据集策略和拟议的评估基准，但未报告已实施的 WaterGPT 系统或独立基准测试结果。"
       },
       "domains": [
         "urban_water",
@@ -6472,7 +6440,7 @@
         "fine_tuning_domain_models",
         "benchmarks"
       ],
-      "updated_at": "2026-11-16T11:54:37+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_DOI_10-1061-9780784486184-016_54ceac4afa2b",
@@ -6497,8 +6465,8 @@
         "zh": null
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The abstract does not report the number or selection of test cases, quantitative accuracy or reliability metrics, comparison baselines, error analysis, or details about the retrieval and digitization procedures. It also does not specify the conditions under which the framework generalizes beyond the described water-industry examples.",
+        "zh": "材料范围：摘要未报告测试案例的数量或选择方式、准确性或可靠性的定量指标、对比基线、错误分析，以及检索和曲线数字化流程的具体细节。摘要也未说明该框架在所述水行业案例之外的适用条件。"
       },
       "domains": [
         "water_quality_ecology"
@@ -6507,7 +6475,7 @@
         "agents_tool_use",
         "multimodal"
       ],
-      "updated_at": "2026-11-16T11:54:37+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_DOI_10-1007-978-981-95-4889-7-49_84e1d3d8d620",
@@ -6534,8 +6502,8 @@
         "zh": null
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The abstract reports evaluation of 300 generated tasks in the Dadu River Basin, but does not report evaluation in other basins or operational settings.\n\nReported study limitations: The study explicitly reports that current LLM-based agents have substantial difficulty comprehensively identifying the data needed to complete tasks.",
+        "zh": "材料范围：摘要报告了在大渡河流域生成的300项任务上的评估，但未报告其他流域或运行环境中的评估结果。\n\n研究报告的局限：研究明确指出，当前基于大语言模型的智能体在全面识别任务完成所需数据方面存在明显困难。"
       },
       "domains": [
         "water_resources_reservoirs"
@@ -6544,7 +6512,7 @@
         "agents_tool_use",
         "prompting"
       ],
-      "updated_at": "2026-11-17T07:30:06+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_DOI_10-1016-j-envsoft-2026-107098_ca7f3a59be46",
@@ -6569,14 +6537,14 @@
         "zh": null
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The supplied abstract describes the framework and two case studies but does not report quantitative performance metrics, comparisons with alternative tools, or user-evaluation details.",
+        "zh": "材料范围：所提供的摘要介绍了该框架及两个案例研究，但未报告定量性能指标、与其他工具的比较或用户评估细节。"
       },
       "domains": [
         "catchment_hydrology"
       ],
       "methods": [],
-      "updated_at": "2026-11-16T11:54:37+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_DOI_10-1109-iccvw69036-2025-00308_a08eb3bc0bb8",
@@ -6603,8 +6571,8 @@
         "zh": null
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The supplied abstract describes initial experiments across a range of U.S. basins but does not report the number or selection of basins, quantitative evaluation metrics, or comparative benchmark results.\n\nReported study limitations: Further calibration and validation are needed before operational deployment.",
+        "zh": "材料范围：所提供的摘要描述了美国多个流域的初步实验，但未报告流域的数量或选择方式、定量评估指标，或比较基准结果。\n\n研究报告的局限：在投入实际运行之前，仍需进一步开展校准和验证。"
       },
       "domains": [
         "catchment_hydrology",
@@ -6614,7 +6582,7 @@
         "agents_tool_use",
         "multimodal"
       ],
-      "updated_at": "2026-11-16T11:54:37+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_ARXIV_2607-23983_3ac0045130f6",
@@ -6641,8 +6609,8 @@
         "zh": null
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The abstract reports validation in the South Yamhill River basin only; evidence for performance in other basins, hydrological regimes, or operational settings is not provided here.",
+        "zh": "材料范围：摘要仅报告了在 South Yamhill River 流域中的验证；本文摘要未提供其在其他流域、水文情景或业务运行环境中的表现证据。"
       },
       "domains": [
         "floods",
@@ -6652,7 +6620,7 @@
         "agents_tool_use",
         "prompting"
       ],
-      "updated_at": "2026-11-16T11:54:37+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_DOI_10-1016-j-watres-2025-125157_760416c6116d",
@@ -6709,14 +6677,14 @@
         "zh": null
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The abstract does not specify the dataset size, the distribution of question formats and hydrology topics, the procedures used to generate or validate the questions, or the benchmark’s coverage and generalizability.",
+        "zh": "材料范围：摘要未说明数据集规模、不同题型和水文学主题的分布、问题生成或验证所采用的程序，以及该基准的覆盖范围和可推广性。"
       },
       "domains": [],
       "methods": [
         "benchmarks"
       ],
-      "updated_at": "2026-11-16T11:54:37+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_DOI_10-1017-wat-2025-10008_1eec14d51786",
@@ -6742,14 +6710,14 @@
         "zh": "生成式人工智能（AI），尤其是大型语言模型，为城市水系统的管理和运行提供了变革性潜力。随着水务部门面临气候变化、基础设施老化和人口增长带来的日益加剧的压力，AI驱动的工具为实时监测、预测性维护和增强决策支持提供了新的机会。本文探讨了生成式AI如何通过实现更高效的运营、改善客户参与度和先进的培训机制，推动水务行业变革。"
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The supplied abstract does not specify the review or analysis methodology, the selection and details of the case studies, quantitative performance results, or the basis for the practical recommendations. It also does not establish how broadly the reported challenges and opportunities apply across urban water systems.",
+        "zh": "材料范围：所提供的摘要未说明综述或分析方法、案例研究的选择及具体细节、量化性能结果，或实践建议的依据。摘要也未明确所述挑战和机遇在多大程度上适用于不同的城市水系统。"
       },
       "domains": [
         "urban_water"
       ],
       "methods": [],
-      "updated_at": "2026-11-16T11:54:37+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_DOI_10-1007-s41324-025-00609-0_be15bfea3139",
@@ -6776,8 +6744,8 @@
         "zh": null
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The abstract does not report the number or geographic distribution of Flickr images, the detailed human-labelling protocol, or statistical uncertainty; these details cannot be assessed from the supplied material.\n\nReported study limitations: The study reports a geographic performance bias, with the most accurate inferences occurring in Central Europe; performance in other geographic contexts is not characterized in the abstract.",
+        "zh": "材料范围：摘要未报告 Flickr 图像的数量或地理分布、人类标注的详细流程或统计不确定性；根据所提供的材料无法评估这些细节。\n\n研究报告的局限：该研究报告了地理表现偏差：推断结果在中欧最为准确；摘要未说明其他地理环境下的表现。"
       },
       "domains": [
         "floods"
@@ -6786,7 +6754,7 @@
         "multimodal",
         "benchmarks"
       ],
-      "updated_at": "2026-11-16T11:54:37+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_DOI_10-31223-x5sm61_529e77ad1ffc",
@@ -6813,14 +6781,14 @@
         "zh": null
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The abstract does not specify the literature databases or search strategy, inclusion and exclusion criteria, coverage period, or bibliometric analysis methods. It also does not report the size or composition of the reviewed dataset or provide detailed evidence supporting the reported trends and ethical assessments.",
+        "zh": "材料范围：摘要未说明所使用的文献数据库或检索策略、纳入与排除标准、覆盖时间范围或文献计量分析方法。摘要也未报告所分析数据集的规模与构成，或为所述趋势和伦理评估提供详细证据。"
       },
       "domains": [
         "catchment_hydrology"
       ],
       "methods": [],
-      "updated_at": "2026-11-16T11:54:37+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_DOI_10-1016-j-watres-2026-126384_75ee6511bcf1",
@@ -6847,8 +6815,8 @@
         "zh": null
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: This assessment is based only on the supplied title and abstract. The abstract reports experiments on five benchmark networks and DMA partitioning and boundary-valve optimization, but does not describe operational-utility validation, comparative baselines, statistical variability, or performance beyond these tasks and networks.",
+        "zh": "材料范围：本评估仅基于所提供的标题和摘要。摘要报告了在五个基准网络上开展的实验，以及分区和边界阀门优化任务，但未说明实际供水运营单位中的验证、对比基线、统计变异性，或这些任务和网络之外的性能。"
       },
       "domains": [
         "urban_water"
@@ -6857,7 +6825,7 @@
         "agents_tool_use",
         "multi_agent"
       ],
-      "updated_at": "2026-11-16T11:54:37+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_DOI_10-5194-egusphere-2026-3343_d1181d761d03",
@@ -6884,8 +6852,8 @@
         "zh": null
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The supplied abstract does not specify the literature databases or search strategy, inclusion and exclusion criteria, validation or accuracy assessment for the large language model’s screening, or how publication quality and research influence were measured.",
+        "zh": "材料范围：所提供的摘要未说明文献数据库或检索策略、纳入与排除标准、大语言模型筛选的验证或准确性评估方法，也未说明如何衡量论文质量和研究影响力。"
       },
       "domains": [
         "floods",
@@ -6894,7 +6862,7 @@
       "methods": [
         "prompting"
       ],
-      "updated_at": "2026-11-16T11:54:37+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_DOI_10-3390-ijgi15070309_f3d592d71383",
@@ -6921,8 +6889,8 @@
         "zh": null
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The supplied abstract does not report independent validation against early instrumental observations, uncertainty estimates for the reconstructed samples or susceptibility atlas, or detailed accuracy information for the LLM-based semantic mining.\n\nReported study limitations: The assessment is constrained by the limited availability of early instrumental records for historical urban-waterlogging analysis.",
+        "zh": "材料范围：所提供的摘要未报告与早期仪器观测的独立验证、重建样本或易涝敏感性图谱的不确定性估计，也未提供基于大语言模型的语义挖掘的详细准确性信息。\n\n研究报告的局限：历史城市内涝分析受到早期仪器记录有限的约束。"
       },
       "domains": [
         "floods",
@@ -6931,7 +6899,7 @@
       "methods": [
         "prompting"
       ],
-      "updated_at": "2026-11-16T11:54:37+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_DOI_10-3389-frwa-2026-1871753_e9a230c55ce5",
@@ -6955,8 +6923,8 @@
         "zh": null
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The abstract does not specify the AI-agent architecture, implementation details, or the quantitative results and metrics from the four evaluation settings.",
+        "zh": "材料范围：摘要未说明 AI 智能体架构、实施细节，也未报告四个评估场景中的定量结果和指标。"
       },
       "domains": [
         "floods"
@@ -6964,7 +6932,7 @@
       "methods": [
         "agents_tool_use"
       ],
-      "updated_at": "2026-11-16T11:54:37+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_DOI_10-1021-acs-est-6c04963_9214036496c6",
@@ -6991,8 +6959,8 @@
         "zh": null
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The abstract presents a case study at one full-scale wastewater treatment plant and does not establish whether the findings generalize to other plants, treatment configurations, pollutants, or operating conditions. It also does not report the dataset size, study duration, validation design, or uncertainty around the performance estimates.",
+        "zh": "材料范围：该摘要展示的是单个全规模污水处理厂的案例研究，未能说明研究结果是否可推广至其他污水处理厂、处理工艺、污染物或运行条件。摘要也未报告数据集规模、研究持续时间、验证设计或性能估计的不确定性。"
       },
       "domains": [
         "water_quality_ecology"
@@ -7000,7 +6968,7 @@
       "methods": [
         "prompting"
       ],
-      "updated_at": "2026-11-16T11:54:37+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_DOI_10-5194-egusphere-2026-2237_0e6aaaf09f68",
@@ -7027,8 +6995,8 @@
         "zh": "摘要。大型语言模型（LLMs）在复杂科学脚本编写方面的能力日益增强，但这种不断提高的稳健性带来了一个悖论：其输出看起来越值得信赖，科学上不正确的结果就越容易在未被察觉的情况下通过。在地球系统模型（ESM）分析中，这类无声失败比明显的崩溃更加危险，因为它们会生成看似合理的图表和统计结果，可能在未经详细检查的情况下被接受。"
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The supplied evidence is limited to the abstract. It reports a benchmark using a validated tool library for E3SM land-surface hydrology diagnostics across seven tasks and six LLMs, but does not specify the task composition, model identities, datasets, statistical uncertainty, or performance in other Earth-system domains.",
+        "zh": "材料范围：所提供的证据仅限于摘要。摘要报告了一个使用经验证工具库的基准测试，涵盖七项任务和六个大型语言模型，针对 E3SM 陆面水文诊断；但未说明任务构成、模型身份、数据集、统计不确定性，或在其他地球系统领域中的表现。"
       },
       "domains": [
         "catchment_hydrology"
@@ -7037,7 +7005,7 @@
         "agents_tool_use",
         "benchmarks"
       ],
-      "updated_at": "2026-11-16T11:54:37+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_DOI_10-1016-j-watres-2026-126163_6263cfb2fa54",
@@ -7064,8 +7032,8 @@
         "zh": "Water-MAS 解决了复杂的水务管理工作流问题，在这些工作流中，单智能体工具使用在准确性、适应性和长异构数据方面面临困难。该框架采用规划、执行和检查智能体，并将任务指令与底层数据分离，以降低开销。该论文在工具调用任务上评估了多智能体协作和指令-数据解耦，比较了基础模型，并展示了其在水样采集和水质预测中的应用，为基于 LLM 的水环境监测与分析多智能体工作流提供了直接证据。"
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The supplied material is limited to the title and abstract. The abstract does not specify the datasets, full task composition, evaluation protocols, statistical uncertainty, deployment conditions, or failure cases underlying the reported results.",
+        "zh": "材料范围：所提供的材料仅包括标题和摘要。摘要未说明支撑所述结果的数据集、完整任务构成、评估方案、统计不确定性、部署条件或失败案例。"
       },
       "domains": [
         "water_quality_ecology"
@@ -7074,7 +7042,7 @@
         "multi_agent",
         "agents_tool_use"
       ],
-      "updated_at": "2026-11-16T11:54:37+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_ARXIV_2606-07681_618f0e5cc106",
@@ -7100,8 +7068,8 @@
         "zh": null
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The supplied abstract reports evaluation on one 19,000-line Fortran land surface model and does not provide results for other models or languages, nor detailed hardware or configuration information for the speed comparison.",
+        "zh": "材料范围：所提供的摘要仅报告了对一个19,000行的Fortran陆面模型的评估，未提供其他模型或编程语言的结果，也未说明速度比较所用的详细硬件或配置。"
       },
       "domains": [
         "catchment_hydrology"
@@ -7109,7 +7077,7 @@
       "methods": [
         "agents_tool_use"
       ],
-      "updated_at": "2026-11-16T11:54:37+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_DOI_10-3390-app16136557_bb5921c3c2a6",
@@ -7136,8 +7104,8 @@
         "zh": "中国现代化生态环境监测网络的扩展产生了海量数据。因此，传统的、依赖专业知识的分析越来越不适合敏捷的监管决策。尽管大型语言模型（LLM）提供了一种有前景的替代方案，但其实际部署仍受到领域特定知识缺口、幻觉以及管理多方面生态任务的固有困难的限制。"
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The abstract reports evaluation only for water-quality anomaly detection and air-quality forecasting; it does not describe performance in other environmental tasks or contexts. It also does not report dataset composition, evaluation duration, or statistical uncertainty.",
+        "zh": "材料范围：摘要仅报告了水质异常检测和空气质量预测方面的评估结果；未说明在其他环境任务或情境中的表现。摘要也未报告数据集构成、评估持续时间或统计不确定性。"
       },
       "domains": [
         "water_quality_ecology"
@@ -7146,7 +7114,7 @@
         "rag_knowledge_graphs",
         "multi_agent"
       ],
-      "updated_at": "2026-11-16T11:54:37+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_DOI_10-21203-rs-3-rs-10106384-v1_ca0272d1a672",
@@ -7173,8 +7141,8 @@
         "zh": "分布式水文模型的校准在嵌套流域系统中仍然计算密集，因为上游误差会向下游传播，且必须在多个出口之间平衡性能。传统优化算法依赖标量性能指标，并需要进行数千次模型评估才能收敛。手动专家校准和近期的单智能体 LLM 方法使用过程级信号，但其向耦合多流域系统的扩展仍基本未被探索。"
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The abstract reports evaluation at five nested gauging stations in the Huai River Basin; it does not describe performance in other basins or calibration settings. It also does not provide detailed information on the calibrated model configurations or evaluation protocol.",
+        "zh": "材料范围：摘要仅报告了淮河流域五个嵌套式测站的评估结果，未说明该方法在其他流域或校准场景中的表现；摘要也未提供校准模型配置或评估流程的详细信息。"
       },
       "domains": [
         "catchment_hydrology"
@@ -7182,7 +7150,7 @@
       "methods": [
         "multi_agent"
       ],
-      "updated_at": "2026-11-16T11:54:37+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_ARXIV_2605-17856_4f01fd42d6f7",
@@ -7209,8 +7177,8 @@
         "zh": null
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The supplied title and abstract report a 3,000-trial coupled-hydrology benchmark and 117 additional models across 14 Earth-science domains, but do not specify the model identities, trial allocation, evaluation criteria, or detailed comparison procedures.",
+        "zh": "材料范围：所提供的标题和摘要报告了一个包含3,000次试验的耦合水文基准，以及涵盖14个地球科学领域的另外117个模型，但未说明模型的具体身份、试验分配、评估标准或详细的比较流程。"
       },
       "domains": [
         "catchment_hydrology"
@@ -7219,7 +7187,7 @@
         "agents_tool_use",
         "benchmarks"
       ],
-      "updated_at": "2026-11-16T11:54:37+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_DOI_10-1088-3033-4942-addd43_564e9cc6d17b",
@@ -7246,8 +7214,8 @@
         "zh": null
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The supplied abstract describes a perspective review and examples of LLM use, but does not report specific evaluation datasets, quantitative benchmarks, or operational deployment details.",
+        "zh": "材料范围：所提供的摘要描述了一项观点性综述及大语言模型应用示例，但未报告具体的评估数据集、定量基准或实际运行部署的细节。"
       },
       "domains": [
         "catchment_hydrology"
@@ -7256,7 +7224,7 @@
         "prompting",
         "rag_knowledge_graphs"
       ],
-      "updated_at": "2026-11-16T11:54:37+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_DOI_10-1016-j-watres-2026-125433_62a50f46398b",
@@ -7282,8 +7250,8 @@
         "zh": "EPANET-Agentic 将大型语言模型与 EPANET 集成，使水分配网络模拟可通过自然语言提示进行控制。该系统采用以编排器为中心、工具驱动的架构，其中包括 TaskExecutor、CodeRunner 和 DataAnalyzer 智能体，并通过人在回路监督来确保安全关键干预的安全性。该系统在 L-Town、C-Town 和 Net3 上针对水力系统表征、动态特性、运行和场景模拟任务进行评估，PDF 报告显示其实现了完整的任务成功、准确的工具调用、可解释的多模态分析，以及跨水力工作流的可扩展性。"
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The supplied abstract reports evaluation on three benchmark networks and selected task categories, but does not specify the evaluation protocol, baseline comparisons, or evidence concerning performance beyond these benchmarks.",
+        "zh": "材料范围：所提供的摘要报告了在三个基准网络和若干任务类别上的评估，但未说明评估方案、基线比较，或这些基准之外的性能证据。"
       },
       "domains": [
         "urban_water"
@@ -7292,7 +7260,7 @@
         "multi_agent",
         "agents_tool_use"
       ],
-      "updated_at": "2026-11-16T11:54:37+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_DOI_10-3390-rs18132147_c4418dc27b5b",
@@ -7316,8 +7284,8 @@
         "zh": null
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The abstract reports an evaluation on 40 bloom events from western Lake Erie across seven seasons; performance in other regions, sensors, datasets, or deployment settings is not reported here.\n\nReported study limitations: The study identifies limited spectral information in standard RGB channels as a constraint on off-the-shelf VLM performance for aquatic remote sensing. The study identifies a mismatch between the models’ land-dominated training distributions and aquatic optical conditions as a constraint.",
+        "zh": "材料范围：摘要报告的是基于西伊利湖40次藻华事件、涵盖七个藻华季节的评估；未报告其他地区、传感器、数据集或部署环境中的表现。\n\n研究报告的局限：研究指出，标准RGB通道所提供的光谱信息有限，限制了现成视觉语言模型在水域遥感中的表现。 研究指出，这些模型以陆地数据为主的训练分布与水域光学条件之间的不匹配构成了一项限制。"
       },
       "domains": [
         "water_quality_ecology"
@@ -7326,7 +7294,7 @@
         "multimodal",
         "benchmarks"
       ],
-      "updated_at": "2026-11-16T11:54:37+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_DOI_10-1016-j-watres-2026-125886_7186dcdc6a2f",
@@ -7353,8 +7321,8 @@
         "zh": "Hydro-Agent 旨在弥合水文地质假设与可执行地下水模拟代码之间的差距。该框架采用代码即策略设计，将 HydroCoder 推理智能体与 Executor 智能体相结合，使用 LLM 生成、调试并调整面向过程的求解器的优化策略，而不是用黑箱代理模型取代它们。论文在非均质介质、动力学实验和 Aquia Aquifer 上验证了该方法，强调针对复杂地下水流动和反应性运移系统的守恒质量、可解释且可审计的反演建模。"
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The abstract does not report quantitative accuracy metrics, computational resource or runtime requirements, failure cases, or the scope and details of the baseline comparisons. It describes validation examples but does not specify their number, selection criteria, or generalizability beyond the reported cases.",
+        "zh": "材料范围：摘要未报告定量准确性指标、计算资源或运行时间要求、失败案例，或基线比较的范围与具体细节。摘要描述了若干验证案例，但未说明案例数量、选择标准，或结果在所述案例之外的普适性。"
       },
       "domains": [
         "groundwater"
@@ -7363,7 +7331,7 @@
         "agents_tool_use",
         "multi_agent"
       ],
-      "updated_at": "2026-11-16T11:54:37+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_DOI_10-1029-2024wr039494_7b690b3cb541",
@@ -7390,8 +7358,8 @@
         "zh": null
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The abstract does not report the sizes or composition of the two image datasets, the evaluation protocol, or how performance generalizes beyond these datasets and settings.",
+        "zh": "材料范围：摘要未报告两个图像数据集的规模或构成、评估方案，以及性能能否推广到这些数据集和场景之外。"
       },
       "domains": [
         "floods",
@@ -7401,7 +7369,7 @@
         "multimodal",
         "benchmarks"
       ],
-      "updated_at": "2026-11-16T11:54:37+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_DOI_10-1029-2025gl119814_a0626c3dee81",
@@ -7428,8 +7396,8 @@
         "zh": null
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: Evidence is limited to the supplied abstract, which describes a proof-of-concept application in one tested basin and does not report detailed methods, quantitative performance measures, or broader validation results.\n\nReported study limitations: In the tested application, the forecast-driven configuration failed to capture the flood response when the deterministic rainfall forecast displaced the storm core.",
+        "zh": "材料范围：证据仅限于所提供的摘要。摘要描述了一个测试流域中的概念验证应用，但未报告详细方法、定量性能指标或更广泛的验证结果。\n\n研究报告的局限：在测试应用中，当确定性降雨预报使暴雨核心发生偏移时，基于预报的配置未能捕捉洪水响应。"
       },
       "domains": [
         "catchment_hydrology",
@@ -7438,7 +7406,7 @@
       "methods": [
         "agents_tool_use"
       ],
-      "updated_at": "2026-11-16T11:54:37+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_DOI_10-3390-w16213075_a4403fae83ac",
@@ -7465,8 +7433,8 @@
         "zh": "所收集的摘要介绍了 WaterGPT，这是一个为水文学中的复杂多模态任务而设计的语言模型。它旨在处理和分析水资源领域的图像/文本，支持水文任务的智能决策，并实现跨学科信息整合和基于知识的问答。这是一个与 HydroAgent 高度相关的领域专用水文学 LLM 来源，尽管所收集的证据不一定描述了工具使用型智能体架构。"
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The abstract does not provide detailed information about the evaluation protocols, dataset splits, comparison methods, uncertainty estimates, or generalization beyond the reported hydrology tasks and high-resolution images from 2013–2022.",
+        "zh": "材料范围：摘要未详细说明评估方案、数据集划分、对比方法、不确定性估计，或模型在所报告的水文任务及2013—2022年高分辨率图像之外的泛化表现。"
       },
       "domains": [
         "catchment_hydrology",
@@ -7476,7 +7444,7 @@
         "fine_tuning_domain_models",
         "agents_tool_use"
       ],
-      "updated_at": "2026-11-16T11:54:37+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_DOI_10-1061-9780784486931-067_a57ae433a3b3",
@@ -7501,14 +7469,14 @@
         "zh": null
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The abstract describes analysis based on simulation-generated operational summaries and does not report validation in a physical or operationally deployed water distribution system. It also does not provide quantitative comparisons of scheduling performance, energy or cost savings, emissions reductions, or safety outcomes.",
+        "zh": "材料范围：摘要描述的是基于模拟生成的运行摘要进行分析，未报告在实体或实际运行的供水系统中的验证结果。摘要也未提供调度性能、能源或成本节约、排放削减或安全结果的定量比较。"
       },
       "domains": [
         "urban_water"
       ],
       "methods": [],
-      "updated_at": "2026-11-16T11:54:37+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_DOI_10-1002-hyp-70065_094bb7d07232",
@@ -7534,8 +7502,8 @@
         "zh": "该评论介绍了 INDRA（智能动态河流分析网络），这是一个由专门化 LLM 智能体构建的原型 AI 辅助框架。它与 CONFLUENCE 集成，以支持水文建模中的模型概念化、配置、执行和解释。这是 HydroAgent 前沿条目中最清晰的条目之一，因为它将多智能体 LLM 架构与水文学中的自动化科学发现直接连接起来，同时也讨论了机遇和风险。"
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The supplied abstract presents a commentary and prototype framework but does not report empirical validation, quantitative performance results, or detailed analyses of the acknowledged biases and risks.\n\nReported study limitations: The study acknowledges that AI-assisted research workflows may involve potential biases and risks.",
+        "zh": "材料范围：所提供的摘要介绍了评论性文章和一个原型框架，但未报告实证验证、定量性能结果，或对所承认的偏见与风险进行详细分析。\n\n研究报告的局限：该研究承认，人工智能辅助的研究工作流程可能存在潜在偏见和风险。"
       },
       "domains": [
         "catchment_hydrology"
@@ -7544,7 +7512,7 @@
         "agents_tool_use",
         "multi_agent"
       ],
-      "updated_at": "2026-11-16T11:54:37+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_DOI_10-1109-icit63637-2025-10965127_3899c2ce2ca2",
@@ -7571,8 +7539,8 @@
         "zh": null
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The supplied abstract is limited to table information retrieval and question answering for water-resources documents. It does not report the dataset’s size or composition, baseline comparisons, or detailed error analysis.",
+        "zh": "材料范围：所提供的摘要仅涉及面向水资源文档的表格信息检索与问答。摘要未报告数据集的规模或构成、基线比较结果以及详细的错误分析。"
       },
       "domains": [
         "water_resources_reservoirs"
@@ -7580,7 +7548,7 @@
       "methods": [
         "rag_knowledge_graphs"
       ],
-      "updated_at": "2026-11-16T11:54:37+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_DOI_10-1016-j-envsoft-2026-107038_a51cefeb7dce",
@@ -7602,8 +7570,8 @@
         "zh": null
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The supplied abstract does not report the study location, number or types of reservoirs, data period, baseline model details, or uncertainty analysis. It summarizes calibration and validation performance but does not provide enough information to assess generalizability beyond the reported setting.",
+        "zh": "材料范围：所提供的摘要未报告研究地点、水库数量或类型、数据时段、基线模型细节或不确定性分析。摘要概述了校准期和验证期的性能，但未提供足够信息来评估其在所报告场景之外的普适性。"
       },
       "domains": [
         "water_resources_reservoirs",
@@ -7612,7 +7580,7 @@
       "methods": [
         "prompting"
       ],
-      "updated_at": "2026-11-16T11:54:37+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_DOI_10-1016-j-watres-2025-124536_8f02d9652260",
@@ -7639,8 +7607,8 @@
         "zh": "摘要聚焦于供水管网，其中管理任务需要系统建模、优化和专业领域知识。论文认为，LLMs 可以帮助自动化复杂的水力决策任务。这与 HydroAgent 高度相关，因为它将 LLM 自动化应用于水系统优化，而不是通用文本分析。"
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The supplied abstract reports evaluation on only two benchmark water distribution networks—Net2 and Anytown—and does not describe validation on additional or operational networks. It also does not provide detailed quantitative performance metrics.\n\nReported study limitations: The Knowledge Agent’s reasoning demonstrated insufficient numerical precision. The framework had difficulty interpreting and enforcing numerical constraints stated in natural language, and often reached suboptimal solutions in the looped Anytown network.",
+        "zh": "材料范围：所提供的摘要仅报告了在两个基准供水管网——Net2 和 Anytown——上的评估，未描述在其他管网或实际运行管网上的验证。摘要也未提供详细的定量性能指标。\n\n研究报告的局限：Knowledge Agent 的推理表现出数值精度不足。 该框架难以解释和执行以自然语言表达的数值约束，并且在环状 Anytown 管网中经常得到次优解。"
       },
       "domains": [
         "urban_water"
@@ -7649,7 +7617,7 @@
         "agents_tool_use",
         "multi_agent"
       ],
-      "updated_at": "2026-11-16T11:54:37+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_DOI_10-1029-2025wr042111_2763e572f83f",
@@ -7674,8 +7642,8 @@
         "zh": "本文研究人类-水系统交互，其中基于智能体的模型很有用，但通常依赖手动编码的规则、简化的行为假设和有限的定性信息。所收集的摘要指出，LLMs通过行为理论框架指导的自然语言推理来模拟智能体决策。这与HydroAgent直接相关，因为它将LLM推理、基于智能体的模拟和社会-水文建模联系起来。"
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The supplied material is limited to the title and abstract; the abstract does not provide full implementation details or detailed validation and scalability information.\n\nReported study limitations: The study explicitly identifies the reliability of LLMs and the effects of architectural choices as limitations. The study also explicitly notes limited transparency into processes, a simplified agent population, and simulation scalability as limitations.",
+        "zh": "材料范围：所提供的材料仅包括标题和摘要；摘要未提供完整的实施细节，也未详细说明验证和可扩展性信息。\n\n研究报告的局限：研究明确指出，LLM 的可靠性以及架构选择的影响是其局限性。 研究还明确指出，过程透明度有限、代理人群体较为简化以及模拟可扩展性是其局限性。"
       },
       "domains": [
         "floods"
@@ -7684,7 +7652,7 @@
         "agents_tool_use",
         "prompting"
       ],
-      "updated_at": "2026-11-16T11:54:37+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_DOI_10-1061-9780784486184-086_7995239e2669",
@@ -7711,8 +7679,8 @@
         "zh": null
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The supplied abstract does not report quantitative performance values, comparison baselines, test-dataset details, real-world deployment or validation, or observed failure cases. These details may be available in the full paper.",
+        "zh": "材料范围：所提供的摘要未报告定量性能数值、对比基线、测试数据集详情、真实场景部署或验证情况，也未报告观察到的失败案例。这些细节可能在全文中有所说明。"
       },
       "domains": [
         "urban_water",
@@ -7722,7 +7690,7 @@
         "prompting",
         "agents_tool_use"
       ],
-      "updated_at": "2026-11-16T11:54:37+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_DOI_10-1029-2025gl120043_69766263f608",
@@ -7749,8 +7717,8 @@
         "zh": "摘要将水文模型校准定位为现代 LLM 尚未得到充分探索的目标，并将五种先进 LLM 与包括 SCE-UA 在内的传统校准基准进行了评估。这与 HydroAgent 直接相关，因为它将 LLM 视为水文建模的校准智能体，并关注可行性和局限性，而不是对通用 AI 的热情推崇。它应作为理解 LLM 智能体在何种情况下能够或不能替代成熟校准方法的优先来源。"
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The supplied abstract reports evaluations of five LLMs against two benchmarks, but does not specify the evaluated datasets, hydrological models, study regions, calibration metrics, or broader validation settings.\n\nReported study limitations: The abstract explicitly reports that the models did not perform uniformly: the other LLMs performed less favorably than both benchmark methods.",
+        "zh": "材料范围：所提供的摘要报告了五种大语言模型与两个基准方法的评估，但未说明所使用的数据集、水文模型、研究区域、校准指标或更广泛的验证设置。\n\n研究报告的局限：摘要明确报告了模型表现并不一致：其他大语言模型的表现不如两个基准方法。"
       },
       "domains": [
         "catchment_hydrology"
@@ -7759,7 +7727,7 @@
         "agents_tool_use",
         "benchmarks"
       ],
-      "updated_at": "2026-11-16T11:54:37+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_DOI_10-2166-hydro-2025-130_374bec1361f4",
@@ -7786,8 +7754,8 @@
         "zh": "摘要将水资源管理描述为动态、不确定，且固定流程信息系统难以充分应对的领域。IWMS-LLM 使用大型语言模型和可视化工作流编排，使水资源管理任务更加灵活，并能更及时地响应新出现的需求和突发事件。这是一个与 HydroAgent 直接相关的条目，因为它将 LLM、水资源决策支持和编排式工作流联系起来。"
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The supplied abstract does not report evaluation methodology, datasets, quantitative results, baseline comparisons, deployment conditions, or failure cases for IWMS-LLM.",
+        "zh": "材料范围：所提供的摘要未报告 IWMS-LLM 的评估方法、数据集、定量结果、基线比较、部署条件或失败案例。"
       },
       "domains": [
         "water_resources_reservoirs"
@@ -7795,7 +7763,7 @@
       "methods": [
         "agents_tool_use"
       ],
-      "updated_at": "2026-11-16T11:54:37+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_DOI_10-1029-2024wr038077_07371c250ede",
@@ -7822,8 +7790,8 @@
         "zh": null
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The supplied abstract describes a Web of Science literature analysis using a large language model and geocoding, but does not report validation or error assessment for the parsing and geocoding, detailed inclusion and exclusion criteria, or uncertainty in the basin and topic classifications. The evidence is limited to the abstract and does not establish coverage beyond the specified database and period.",
+        "zh": "材料范围：所提供的摘要描述了基于 Web of Science、结合大语言模型与地理编码的文献分析，但未报告文本解析和地理编码的验证或误差评估、详细的纳入与排除标准，以及流域和主题分类的不确定性。现有证据仅限于摘要，不能据此确定对所述数据库和时间范围之外文献的覆盖情况。"
       },
       "domains": [
         "catchment_hydrology"
@@ -7831,7 +7799,7 @@
       "methods": [
         "prompting"
       ],
-      "updated_at": "2026-11-16T11:54:37+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_ARXIV_2605-17792_8f899f47afc8",
@@ -7858,8 +7826,8 @@
         "zh": null
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The supplied abstract reports frontier-agent benchmarking on the CREST model at four held-out gauges, but does not provide quantitative results for HYDROAGENT itself or detailed information on training, evaluation protocols, uncertainty, or validation across additional hydrologic models and watersheds.",
+        "zh": "材料范围：所提供的摘要报告了在 CREST 模型和四个留出测站上的前沿智能体基准测试，但未提供 HYDROAGENT 本身的定量结果，也未详细说明训练与评估方案、不确定性，或在更多水文模型和流域上的验证情况。"
       },
       "domains": [
         "catchment_hydrology",
@@ -7869,7 +7837,7 @@
         "fine_tuning_domain_models",
         "agents_tool_use"
       ],
-      "updated_at": "2026-11-16T11:54:37+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_DOI_10-1016-j-ese-2025-100608_de1ac3e8bc78",
@@ -7896,8 +7864,8 @@
         "zh": null
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The supplied abstract reports results on EnviroExam and EnvBench but does not specify detailed dataset-construction procedures, task- or domain-specific performance, or validation in real-world environmental research, policy, or practice.",
+        "zh": "材料范围：所提供的摘要报告了 EnviroExam 和 EnvBench 上的结果，但未具体说明数据集构建流程、按任务或领域划分的性能，或在实际环境研究、政策和实践中的验证情况。"
       },
       "domains": [
         "water_resources_reservoirs"
@@ -7906,7 +7874,7 @@
         "fine_tuning_domain_models",
         "benchmarks"
       ],
-      "updated_at": "2026-11-16T11:54:37+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_DOI_10-2139-ssrn-5319205_f57c32b87c1a",
@@ -7930,8 +7898,8 @@
         "zh": null
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The supplied abstract describes a dataset focused on projects from Italy’s OpenCUP registry in Emilia-Romagna. It reports descriptive patterns and flood-timing validation, but does not provide classification-performance metrics or empirical estimates of adaptation effectiveness.",
+        "zh": "材料范围：所提供的摘要描述的是基于意大利 OpenCUP 公共投资登记系统、聚焦艾米利亚-罗马涅大区项目的数据集。摘要报告了描述性模式和基于洪水发生时间的验证，但未提供分类性能指标或适应措施有效性的实证估计。"
       },
       "domains": [
         "floods"
@@ -7939,7 +7907,7 @@
       "methods": [
         "prompting"
       ],
-      "updated_at": "2026-11-16T11:54:37+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_DOI_10-1016-j-fmre-2025-05-002_aab676f3321a",
@@ -7966,15 +7934,15 @@
         "zh": null
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The supplied material consists only of four highlights; it does not report the literature-search corpus or strategy, model configurations, validation procedures, uncertainty analysis, or study limitations.",
+        "zh": "材料范围：所提供材料仅包含四条亮点信息；其中未报告文献检索语料库或策略、模型配置、验证程序、不确定性分析或研究局限。"
       },
       "domains": [
         "catchment_hydrology",
         "water_resources_reservoirs"
       ],
       "methods": [],
-      "updated_at": "2026-11-16T11:54:37+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_DOI_10-1016-j-jhydrol-2026-135763_d086f3f9baf1",
@@ -7996,8 +7964,8 @@
         "zh": null
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The supplied material is limited to the title and abstract. It reports an application in the Wuliangsuhai Lake watershed under specified scenarios, but does not provide the underlying data, model settings, validation procedures, uncertainty analysis, or results beyond the reported scenario comparison.",
+        "zh": "材料范围：所提供的材料仅包括题目和摘要。摘要报告了在乌梁素海流域及特定情景下的应用，但未提供基础数据、模型设置、验证程序、不确定性分析，或所报告情景比较之外的结果。"
       },
       "domains": [
         "water_resources_reservoirs",
@@ -8006,7 +7974,7 @@
       "methods": [
         "agents_tool_use"
       ],
-      "updated_at": "2026-11-16T11:54:37+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_DOI_10-1007-s11269-025-04312-5_087ed584eff2",
@@ -8033,8 +8001,8 @@
         "zh": "Springer 摘要将水利工程巡检描述为一项受人工劳动、较低的风险识别准确率和较弱的动态决策能力限制的安全关键型管理任务。本文提出了一个融合 LLM 和 GraphRAG 的多智能体协同决策框架，围绕感知、认知和决策模块组织，用于自动化巡检。该研究使用三年的多源巡检数据，构建了一个多模态数据集，报告称领域自适应微调后设备识别和缺陷检测的 F1 分数得到提升，并加入了一个动态知识图谱。这与 HydroAgent 风格的水基础设施决策支持直接相关。"
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The supplied abstract does not report the multimodal dataset size or composition, comparison baselines, evaluation protocol, statistical uncertainty, computational or deployment costs, or validation beyond the described inspection-report assessments. It also does not specify the hydraulic-project settings represented or the conditions under which performance generalizes.",
+        "zh": "材料范围：所提供的摘要未报告多模态数据集的规模或构成、对比基线、评估方案、统计不确定性、计算或部署成本，也未说明除所述巡检报告评估之外的验证情况。摘要还未具体说明数据所涵盖的水利工程场景，或性能可推广的条件。"
       },
       "domains": [
         "water_resources_reservoirs"
@@ -8043,7 +8011,7 @@
         "multi_agent",
         "rag_knowledge_graphs"
       ],
-      "updated_at": "2026-11-16T11:54:37+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_DOI_10-22541-essoar-176336946-65126612-v2_09de145d89a7",
@@ -8067,8 +8035,8 @@
         "zh": "摘要介绍了通用化自动化地球物理智能体工作流（GAGAW），这是一个基于 LLM 的框架，通过自然语言接口管理多个开源工具，从而实现复杂地球物理工作流的自动化。其动机直接与地下水文学相关，在该领域，地球物理方法虽然有用，但对非专业人士而言难以使用，并且需要串联多个工具。这是一个与 HydroAgent 高度相关的工具编排、自然语言控制和领域工作流自动化示例。"
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The abstract reports three hydrogeophysics examples but does not specify the current limitations it mentions or provide details of validation beyond those examples.",
+        "zh": "材料范围：摘要报告了三个水文地球物理学示例，但未具体说明其提到的当前局限，也未提供这些示例之外的验证详情。"
       },
       "domains": [
         "groundwater"
@@ -8077,7 +8045,7 @@
         "agents_tool_use",
         "multimodal"
       ],
-      "updated_at": "2026-11-16T11:54:37+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_DOI_10-1109-inmic64792-2024-11004338_f4662e974b16",
@@ -8104,8 +8072,8 @@
         "zh": null
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The abstract does not report the datasets’ composition or size, quantitative evaluation metrics, validation procedures, or the conditions under which the combined approach was tested for contaminated-water monitoring and climate-related settings.\n\nReported study limitations: The reported performance is sensitive to data quality, computational resources, and prompt design.",
+        "zh": "材料范围：摘要未报告数据集的构成或规模、定量评估指标、验证程序，也未说明该组合方法在受污染水体监测和气候相关场景中的具体测试条件。\n\n研究报告的局限：研究指出，模型表现容易受到数据质量、计算资源和提示词设计的影响。"
       },
       "domains": [
         "water_quality_ecology"
@@ -8114,7 +8082,7 @@
         "multimodal",
         "prompting"
       ],
-      "updated_at": "2026-11-16T11:54:37+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_DOI_10-1016-j-jhydrol-2026-135801_ec758c28312d",
@@ -8141,8 +8109,8 @@
         "zh": "HydroCraft是一个基于网络的平台，旨在通过为全球流域提供流域提取、驱动数据生成、参数校准和结果可视化支持，降低水文建模的专业知识门槛。该平台包括自适应流域划分、三个水文模型（THREW、Xin’anjiang和Miyun Hydrological Model），以及一个提供建模指导和自动化任务执行的LLM代理。两个案例研究比较了用户驱动的工作流和LLM代理辅助的工作流，将HydroCraft定位为代理支持的水文建模基础设施和易于使用的模拟工作流的直接证据。"
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The abstract does not report quantitative evaluation metrics, baseline comparisons, dataset or case-study selection details, computational requirements, reproducibility information, or failure modes and applicability boundaries for the platform and its LLM agent.",
+        "zh": "材料范围：摘要未报告平台及其大语言模型代理的定量评估指标、基线比较、数据集或案例选择细节、计算需求、可复现性信息，以及失效模式和适用范围边界。"
       },
       "domains": [
         "catchment_hydrology",
@@ -8151,7 +8119,7 @@
       "methods": [
         "agents_tool_use"
       ],
-      "updated_at": "2026-11-16T11:54:37+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     },
     {
       "id": "SRC_DOI_10-5194-egusphere-egu26-8123_e099454f2cb0",
@@ -8178,8 +8146,8 @@
         "zh": "摘要将基于 LLM 的 AI 助手视为水文学和水文建模领域的一个及时问题。研究考察 AI 是否能够推荐概念性水文模型配置，这与使用语言模型进行模型概念化和类似专家的水文推理直接相关。这是水文建模工作流程中 AI 助手前沿方向的一个有力案例。"
       },
       "limitations": {
-        "en": null,
-        "zh": null
+        "en": "Evidence available: The supplied material is limited to the title and abstract. It does not provide the full prompt specifications, detailed catchment characteristics, numerical evaluation results, uncertainty analyses, or evidence about applicability beyond the studied U.S. catchments and Gemini 2.5 Flash.\n\nReported study limitations: The model often failed to recommend the best-performing model structures. The model produced inconsistent component recommendations when identical prompts were repeated.",
+        "zh": "材料范围：所提供材料仅包括标题和摘要，未给出完整的提示词设置、流域详细特征、数值评估结果、不确定性分析，也未提供关于研究范围是否适用于所研究美国流域和 Gemini 2.5 Flash 之外情境的证据。\n\n研究报告的局限：该模型经常未能推荐性能最佳的模型结构。 在重复使用完全相同的提示词时，该模型给出的模型组件推荐不一致。"
       },
       "domains": [
         "catchment_hydrology"
@@ -8188,7 +8156,7 @@
         "prompting",
         "benchmarks"
       ],
-      "updated_at": "2026-11-16T11:54:37+00:00"
+      "updated_at": "2026-11-19T05:44:58+00:00"
     }
   ],
   "highlights": {
