@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-19T05:44:58+00:00",
+  "generated_at": "2026-11-19T07:30:12+00:00",
   "count": 231,
   "papers": [
     {
@@ -3165,11 +3165,11 @@
       "doi": "10.1016/j.wroa.2026.100610",
       "summary": {
         "en": "A retrieval-augmented LLM framework retrieves historical pipeline acoustic cases and uses them to generate evidence-grounded water-pipeline leak diagnoses and reports.",
-        "zh": null
+        "zh": "一种检索增强的 LLM 框架检索历史管道声学案例，并利用这些案例生成基于证据的供水管道泄漏诊断和报告。"
       },
       "details": {
         "en": "The study constructs a database of historical acoustic cases from water distribution networks, retrieves relevant cases, and incorporates them into LLM prompts for acoustic leak detection. It evaluates the approach on samples from Dalian and Hong Kong and reports diagnostic performance comparable to specialized supervised models.",
-        "zh": null
+        "zh": "该研究从供水网络中构建历史声学案例数据库，检索相关案例，并将其纳入 LLM 提示词中，用于声学泄漏检测。该方法在来自大连和香港的样本上进行了评估，并报告称其诊断性能与专门的监督模型相当。"
       },
       "limitations": {
         "en": "Evidence available: The supplied evidence is limited to the abstract. It does not specify the LLM architecture, prompting and retrieval configuration, or detailed evaluation protocol, and reports evaluations only on samples from Dalian and Hong Kong.",
@@ -3181,7 +3181,7 @@
       "methods": [
         "rag_knowledge_graphs"
       ],
-      "updated_at": "2026-11-19T05:44:58+00:00"
+      "updated_at": "2026-11-19T07:30:12+00:00"
     },
     {
       "id": "SRC_DOI_10-1016-j-watres-2026-126492_53e8d209df6c",
@@ -3231,11 +3231,11 @@
       "doi": null,
       "summary": {
         "en": "A preprint develops BERT, RAG, and hybrid pipelines to classify environmental mitigation obligations in hydropower licensing documents under severe label scarcity.",
-        "zh": null
+        "zh": "一篇预印本开发了 BERT、RAG 和混合式流程，用于在标签严重匮乏的情况下，对水电许可文件中的环境减缓义务进行分类。"
       },
       "details": {
         "en": "The study evaluates classification over 5,860 paragraphs from 2017 hydropower license documents and 135 mitigation categories. Its RAG pipeline retrieves category definitions to support zero-shot classification, while a hybrid combines BERT detection with RAG classification.",
-        "zh": null
+        "zh": "该研究基于来自2017年水电许可证文件的5,860个段落和135个减缓类别评估分类效果。其 RAG 流程检索类别定义以支持零样本分类，而混合式流程将 BERT 检测与 RAG 分类相结合。"
       },
       "limitations": {
         "en": "Evidence available: The abstract reports evaluation on 2017 hydropower license documents, but does not specify the data-splitting procedure, external validation, or category-level performance results.",
@@ -3248,7 +3248,7 @@
         "rag_knowledge_graphs",
         "fine_tuning_domain_models"
       ],
-      "updated_at": "2026-11-19T05:44:58+00:00"
+      "updated_at": "2026-11-19T07:30:12+00:00"
     },
     {
       "id": "SRC_DOI_10-1088-1748-9326-ae9ee0_1776102c364e",
@@ -3268,11 +3268,11 @@
       "doi": "10.1088/1748-9326/ae9ee0",
       "summary": {
         "en": "The paper evaluates an LLM as a reservoir operator for monthly water-supply allocation at Folsom Lake over a 21-year simulation.",
-        "zh": null
+        "zh": "该论文评估了LLM作为水库调度员，在Folsom Lake进行为期21年的月度供水分配模拟中的表现。"
       },
       "details": {
         "en": "An LLM makes reservoir release and water-supply allocation decisions from contextual information. Its behavior and performance are benchmarked against historical operations, a neural-network regressor, and dynamic programming, with analyses of chain-of-thought outputs, sensitivity, and rationale.",
-        "zh": null
+        "zh": "LLM根据情境信息做出水库放流和供水分配决策。其行为和性能与历史运行结果、神经网络回归器和动态规划进行基准比较，并分析了思维链输出、敏感性和决策依据。"
       },
       "limitations": {
         "en": "Evidence available: The supplied material is limited to the title and abstract. The abstract reports testing at Folsom Lake over a 21-year simulation but does not provide implementation details, full experimental protocols, or evidence about generalization to other reservoirs or settings.",
@@ -3285,7 +3285,7 @@
         "agents_tool_use",
         "prompting"
       ],
-      "updated_at": "2026-11-19T05:44:58+00:00"
+      "updated_at": "2026-11-19T07:30:12+00:00"
     },
     {
       "id": "SRC_DOI_10-1016-j-jhydrol-2026-136358_cca93af01cb2",
@@ -3305,11 +3305,11 @@
       "doi": "10.1016/j.jhydrol.2026.136358",
       "summary": {
         "en": "HydroAIM grounds LLM agents in automated hydrological time-series modelling using expert workflows, an MCP architecture and execution feedback.",
-        "zh": null
+        "zh": "HydroAIM 通过专家工作流、MCP 架构和执行反馈，将 LLM agents 应用于自动化水文时间序列建模。"
       },
       "details": {
         "en": "The framework combines expert task planning, a standardised algorithmic workflow library and an iterative execution toolbox. The paper reports 92.8% execution success across 125 tasks using five LLMs; removing the expert workflow reduces success to 0%. Across 531 CAMELS catchments, reported median NSE is 0.58 for local models and 0.73 for global models. This is a hydrological modelling study, distinct from the hydropower operation chapter.",
-        "zh": null
+        "zh": "该框架结合了专家任务规划、标准化算法工作流库和迭代式执行工具箱。论文报告称，使用五个 LLM 在 125 项任务中的执行成功率为 92.8%；移除专家工作流后，成功率降至 0%。在 531 个 CAMELS 流域中，报告的局部模型中位数 NSE 为 0.58，全局模型中位数 NSE 为 0.73。这是一项水文建模研究，与水电运行章节不同。"
       },
       "limitations": {
         "en": "Evidence available: The supplied material is limited to the title and abstract. The abstract does not report uncertainty estimates, statistical significance, baseline comparisons, or evaluation beyond the stated modelling tasks, LLMs, and CAMELS catchments.\n\nReported study limitations: The study reports that long-horizon task planning remains a central constraint on LLM execution of hydrological modelling tasks.",
@@ -3322,7 +3322,7 @@
         "agents_tool_use",
         "multi_agent"
       ],
-      "updated_at": "2026-11-19T05:44:58+00:00"
+      "updated_at": "2026-11-19T07:30:12+00:00"
     },
     {
       "id": "SRC_DOI_10-1016-j-aei-2026-105176_4183a51c3491",
@@ -3342,11 +3342,11 @@
       "doi": "10.1016/j.aei.2026.105176",
       "summary": {
         "en": "The paper proposes ELGAG, a graph-augmented RAG framework that retrieves causal waterlogging evidence and uses an LLM to generate interpretable emergency assessment reports.",
-        "zh": null
+        "zh": "该论文提出了 ELGAG，一种图增强 RAG 框架，用于检索因果性内涝证据，并利用 LLM 生成可解释的应急评估报告。"
       },
       "details": {
         "en": "It organizes historical urban waterlogging cases, causal factors, response actions, responsible entities, and emergency resources into an Event Logic Graph. Retrieved cause–event–response evidence is supplied under domain-enhanced prompt constraints to an LLM for emergency report generation, with validation-gated feedback for knowledge evolution. Experiments use Guangzhou urban waterlogging data from 2010–2019 and compare the framework with vector-based and graph-enhanced RAG baselines.",
-        "zh": null
+        "zh": "该框架将历史城市内涝案例、因果因素、响应行动、负责实体和应急资源组织成 Event Logic Graph。在领域增强的提示约束下，将检索到的原因–事件–响应证据提供给 LLM 以生成应急报告，并通过验证门控反馈实现知识演化。实验使用 2010–2019 年的 Guangzhou 城市内涝数据，并将该框架与基于向量和图增强的 RAG 基线进行比较。"
       },
       "limitations": {
         "en": "Evidence available: The supplied material is limited to the abstract; it does not provide detailed implementation specifications, the identity of the LLM backbone, or full evaluation procedures.",
@@ -3360,7 +3360,7 @@
         "rag_knowledge_graphs",
         "prompting"
       ],
-      "updated_at": "2026-11-19T05:44:58+00:00"
+      "updated_at": "2026-11-19T07:30:12+00:00"
     },
     {
       "id": "SRC_DOI_10-1016-j-ress-2026-113235_0e9a7fb64e94",
@@ -3437,11 +3437,11 @@
       "doi": null,
       "summary": {
         "en": "Develops a National Water Model-derived streamflow dataset, enhanced data services, and a multi-agent LLM system for automated hydrologic information generation.",
-        "zh": null
+        "zh": "开发了一个源自 National Water Model 的流量数据集、增强型数据服务以及一个用于自动生成水文信息的多智能体 LLM 系统。"
       },
       "details": {
         "en": "The study computes streamflow indices for National Water Model reaches, enhances an API with geospatial and metadata functions, develops an MCP server for LLM applications, and builds a multi-agent LLM system that leverages NWM and other hydrologic data to streamline hydrologic data-to-information workflows.",
-        "zh": null
+        "zh": "该研究为 National Water Model 河段计算流量指数，通过地理空间和元数据功能增强 API，开发用于 LLM 应用的 MCP 服务器，并构建一个利用 NWM 及其他水文数据的多智能体 LLM 系统，以简化水文数据到信息的工作流程。"
       },
       "limitations": {
         "en": "Evidence available: The abstract does not report implementation details or evaluation results for the multi-agent LLM system, nor does it provide detailed validation of the derived dataset and API features.",
@@ -3455,7 +3455,7 @@
         "agents_tool_use",
         "multi_agent"
       ],
-      "updated_at": "2026-11-19T05:44:58+00:00"
+      "updated_at": "2026-11-19T07:30:12+00:00"
     },
     {
       "id": "SRC_DOI_10-1016-j-jenvman-2026-130753_f530fc643901",
@@ -3474,11 +3474,11 @@
       "doi": "10.1016/j.jenvman.2026.130753",
       "summary": {
         "en": "WQ-RAG uses Llama-3-8B and retrieved regulatory documents to diagnose water-quality anomalies detected by deep-learning models.",
-        "zh": null
+        "zh": "WQ-RAG 使用 Llama-3-8B 和检索到的监管文件，诊断深度学习模型检测到的水质异常。"
       },
       "details": {
         "en": "The study evaluates four USGS river monitoring stations using 2021–2024 data. A knowledge base of 25 regulatory and technical documents grounds Llama-3-8B explanations. Reported mean explanation quality is 0.840 ± 0.071; retrieval improves regulatory accuracy from 0.20 to 0.76. The LLM performs regulation-aware root-cause diagnosis and recommendations, while deep-learning models perform anomaly detection.",
-        "zh": null
+        "zh": "该研究使用 2021–2024 年的数据评估了 4 个 USGS 河流监测站点。由 25 份监管和技术文件构成的知识库为 Llama-3-8B 的解释提供依据。报告的平均解释质量为 0.840 ± 0.071；检索使监管准确率从 0.20 提高到 0.76。LLM 执行结合监管要求的根因诊断和建议，而深度学习模型执行异常检测。"
       },
       "limitations": {
         "en": "Evidence available: The supplied evidence is limited to the title and abstract. The abstract does not report data-preprocessing procedures, station-selection criteria, missing-data handling, external validation, or sufficient implementation details for independent reproduction.",
@@ -3490,7 +3490,7 @@
       "methods": [
         "rag_knowledge_graphs"
       ],
-      "updated_at": "2026-11-19T05:44:58+00:00"
+      "updated_at": "2026-11-19T07:30:12+00:00"
     },
     {
       "id": "SRC_DOI_10-1038-s41598-026-67903-1_fd6c0c141a72",
@@ -3510,11 +3510,11 @@
       "doi": "10.1038/s41598-026-67903-1",
       "summary": {
         "en": "A desalination-system performance prediction framework combines LLM-guided preprocessing and feature selection with Football Optimization Algorithm tuning of deep learning models.",
-        "zh": null
+        "zh": "一种脱盐系统性能预测框架将 LLM 引导的预处理和特征选择与 Football Optimization Algorithm 对深度学习模型的调优相结合。"
       },
       "details": {
         "en": "The paper evaluates state-of-the-art LLMs for preprocessing and feature selection in a desalination dataset, then uses the Football Optimization Algorithm to optimize deep learning models, particularly STGCNs, for desalination performance prediction. Experiments use synthetic data and report improved predictive metrics and reduced feature subsets.",
-        "zh": null
+        "zh": "该论文评估了最先进的 LLM 在脱盐数据集预处理和特征选择中的表现，然后使用 Football Optimization Algorithm 优化深度学习模型，尤其是 STGCNs，以进行脱盐性能预测。实验使用合成数据，并报告了改进的预测指标和缩减后的特征子集。"
       },
       "limitations": {
         "en": "Evidence available: The abstract does not report the names of the evaluated LLMs, the detailed preprocessing or feature-selection procedures, or the specific desalination technology and operational setting represented by the synthetic dataset.",
@@ -3526,7 +3526,7 @@
       "methods": [
         "prompting"
       ],
-      "updated_at": "2026-11-19T05:44:58+00:00"
+      "updated_at": "2026-11-19T07:30:12+00:00"
     },
     {
       "id": "SRC_ARXIV_2608-22950_ee29cbc83f60",
@@ -3546,11 +3546,11 @@
       "doi": null,
       "summary": {
         "en": "WADE is a reasoning-annotated benchmark for compact VLMs that detect, classify, count, and explain floating waste in inland waterways.",
-        "zh": null
+        "zh": "WADE 是一个带有推理标注的基准数据集，用于让紧凑型 VLMs 检测、分类、计数并解释内陆水道中的漂浮垃圾。"
       },
       "details": {
         "en": "The preprint introduces 2,167 images from rural Bangladesh with 13,608 bounding boxes across ten floating-waste categories. It evaluates six VLMs under zero-shot, few-shot, reasoning-guided, and fine-tuned settings, including Qwen3-VL-2B adaptation with QLoRA.",
-        "zh": null
+        "zh": "该预印本介绍了来自孟加拉国农村的 2,167 张图像，其中包含覆盖十个漂浮垃圾类别的 13,608 个边界框。它在零样本、少样本、推理引导和微调设置下评估了六个 VLMs，包括使用 QLoRA 对 Qwen3-VL-2B 进行适配。"
       },
       "limitations": {
         "en": "Evidence available: The abstract reports a dataset collected in rural Bangladesh but does not provide evidence of performance validation in other geographic settings. It also does not report detailed per-category or operational-deployment results.\n\nReported study limitations: The reported fine-tuned model still leaves most instances undetected.",
@@ -3563,7 +3563,7 @@
         "benchmarks",
         "fine_tuning_domain_models"
       ],
-      "updated_at": "2026-11-19T05:44:58+00:00"
+      "updated_at": "2026-11-19T07:30:12+00:00"
     },
     {
       "id": "SRC_ARXIV_2608-18836_d6928bf0027c",
@@ -3583,11 +3583,11 @@
       "doi": null,
       "summary": {
         "en": "A physics-grounded leak-diagnosis workflow uses an independent LLM auditor to support accountable abstention and reject insufficiently supported excavation recommendations.",
-        "zh": null
+        "zh": "一种以物理学为基础的漏损诊断工作流使用独立的 LLM 审计器，以支持可问责的弃权，并拒绝证据支持不足的开挖建议。"
       },
       "details": {
         "en": "The study evaluates selective leak localization in urban water distribution networks using a hydraulic twin, deterministic checks, and an LLM auditor that can add rejections but cannot override failed checks.",
-        "zh": null
+        "zh": "该研究使用液压孪生体、确定性检查和 LLM 审计器，评估城市供水管网中的选择性漏损定位；该审计器可以增加拒绝结果，但不能推翻未通过的检查。"
       },
       "limitations": {
         "en": "Evidence available: The abstract does not identify the large language model or provide prompting and implementation details.",
@@ -3600,7 +3600,7 @@
         "agents_tool_use",
         "benchmarks"
       ],
-      "updated_at": "2026-11-19T05:44:58+00:00"
+      "updated_at": "2026-11-19T07:30:12+00:00"
     },
     {
       "id": "SRC_DOI_10-1016-j-compag-2026-112267_23e854340f16",
@@ -3653,7 +3653,7 @@
       },
       "details": {
         "en": "We study the operation of community water systems, where pumps and valves must be scheduled to reliably meet water demands while minimizing energy consumption. While existing optimization-based methods are effective under well-modeled environments, real-world community scenarios exhibit highly dynamic contexts-such as human activities, weather variations, etc-that significantly affect water demand patterns and operational targets across different zones. Traditional optimization approaches struggle to aggregate and adapt to such heterogeneous and rapidly evolving contextual information in real time. Evidence limitation: Title/abstract screening; report excerpt used where the API has no abstract.",
-        "zh": null
+        "zh": "我们研究社区供水系统的运行，其中泵和阀门必须进行调度，以可靠地满足用水需求，同时最大限度地降低能耗。现有的基于优化的方法在建模良好的环境下表现有效，但现实世界的社区场景呈现出高度动态的情境——例如人类活动、天气变化等——这些情境会显著影响不同区域的用水需求模式和运行目标。传统的优化方法难以在实时聚合此类异质且快速演变的情境信息并据此进行适应。证据局限性：标题/摘要筛选；在 API 没有摘要的情况下使用报告摘录。"
       },
       "limitations": {
         "en": "Evidence available: The supplied abstract describes evaluation on the EPANET hydraulic simulation platform but does not report quantitative results, benchmark details, dataset characteristics, or field-deployment validation.",
@@ -3665,7 +3665,7 @@
       "methods": [
         "agents_tool_use"
       ],
-      "updated_at": "2026-11-19T05:44:58+00:00"
+      "updated_at": "2026-11-19T07:30:12+00:00"
     },
     {
       "id": "SRC_ARXIV_2608-05151_cdcbc67b06c8",
@@ -3688,7 +3688,7 @@
       },
       "details": {
         "en": "Wastewater operators need answers grounded in how their plant's variables interact and how fast effects propagate, not in generic pretraining text, when asking causal questions such as \"why is N2O rising?\" or \"what happens if I cut aeration by 20%?\". We compare three concrete ways to ground a frozen Qwen2.5-32B-Instruct model in an architecturally interpretable wastewater simulator (CCSS-IX): a live simulator oracle (Method 1), structured parameter injection (Method 2), and a Decoupled Recall-Reasoning (DRR) retriever (Method 3). On a 198-question causal benchmark the three reach 99.5%, 79%, and 75.8%, forming a deployment ladder above the strongest retrieval-augmented baseline at 48%. Evidence limitation: Title/abstract screening; report excerpt used where the API has no abstract.",
-        "zh": null
+        "zh": "当询问“为什么 N2O 在上升？”或“如果我将曝气量削减 20%，会发生什么？”等因果问题时，污水处理厂操作人员需要的是基于其工厂变量如何相互作用以及影响传播速度的答案，而不是通用预训练文本。我们比较了将冻结的 Qwen2.5-32B-Instruct 模型建立在架构可解释的污水处理模拟器（CCSS-IX）基础上的三种具体方法：实时模拟器预言器（方法 1）、结构化参数注入（方法 2）以及解耦式回忆-推理（DRR）检索器（方法 3）。在包含 198 个问题的因果基准测试中，三种方法分别达到 99.5%、79% 和 75.8%，形成了一条部署阶梯，优于最强的检索增强基线（48%）。证据限制：进行了标题/摘要筛选；在 API 没有摘要的情况下使用报告摘录。"
       },
       "limitations": {
         "en": "Evidence available: The supplied evidence is limited to the title and abstract. It does not report full plant-selection details, benchmark construction and annotation procedures, simulator validation against real-plant data, or complete evaluation protocols.\n\nReported study limitations: The abstract reports that the static parameter-injection table did not transfer to a biologically distinct plant.",
@@ -3702,7 +3702,7 @@
         "rag_knowledge_graphs",
         "agents_tool_use"
       ],
-      "updated_at": "2026-11-19T05:44:58+00:00"
+      "updated_at": "2026-11-19T07:30:12+00:00"
     },
     {
       "id": "SRC_DOI_10-1016-j-watres-2026-126862_784e6bf16f36",
@@ -3752,11 +3752,11 @@
       "doi": "10.1016/j.egyai.2025.100582",
       "summary": {
         "en": "D2 is an LLM modeling agent evaluated on hydropower inflow forecasting.",
-        "zh": null
+        "zh": "D2 是一个经过水电入流预测评估的 LLM 建模智能体。"
       },
       "details": {
         "en": "The X-AI platform uses the D2 LLM agent for model construction and workflow optimization, with a hydropower inflow forecasting case.",
-        "zh": null
+        "zh": "X-AI 平台使用 D2 LLM 智能体进行模型构建和工作流优化，并采用水电入流预测案例。"
       },
       "limitations": {
         "en": "Evidence available: The supplied material consists of the title and an abstract excerpt that ends while describing D2’s knowledge retrieval. It does not report evaluation design, datasets, comparison methods, quantitative results, deployment conditions, or author-stated limitations.",
@@ -3766,7 +3766,7 @@
       "methods": [
         "agents_tool_use"
       ],
-      "updated_at": "2026-11-19T05:44:58+00:00"
+      "updated_at": "2026-11-19T07:30:12+00:00"
     },
     {
       "id": "SRC_DOI_10-1061-jcemd4-coeng-17773_ffa8b403759b",
@@ -3820,7 +3820,7 @@
       },
       "details": {
         "en": "Traditional equation-driven hydrological models often struggle to accurately predict streamflow in challenging regional Earth systems like the Tibetan Plateau, while hybrid and existing algorithm-driven models face difficulties in interpreting hydrological behaviors. This work introduces HydroTrace, an algorithm-driven, data-agnostic model that substantially outperforms these approaches, achieving a Nash-Sutcliffe Efficiency of 98% and demonstrating strong generalization on unseen data. Moreover, HydroTrace leverages advanced attention mechanisms to capture spatial-temporal variations and feature-specific impacts, enabling the quantification and spatial resolution of streamflow partitioning as well as the interpretation of hydrological behaviors such as glacier-snow-streamflow interactions and monsoon dynamics. Evidence limitation: Title/abstract screening; report excerpt used where the API has no abstract.",
-        "zh": null
+        "zh": "传统的方程驱动水文模型通常难以准确预测青藏高原等具有挑战性的区域地球系统中的河川流量，而混合模型和现有的算法驱动模型在解释水文行为方面也面临困难。本研究提出了HydroTrace，这是一种算法驱动、与数据无关的模型，其性能显著优于这些方法，实现了98%的Nash-Sutcliffe Efficiency，并在未见数据上展现出很强的泛化能力。此外，HydroTrace利用先进的注意力机制捕捉时空变化和特征特异性影响，从而实现对河川流量分配的量化与空间分辨，以及对冰川-积雪-河川流量相互作用和季风动力学等水文行为的解释。证据限制：标题/摘要筛选；在API没有摘要的情况下使用报告摘录。"
       },
       "limitations": {
         "en": "Evidence available: Assessment is limited to the supplied title and abstract. The abstract does not report dataset composition, study-period or geographic coverage beyond the Tibetan Plateau example, baseline-model details, uncertainty analysis, or external validation beyond the stated unseen-data generalization.",
@@ -3832,7 +3832,7 @@
       "methods": [
         "benchmarks"
       ],
-      "updated_at": "2026-11-19T05:44:58+00:00"
+      "updated_at": "2026-11-19T07:30:12+00:00"
     },
     {
       "id": "SRC_ARXIV_2405-03989_bc94da1a118a",
@@ -3856,7 +3856,7 @@
       },
       "details": {
         "en": "This paper presents a novel method for parsing and vectorizing semi-structured data to enhance the functionality of Retrieval-Augmented Generation (RAG) within Large Language Models (LLMs). We developed a comprehensive pipeline for converting various data formats into .docx, enabling efficient parsing and structured data extraction. The core of our methodology involves the construction of a vector database using Pinecone, which integrates seamlessly with LLMs to provide accurate, context-specific responses, particularly in environmental management and wastewater treatment operations. Evidence limitation: Title/abstract screening; report excerpt used where the API has no abstract.",
-        "zh": null
+        "zh": "本文提出了一种用于解析和向量化半结构化数据的新方法，以增强大型语言模型（LLMs）中检索增强生成（RAG）的功能。我们开发了一套完整的流程，用于将各种数据格式转换为 .docx，从而实现高效解析和结构化数据提取。我们方法的核心是使用 Pinecone 构建向量数据库，该数据库可与 LLMs 无缝集成，以提供准确且特定于上下文的响应，尤其适用于环境管理和废水处理运营。证据局限性：标题/摘要筛选；在 API 没有摘要的情况下使用报告摘录。"
       },
       "limitations": {
         "en": "Evidence available: The supplied material consists of the title and abstract only. The abstract does not report detailed evaluation metrics, comparison baselines, dataset characteristics, or experimental conditions, and therefore does not support assessment of those aspects.",
@@ -3869,7 +3869,7 @@
       "methods": [
         "rag_knowledge_graphs"
       ],
-      "updated_at": "2026-11-19T05:44:58+00:00"
+      "updated_at": "2026-11-19T07:30:12+00:00"
     },
     {
       "id": "SRC_ARXIV_2601-18308_409811dc1fbd",
@@ -3890,7 +3890,7 @@
       },
       "details": {
         "en": "As climate-related hazards intensify, conventional early warning systems (EWS) disseminate alerts rapidly but often fail to trigger timely protective actions, leading to preventable losses and inequities. We introduce Climate RADAR (Risk-Aware, Dynamic, and Action Recommendation system), a generative AI-based reliability layer that reframes disaster communication from alerts delivered to actions executed. It integrates meteorological, hydrological, vulnerability, and social data into a composite risk index and employs guardrail-embedded large language models (LLMs) to deliver personalized recommendations across citizen, volunteer, and municipal interfaces. Evidence limitation: Title/abstract screening; report excerpt used where the API has no abstract.",
-        "zh": null
+        "zh": "随着气候相关灾害加剧，传统的预警系统（EWS）能够快速传播警报，但往往无法促使人们及时采取防护行动，从而导致本可避免的损失和不平等。我们提出 Climate RADAR（Risk-Aware, Dynamic, and Action Recommendation system），一种基于生成式 AI 的可靠性层，将灾害通信从传递警报重新定义为执行行动。该系统将气象、水文、脆弱性和社会数据整合为综合风险指数，并采用嵌入防护机制的大型语言模型（LLMs），通过面向公民、志愿者和市政部门的界面提供个性化建议。证据局限性：进行了标题/摘要筛选；在 API 没有摘要的情况下使用报告摘录。"
       },
       "limitations": {
         "en": "Evidence available: The supplied evidence is limited to the title and abstract. The abstract does not report the design and sample details of the simulations, user studies, or municipal pilot; quantitative effect estimates; comparator conditions; or evaluation duration.",
@@ -3898,7 +3898,7 @@
       },
       "domains": [],
       "methods": [],
-      "updated_at": "2026-11-19T05:44:58+00:00"
+      "updated_at": "2026-11-19T07:30:12+00:00"
     },
     {
       "id": "SRC_DOI_10-1016-j-scsadv-2026-100044_22ae73ba87b2",
@@ -3945,11 +3945,11 @@
       "doi": "10.1016/j.watres.2026.125995",
       "summary": {
         "en": "An edge-deployed language-model agent combines electrochemical process knowledge, retrieval, and predictive models for decentralized desalination support without cloud connectivity.",
-        "zh": null
+        "zh": "一种边缘部署的语言模型智能体结合电化学过程知识、检索和预测模型，在无需云连接的情况下为去中心化海水淡化提供支持。"
       },
       "details": {
         "en": "The study deploys a language-model-based assistant on devices such as Raspberry Pi for electrochemical water desalination, combining process knowledge, retrieval, and predictive components for real-time optimization under limited computing and incomplete sensor data. Evaluation against 320 published studies reports a 60% reduction in hallucination rates and R² above 0.80 for effluent concentration and energy predictions, while applied-current prediction accuracy rises from 0.03 to 0.63. The result is notable because it tests a domain-grounded water-treatment agent under edge-computing and data-imperfect conditions.",
-        "zh": null
+        "zh": "该研究将基于语言模型的助手部署在 Raspberry Pi 等设备上，用于电化学水淡化，并结合过程知识、检索和预测组件，在计算能力有限且传感器数据不完整的情况下进行实时优化。与 320 项已发表研究的评估表明，幻觉率降低了 60%，出水浓度和能耗预测的 R² 高于 0.80，而施加电流预测准确率从 0.03 提高到 0.63。该结果值得关注，因为它在边缘计算和数据不完善的条件下测试了一个基于领域知识的水处理智能体。"
       },
       "limitations": {
         "en": "Evidence available: The abstract reports evaluation against 320 published studies and predictive metrics, but does not report long-duration operation, safety assurance, or autonomous-control performance in a full-scale treatment facility.",
@@ -3961,7 +3961,7 @@
       "methods": [
         "agents_tool_use"
       ],
-      "updated_at": "2026-11-19T05:44:58+00:00"
+      "updated_at": "2026-11-19T07:30:12+00:00"
     },
     {
       "id": "SRC_DOI_10-1016-j-rsase-2026-101951_71a4de5387da",
@@ -3981,11 +3981,11 @@
       "doi": "10.1016/j.rsase.2026.101951",
       "summary": {
         "en": "The study turns natural-language requests into Google Earth Engine water-quality inversion workflows using domain-specific RAG, executable code generation, visualization, and result summaries.",
-        "zh": null
+        "zh": "该研究利用领域特定的RAG、可执行代码生成、可视化和结果摘要，将自然语言请求转化为Google Earth Engine水质反演工作流。"
       },
       "details": {
         "en": "The framework integrates LLMs, a water-quality knowledge base, and Google Earth Engine to automate data screening, spatiotemporal constraint interpretation, inversion-model selection, code execution, visualization, and result explanation. Reported evaluation includes 0.92 task-parsing consistency, 94% spatial matching, 93% temporal matching, and an 87% executable-code rate for the RAG-enhanced Qwen2.5-Coder configuration. It therefore provides task-specific evidence that language-model orchestration can reduce the technical burden of remote-sensing water-quality monitoring.",
-        "zh": null
+        "zh": "该框架集成LLM、水质知识库和Google Earth Engine，以自动完成数据筛选、时空约束解释、反演模型选择、代码执行、可视化和结果说明。报告的评估结果包括任务解析一致性为0.92、空间匹配率为94%、时间匹配率为93%，以及RAG增强的Qwen2.5-Coder配置的可执行代码率为87%。因此，该框架提供了针对特定任务的证据，表明语言模型编排可以降低遥感水质监测的技术负担。"
       },
       "limitations": {
         "en": "Evidence available: The supplied abstract does not specify the sensors, water bodies, datasets, or validation settings used in the evaluation.",
@@ -3997,7 +3997,7 @@
       "methods": [
         "rag_knowledge_graphs"
       ],
-      "updated_at": "2026-11-19T05:44:58+00:00"
+      "updated_at": "2026-11-19T07:30:12+00:00"
     },
     {
       "id": "SRC_DOI_10-1016-j-cageo-2026-106258_d2e106b4e805",
@@ -4017,11 +4017,11 @@
       "doi": "10.1016/j.cageo.2026.106258",
       "summary": {
         "en": "Hydrology Copilot coordinates LLM agents, cloud-native NLDAS-3 access, inspectable code, memory, and validation for reproducible drought-analysis workflows.",
-        "zh": null
+        "zh": "Hydrology Copilot 协调 LLM 代理、云原生 NLDAS-3 访问、可检查代码、记忆和验证，以实现可复现的干旱分析工作流。"
       },
       "details": {
         "en": "Hydrology Copilot translates natural-language requests into hydrological analyses over NASA NLDAS-3 data using a multi-agent architecture for query parsing, code generation, execution, and visualization. Its design adds persistent memory, dataset-aware query validation, inspectable Python workflows, Kerchunk-based data virtualization, and expert-validated hydrological functions. Benchmark analyses match expert reference results, drought diagnostics agree with the operational U.S. Drought Monitor, and data-access optimizations improve I/O latency by 1.5–4.6 times, providing unusually concrete evidence for a deployable hydrological copilot.",
-        "zh": null
+        "zh": "Hydrology Copilot 使用多代理架构，将自然语言请求转换为基于 NASA NLDAS-3 数据的水文分析，用于查询解析、代码生成、执行和可视化。其设计增加了持久化记忆、数据集感知的查询验证、可检查的 Python 工作流、基于 Kerchunk 的数据虚拟化以及经专家验证的水文函数。基准分析结果与专家参考结果一致，干旱诊断结果与运营中的 U.S. Drought Monitor 一致，并且数据访问优化将 I/O 延迟提升了 1.5–4.6 倍，为可部署的水文副驾驶提供了异常具体的证据。"
       },
       "limitations": {
         "en": "Evidence available: The abstract describes implementation and evaluation using NLDAS-3 data and drought-monitoring workflows; it does not report evaluation with other hydrological datasets, models, or operational settings.",
@@ -4034,7 +4034,7 @@
         "agents_tool_use",
         "multi_agent"
       ],
-      "updated_at": "2026-11-19T05:44:58+00:00"
+      "updated_at": "2026-11-19T07:30:12+00:00"
     },
     {
       "id": "SRC_DOI_10-31223-x5rm6q_c208366831ff",
@@ -4054,11 +4054,11 @@
       "doi": "10.31223/x5rm6q",
       "summary": {
         "en": "HydroSuite-AI connects an LLM interface to HydroLang, HydroCompute, and HydroRTC for hydrological code generation, execution, and library-specific question answering.",
-        "zh": null
+        "zh": "HydroSuite-AI 将 LLM 接口连接到 HydroLang、HydroCompute 和 HydroRTC，用于水文代码生成、执行以及特定于库的问题回答。"
       },
       "details": {
         "en": "HydroSuite-AI is an LLM-enhanced web application intended to reduce the coding and documentation burden in hydrological analysis. It integrates three open-source hydrology libraries, generates code snippets, provides an execution environment, and answers factual questions about the supported tools so that users can move from natural-language requests to executable analysis. Case studies and user feedback provide early evidence for hydrological research and education use.",
-        "zh": null
+        "zh": "HydroSuite-AI 是一款由 LLM 增强的 Web 应用，旨在减轻水文分析中的编码和文档负担。它集成了三个开源水文学库，生成代码片段，提供执行环境，并回答有关所支持工具的事实性问题，使用户能够从自然语言请求转向可执行分析。案例研究和用户反馈为其在水文研究和教育中的应用提供了初步证据。"
       },
       "limitations": {
         "en": "Evidence available: The supplied abstract does not report quantitative code-correctness metrics, controlled comparisons, or production-scale reliability evaluations; these details are not established by the abstract.",
@@ -4070,7 +4070,7 @@
       "methods": [
         "agents_tool_use"
       ],
-      "updated_at": "2026-11-19T05:44:58+00:00"
+      "updated_at": "2026-11-19T07:30:12+00:00"
     },
     {
       "id": "SRC_URL_https-hdl-handle-net-10217-244562_d4ab1f4f8de5",
@@ -4089,11 +4089,11 @@
       "doi": null,
       "summary": {
         "en": "The EWRA study compares three OpenAI models with human reviewers on 20 water-quality documents and finds that localized chunking improves coding accuracy and agreement.",
-        "zh": null
+        "zh": "EWRA 研究比较了三个 OpenAI 模型与人工审阅者在 20 份水质文件上的表现，发现局部化分块提高了编码准确率和一致性。"
       },
       "details": {
         "en": "The two-page EWRA 2025 paper evaluates GPT-4o, GPT-4o-mini, and o1-mini as additional reviewers of urban water-quality documentation. Twenty laboratory and field documents were manually coded for concerns including corrosion, pollutants, and chemical imbalances, then processed through open and localized chunk-based prompting and assessed using agreement, accuracy, precision, recall, and Fleiss' Kappa. The reported results show that utility-specific definitions and localized context improve accuracy, cross-run agreement, and true-positive identification, supporting a bounded human-LLM workflow for documentation review.",
-        "zh": null
+        "zh": "这篇两页的 EWRA 2025 论文评估了 GPT-4o、GPT-4o-mini 和 o1-mini 作为城市水质文档的额外审阅者。20 份实验室和现场文件被人工编码，以识别腐蚀、污染物和化学失衡等问题，随后通过开放式和局部化的基于分块的提示进行处理，并使用一致性、准确率、精确率、召回率和 Fleiss' Kappa 进行评估。报告结果显示，针对公用事业的特定定义和局部化上下文提高了准确率、跨运行一致性和真阳性识别能力，支持采用受限的人类-LLM 文档审查工作流。"
       },
       "limitations": {
         "en": "Evidence available: The supplied abstract reports an evaluation using 20 water quality field and test documents, but does not specify document-selection procedures, the number or diversity of participating utilities, or validation in prospective operational settings and direct water-system outcomes.",
@@ -4107,7 +4107,7 @@
         "prompting",
         "benchmarks"
       ],
-      "updated_at": "2026-11-19T05:44:58+00:00"
+      "updated_at": "2026-11-19T07:30:12+00:00"
     },
     {
       "id": "SRC_DOI_10-1016-j-compag-2026-111533_40dc183ea12a",
@@ -4126,11 +4126,11 @@
       "doi": "10.1016/j.compag.2026.111533",
       "summary": {
         "en": "DEW and FLOW benchmark how large reasoning models handle 419 logical and mathematical agricultural water-management questions and how graph-RAG changes their performance.",
-        "zh": null
+        "zh": "DEW 和 FLOW 对大型推理模型处理 419 个农业水资源管理逻辑和数学问题的能力，以及图 RAG 如何改变其表现进行了基准测试。"
       },
       "details": {
         "en": "The article introduces the 419-question Dataset for Evaluating Water Management across 24 agricultural water-management domains and a graph retrieval-augmented prompting framework called FLOW. It evaluates o3-medium, Claude Sonnet 4, Gemini 2.5 Pro, and Qwen3-30B-A3B, reporting average gains over chain-of-thought prompting of 7.73% for logical reasoning and 16.33% for mathematical reasoning. The benchmark also identifies economic decisions, empirical equations, and model overconfidence as important weaknesses, making it useful evidence about the foundational reasoning capabilities on which later water-management agents would depend.",
-        "zh": null
+        "zh": "该文章介绍了跨越 24 个农业水资源管理领域的 419 题水资源管理评估数据集，以及一种名为 FLOW 的图检索增强提示框架。文章评估了 o3-medium、Claude Sonnet 4、Gemini 2.5 Pro 和 Qwen3-30B-A3B，并报告称，与思维链提示相比，逻辑推理和数学推理的平均提升分别为 7.73% 和 16.33%。该基准测试还确定经济决策、经验方程和模型过度自信是重要弱点，为后续水资源管理智能体所依赖的基础推理能力提供了有用证据。"
       },
       "limitations": {
         "en": "Evidence available: The abstract reports benchmark-based evaluation of four reasoning models on 419 DEW questions across 24 domains, but does not provide details on question provenance, evaluation protocols, or validation in actual agricultural water-management deployments.",
@@ -4143,7 +4143,7 @@
         "rag_knowledge_graphs",
         "benchmarks"
       ],
-      "updated_at": "2026-11-19T05:44:58+00:00"
+      "updated_at": "2026-11-19T07:30:12+00:00"
     },
     {
       "id": "SRC_DOI_10-1016-j-ijdrr-2025-105422_bdf2dcfd724c",
@@ -4162,11 +4162,11 @@
       "doi": "10.1016/j.ijdrr.2025.105422",
       "summary": {
         "en": "Floodplain Manager AI combines LLM-based semantic search with multimodal FEMA flood-map interpretation to provide location-specific regulatory guidance for floodplain management.",
-        "zh": null
+        "zh": "Floodplain Manager AI 将基于 LLM 的语义搜索与 FEMA 洪水地图的多模态解读相结合，为洪泛区管理提供特定位置的监管指导。"
       },
       "details": {
         "en": "The study develops Floodplain Manager AI as a decision-support assistant for floodplain managers who must interpret regulations, retrieve location-specific information, and communicate flood risk. It combines large language models, semantic search, and multimodal interpretation of FEMA flood maps, and reports experimental improvements in response accuracy and relevance. The work is directly relevant to flood-risk operations because the language model is grounded in regulatory and geospatial materials rather than used only for generic question answering.",
-        "zh": null
+        "zh": "该研究开发了 Floodplain Manager AI，作为洪泛区管理人员的决策支持助手，帮助他们解读法规、检索特定位置的信息并传达洪水风险。它结合了大型语言模型、语义搜索以及对 FEMA 洪水地图的多模态解读，并报告了响应准确性和相关性的实验改进。由于该语言模型基于监管和地理空间材料，而不是仅用于通用问答，因此这项工作与洪水风险运营直接相关。"
       },
       "limitations": {
         "en": "Evidence available: The supplied abstract does not specify the evaluation dataset or participant sample, baseline systems, quantitative metrics, or the duration and setting of testing and deployment.",
@@ -4179,7 +4179,7 @@
         "rag_knowledge_graphs",
         "multimodal"
       ],
-      "updated_at": "2026-11-19T05:44:58+00:00"
+      "updated_at": "2026-11-19T07:30:12+00:00"
     },
     {
       "id": "SRC_DOI_10-1016-j-watres-2026-126740_1d25239607a9",
@@ -4229,11 +4229,11 @@
       "doi": "10.48550/arxiv.2608.15410",
       "summary": {
         "en": "FloodReasonBench introduces a flood-specific VLM reasoning-segmentation dataset and jointly measures segmentation quality, latency, energy, and communication cost on an NVIDIA Jetson edge platform.",
-        "zh": null
+        "zh": "FloodReasonBench提出了一个专用于洪水的VLM推理-分割数据集，并在NVIDIA Jetson边缘平台上联合测量分割质量、延迟、能耗和通信成本。"
       },
       "details": {
         "en": "FloodReasonBench evaluates how VLMs translate response-oriented language requests into pixel-level grounding for people, buildings, vehicles, and other targets in real flood scenes. Its FloodResponseSeg dataset supports a benchmark that combines task accuracy with lightweight visual encoding, hierarchical split inference, compressed intermediate representations, and measurements on an NVIDIA Jetson AGX Xavier. The results expose operating trade-offs among flood-scene segmentation quality, edge latency, energy consumption, and communication footprint for resource-constrained embodied response platforms.",
-        "zh": null
+        "zh": "FloodReasonBench评估VLM如何将面向响应的语言请求转化为真实洪水场景中人员、建筑物、车辆及其他目标的像素级定位。其FloodResponseSeg数据集支持一项基准测试，将任务准确率与轻量级视觉编码、分层拆分推理、压缩中间表示以及在NVIDIA Jetson AGX Xavier上的测量相结合。结果揭示了资源受限的具身响应平台在洪水场景分割质量、边缘延迟、能耗和通信开销之间的运行权衡。"
       },
       "limitations": {
         "en": "Evidence available: The supplied abstract describes a benchmark and evaluation on an NVIDIA Jetson AGX Xavier, but does not report field deployment or evaluation across other edge platforms.",
@@ -4246,7 +4246,7 @@
         "benchmarks",
         "multimodal"
       ],
-      "updated_at": "2026-11-19T05:44:58+00:00"
+      "updated_at": "2026-11-19T07:30:12+00:00"
     },
     {
       "id": "SRC_DOI_10-1038-s44304-026-00260-1_838cf65be23a",
@@ -4266,11 +4266,11 @@
       "doi": "10.1038/s44304-026-00260-1",
       "summary": {
         "en": "DeepFlood uses LLM reference-based inference to estimate flash-flood depth categories from event narratives, reaching 95.5% category accuracy against expert estimates in the Greater New York case.",
-        "zh": null
+        "zh": "DeepFlood 使用基于 LLM 参考的推理，根据事件叙述估计山洪深度类别，在大纽约案例中相对于专家估计达到 95.5% 的类别准确率。"
       },
       "details": {
         "en": "DeepFlood converts unstructured flash-flood narratives into quantitative inundation-depth categories through reference-based LLM inference. The study evaluates multiple backbones, including ChatGPT and Gemini, and reports 95.5% flood-depth category accuracy and 92.4% reference-based reasoning accuracy for narratives from the Greater New York Metropolitan Area relative to domain-expert estimates. The resulting information is intended to support post-event flood assessment and urban flood-model validation where conventional observations are incomplete.",
-        "zh": null
+        "zh": "DeepFlood 通过基于参考的 LLM 推理，将非结构化山洪叙述转换为定量的淹水深度类别。该研究评估了多个骨干模型，包括 ChatGPT 和 Gemini，并报告称，对于来自 Greater New York Metropolitan Area 的叙述，相对于领域专家估计，洪水深度类别准确率为 95.5%，基于参考的推理准确率为 92.4%。所得信息旨在支持事件后洪水评估以及城市洪水模型验证，尤其适用于传统观测数据不完整的情况。"
       },
       "limitations": {
         "en": "Evidence available: The supplied abstract reports evaluation on flash-flood narratives from the Greater New York Metropolitan Area and does not report evaluation in other regions or against direct water-depth observations.",
@@ -4284,7 +4284,7 @@
         "fine_tuning_domain_models",
         "benchmarks"
       ],
-      "updated_at": "2026-11-19T05:44:58+00:00"
+      "updated_at": "2026-11-19T07:30:12+00:00"
     },
     {
       "id": "SRC_DOI_10-1007-978-3-031-86039-3-6_28a6799dab8d",
@@ -4302,11 +4302,11 @@
       "doi": "10.1007/978-3-031-86039-3_6",
       "summary": {
         "en": "The chapter evaluates how reliably Gemini 1.5 and ChatGPT-4o interpret and recommend actions from real-time drinking-water quality measurements.",
-        "zh": null
+        "zh": "本章评估 Gemini 1.5 和 ChatGPT-4o 对实时饮用水水质测量结果进行解读并提出行动建议的可靠性。"
       },
       "details": {
         "en": "The study applies Gemini 1.5 Flash, Gemini 1.5 Pro, and ChatGPT-4o to real-time chlorine, pH, total dissolved solids, and temperature data from an IoT-enabled smart water distribution system at IIT Jodhpur. It focuses on checking the reliability of LLM-generated interpretations and recommendations against a real-world drinking-water dataset, providing foundational evidence for LLM-assisted water-quality assessment rather than an autonomous operational workflow.",
-        "zh": null
+        "zh": "该研究将 Gemini 1.5 Flash、Gemini 1.5 Pro 和 ChatGPT-4o 应用于来自 IIT Jodhpur 一个物联网智能供水系统的实时氯、pH、总溶解固体和温度数据。研究重点是根据真实世界的饮用水数据集，检验 LLM 生成的解读和建议的可靠性，为 LLM 辅助的水质评估提供基础性证据，而不是建立自主运行的工作流程。"
       },
       "limitations": {
         "en": "Evidence available: The supplied abstract does not report the dataset size or duration, validation metrics, prompting or evaluation procedures, error rates, or the generalizability of the findings beyond the IoT-enabled smart water distribution system at IIT Jodhpur.",
@@ -4320,7 +4320,7 @@
         "prompting",
         "benchmarks"
       ],
-      "updated_at": "2026-11-19T05:44:58+00:00"
+      "updated_at": "2026-11-19T07:30:12+00:00"
     },
     {
       "id": "SRC_DOI_10-1016-j-watres-2026-125990_eb5babd91fa0",
@@ -4340,11 +4340,11 @@
       "doi": "10.1016/j.watres.2026.125990",
       "summary": {
         "en": "An LLM workflow mines more than 1,000 catalyst publications and patents, then supports experimentally checked catalyst selection for advanced wastewater treatment.",
-        "zh": null
+        "zh": "一个 LLM 工作流挖掘了超过 1,000 篇催化剂论文和专利，并支持经过实验验证的高级废水处理催化剂选择。"
       },
       "details": {
         "en": "The study uses few-shot chain-of-thought prompting to extract synthesis, material-property, and performance knowledge from more than 1,000 publications and patents on Fenton-like single-atom catalysts. The structured knowledge is combined with machine-learning prediction and literature-grounded synthesis recommendations to select catalyst configurations for target wastewater conditions. Experiments are reported to confirm the performance of platform-recommended catalysts under realistic conditions.",
-        "zh": null
+        "zh": "该研究采用少样本思维链提示，从超过 1,000 篇关于类 Fenton 单原子催化剂的论文和专利中提取合成、材料性质和性能知识。研究将结构化知识与机器学习预测和基于文献的合成建议相结合，以针对目标废水条件选择催化剂配置。研究报告了相关实验，以确认平台推荐催化剂在真实条件下的性能。"
       },
       "limitations": {
         "en": "Evidence available: The abstract does not specify the wastewater matrices or reaction conditions covered, the number of platform-recommended catalysts experimentally validated, or comparator baselines.",
@@ -4357,7 +4357,7 @@
         "prompting",
         "rag_knowledge_graphs"
       ],
-      "updated_at": "2026-11-19T05:44:58+00:00"
+      "updated_at": "2026-11-19T07:30:12+00:00"
     },
     {
       "id": "SRC_DOI_10-1038-s41598-026-63243-2_42f24d4b035e",
@@ -4407,11 +4407,11 @@
       "doi": "10.1016/j.jenvman.2026.130619",
       "summary": {
         "en": "SWMM-Agentic uses one LLM to orchestrate documented SWMM functions and completes 98.3% of a 60-task urban stormwater benchmark with the strongest tested model.",
-        "zh": null
+        "zh": "SWMM-Agentic 使用一个 LLM 编排有文档记录的 SWMM 函数，并使用测试中表现最强的模型完成了城市雨水基准测试中 60 项任务的 98.3%。"
       },
       "details": {
         "en": "SWMM-Agentic couples a single LLM orchestration model with documented functions for inspecting, editing, running, and analysing an existing SWMM model through natural-language instructions. The authors evaluate 20 static, 20 dynamic, and 20 scenario-based tasks with three LLMs, yielding 180 runs; the strongest model completes 59 of 60 tasks, and 89 of 100 failed tool calls are followed by a successful corrective call within three attempts. The system also reproduces network characteristics, compares control strategies, and runs a human-framed rain-garden scenario for combined-sewer-overflow analysis, providing direct evidence for traceable LLM orchestration of urban stormwater modelling workflows.",
-        "zh": null
+        "zh": "SWMM-Agentic 将单个 LLM 编排模型与有文档记录的函数相结合，通过自然语言指令检查、编辑、运行和分析现有的 SWMM 模型。作者使用三个 LLM 评估了 20 项静态任务、20 项动态任务和 20 项基于场景的任务，共进行 180 次运行；表现最强的模型完成了 60 项任务中的 59 项，并且 100 次失败的工具调用中有 89 次在三次尝试内随后通过成功的纠正调用完成。该系统还复现了网络特征、比较了控制策略，并运行了一个由人类构建的雨水花园场景，用于合流制溢流分析，为城市雨水建模工作流中可追溯的 LLM 编排提供了直接证据。"
       },
       "limitations": {
         "en": "Evidence available: The abstract reports evaluation on the Astlingen benchmark and within the described SWMM tool scope; it does not provide evidence about transfer to other drainage networks, model-development stages, or operational deployment.",
@@ -4425,7 +4425,7 @@
         "agents_tool_use",
         "benchmarks"
       ],
-      "updated_at": "2026-11-19T05:44:58+00:00"
+      "updated_at": "2026-11-19T07:30:12+00:00"
     },
     {
       "id": "SRC_ARXIV_2608-01906_27a540ac590e",
@@ -4445,11 +4445,11 @@
       "doi": null,
       "summary": {
         "en": "A detector–LVLM pipeline classifies post-disaster building damage on FloodNet and RescueNet and reports gains over standalone baselines with limited detection annotations.",
-        "zh": null
+        "zh": "一种检测器–LVLM流水线在FloodNet和RescueNet上对灾后建筑损毁进行分类，并在检测标注有限的情况下报告了相较于独立基线的性能提升。"
       },
       "details": {
         "en": "The framework separates building detection from damage interpretation: a computer-vision detector supplies bounding boxes, and a large vision-language model classifies damage and adds contextual interpretation. Evaluation on FloodNet and RescueNet covers intact, partially damaged, and destroyed buildings, with the best configuration improving reported counting performance over isolated baselines. The paper also analyses failure cases and releases code and data.",
-        "zh": null
+        "zh": "该框架将建筑检测与损毁解读分开：计算机视觉检测器提供边界框，大型视觉语言模型对损毁进行分类并添加上下文解读。在FloodNet和RescueNet上的评估涵盖完好、部分损毁和完全毁坏的建筑，其中最佳配置提升了相较于独立基线所报告的计数性能。论文还分析了失败案例，并发布了代码和数据。"
       },
       "limitations": {
         "en": "Evidence available: The supplied abstract reports evaluation on two benchmarks—RescueNet and FloodNet—but does not specify their geographic diversity, performance on additional datasets, or transfer to operational deployment settings.",
@@ -4461,7 +4461,7 @@
       "methods": [
         "multimodal"
       ],
-      "updated_at": "2026-11-19T05:44:58+00:00"
+      "updated_at": "2026-11-19T07:30:12+00:00"
     },
     {
       "id": "SRC_ARXIV_2407-21045_3758a99d6641",
@@ -4699,11 +4699,11 @@
       "doi": "10.5194/nhess-26-2609-2026",
       "summary": {
         "en": "Wikimpacts 1.0 uses GPT-4o to extract 2,726 climate-extreme events from Wikipedia into a global multiscale impact database evaluated against 156 manually annotated events.",
-        "zh": null
+        "zh": "Wikimpacts 1.0 使用 GPT-4o 从 Wikipedia 中提取了 2,726 起气候极端事件，构建了一个全球多尺度影响数据库，并以 156 起人工标注事件进行评估。"
       },
       "details": {
         "en": "Wikimpacts 1.0 uses GPT-4o in an automated pipeline that identifies relevant English Wikipedia articles and extracts, normalizes, geolocates, and stores impacts from floods, droughts, storms, heatwaves, wildfires, and other climate extremes. The database covers 2,726 events from 1034 to 2024, with 17,912 national and 32,343 subnational records. Comparison with 156 manually annotated events reports low error scores for timing, deaths, and economic damage but higher errors for homelessness, displacement, injuries, and damaged buildings, making the work useful evidence for LLM-assisted hydroclimate impact extraction.",
-        "zh": null
+        "zh": "Wikimpacts 1.0 在自动化流程中使用 GPT-4o，识别相关的英文 Wikipedia 文章，并提取、规范化、地理定位和存储洪水、干旱、风暴、热浪、野火及其他气候极端事件的影响。该数据库涵盖 1034 年至 2024 年的 2,726 起事件，包括 17,912 条国家级记录和 32,343 条次国家级记录。与 156 起人工标注事件的比较显示，时间、死亡人数和经济损失的误差分数较低，但无家可归、流离失所、受伤人数和受损建筑物的误差较高，使这项工作成为 LLM 辅助水文气候影响提取的有用证据。"
       },
       "limitations": {
         "en": "Evidence available: The supplied abstract does not report detailed sampling or representativeness of the Wikipedia sources, definitions of the error scores, or performance by country and language.\n\nReported study limitations: Flood-impact coverage is more limited than in EM-DAT. The database comparison shows notable discrepancies for homelessness and damage information.",
@@ -4715,7 +4715,7 @@
       "methods": [
         "benchmarks"
       ],
-      "updated_at": "2026-11-19T05:44:58+00:00"
+      "updated_at": "2026-11-19T07:30:12+00:00"
     },
     {
       "id": "SRC_DOI_10-1038-s44387-026-00124-z_1c20e0aa9aac",
@@ -4735,11 +4735,11 @@
       "doi": "10.1038/s44387-026-00124-z",
       "summary": {
         "en": "MAESTRO coordinates typhoon early-warning work across agencies through role-based LLM agents, grounded tools, and human oversight, matching expert alert levels in 98% of 100 scenarios.",
-        "zh": null
+        "zh": "MAESTRO通过基于角色的LLM代理、基于依据的工具和人工监督，协调各机构间的台风预警工作，在100个场景中的98%与专家警报级别相匹配。"
       },
       "details": {
         "en": "MAESTRO mirrors institutional roles with multiple LLM-enabled agents that reconcile agency terminology, call grounded forecasting and impact tools, and assemble cross-agency early-warning actions under human oversight. Across 100 typhoon scenarios it matched expert alert levels in 98% of cases and reduced decision latency by more than 85%. A 72-hour Typhoon Lekima replay yielded eight additional hours of lead time for relocating about 180,000 residents, and the system was used in a provincial government platform during multiple typhoon responses over one year.",
-        "zh": null
+        "zh": "MAESTRO通过多个支持LLM的代理模拟机构角色，这些代理协调机构术语，调用基于依据的预测和影响工具，并在人工监督下汇总跨机构预警行动。在100个台风场景中，它在98%的情况下与专家警报级别相匹配，并将决策延迟缩短了超过85%。对Typhoon Lekima进行的72小时重演为转移约180,000名居民额外争取了八小时的提前时间；该系统还曾在一年内多次台风响应期间用于一个省级政府平台。"
       },
       "limitations": {
         "en": "Evidence available: The abstract reports evidence from 100 typhoon scenarios, one 72-hour replay of Typhoon Lekima, and deployment in one provincial government setting over one year. It does not report evidence for other hazards, regions, or institutional arrangements, or provide detailed evaluation methods and uncertainty estimates.",
@@ -4750,7 +4750,7 @@
         "agents_tool_use",
         "multi_agent"
       ],
-      "updated_at": "2026-11-19T05:44:58+00:00"
+      "updated_at": "2026-11-19T07:30:12+00:00"
     },
     {
       "id": "SRC_DOI_10-1038-s41467-026-75938-1_4dbfddbc27ce",
@@ -4770,11 +4770,11 @@
       "doi": "10.1038/s41467-026-75938-1",
       "summary": {
         "en": "BayFlood uses a vision-language model to screen 1,440,184 dashboard-camera images, revealing urban floods and coverage biases missed by existing reporting and sensor networks.",
-        "zh": null
+        "zh": "BayFlood 使用视觉语言模型筛查 1,440,184 张仪表盘摄像头图像，揭示了现有报告和传感器网络遗漏的城市洪水及覆盖偏差。"
       },
       "details": {
         "en": "BayFlood applies a vision-language model to street-level dashboard-camera imagery for fine-grained urban flood detection without requiring a large labelled flood-image dataset. Validation across 1,440,184 images and multiple cities shows correspondence with external flood-risk predictors. In New York City, the method identifies flooding in neighbourhoods overlooked by existing approaches, detects demographic bias in current coverage, and suggests candidate locations for new flood sensors.",
-        "zh": null
+        "zh": "BayFlood 将视觉语言模型应用于街道级仪表盘摄像头图像，以进行细粒度的城市洪水检测，而无需大型标注洪水图像数据集。在 1,440,184 张图像和多个城市中的验证显示，其结果与外部洪水风险预测因子相一致。在纽约市，该方法识别出现有方法遗漏的社区中的洪水，检测出当前覆盖范围中的人口统计学偏差，并为新增洪水传感器提出候选位置。"
       },
       "limitations": {
         "en": "Evidence available: The abstract does not report how camera-route coverage, image quality, or street visibility affect detection, nor does it specify whether the approach extends beyond flood detection to hydraulic-state forecasting. It also does not provide the exact validation metrics, city and time-period counts, or detailed error analyses.",
@@ -4787,7 +4787,7 @@
       "methods": [
         "multimodal"
       ],
-      "updated_at": "2026-11-19T05:44:58+00:00"
+      "updated_at": "2026-11-19T07:30:12+00:00"
     },
     {
       "id": "SRC_DOI_10-22541-essoar-15005047-v1_afd49fce956b",
@@ -4805,11 +4805,11 @@
       "doi": "10.22541/essoar.15005047/v1",
       "summary": {
         "en": "GeoRisk-MLLM fuses remote-sensing, time-series, and IoT inputs to generate interpretable multi-hazard risk assessments, reporting an average AUC of 0.934 across three benchmarks.",
-        "zh": null
+        "zh": "GeoRisk-MLLM 融合遥感、时间序列和 IoT 输入，以生成可解释的多灾种风险评估，在三个基准测试中报告了 0.934 的平均 AUC。"
       },
       "details": {
         "en": "GeoRisk-MLLM combines a multimodal spatiotemporal encoder, risk-aware reasoning alignment, and compressed edge inference for earthquake, landslide, and flood risk detection and early warning. It aligns imagery and monitoring streams with generated risk reports and uses cache compression and knowledge distillation for resource-constrained deployment. Across three geoscience benchmarks, the preprint reports an average AUC of 0.934 and human ratings that support the interpretability and actionability of its reports.",
-        "zh": null
+        "zh": "GeoRisk-MLLM 结合了多模态时空编码器、风险感知推理对齐和压缩边缘推理，用于地震、滑坡和洪水风险检测与预警。它将影像和监测流与生成的风险报告进行对齐，并使用缓存压缩和知识蒸馏实现资源受限部署。在三个地球科学基准测试中，该预印本报告了 0.934 的平均 AUC，以及支持其报告可解释性和可操作性的人类评分。"
       },
       "limitations": {
         "en": "Evidence available: The supplied abstract reports results on three geoscience benchmark datasets but does not specify the datasets, hazard-specific performance, or details of real-world operational deployment.",
@@ -4821,7 +4821,7 @@
       "methods": [
         "multimodal"
       ],
-      "updated_at": "2026-11-19T05:44:58+00:00"
+      "updated_at": "2026-11-19T07:30:12+00:00"
     },
     {
       "id": "SRC_DOI_10-5281-zenodo-21699973_2e768c5b2e90",
@@ -4841,11 +4841,11 @@
       "doi": "10.5194/essd-18-8129-2026",
       "summary": {
         "en": "CFDID combines OCR, LLM extraction, and manual verification to structure 1,716 Chinese flood-impact records from 66 official documents covering 1994–2023.",
-        "zh": null
+        "zh": "CFDID结合OCR、LLM提取和人工核验，对来自66份官方文件、涵盖1994–2023年的1,716条中国洪灾影响记录进行结构化处理。"
       },
       "details": {
         "en": "CFDID contains 1,716 flood-disaster event records, including 1,391 top-level events, compiled from 66 Chinese official documents. Its workflow combines optical character recognition, LLM-based information extraction, and manual verification to capture dates, locations, disaster categories, eight impact indicators, and source provenance. The database covers rainstorm, typhoon, snowmelt, ice-jam, and dam-break floods and reports substantial coverage of national annual totals for casualties, affected population and cropland, collapsed dwellings, and direct economic losses.",
-        "zh": null
+        "zh": "CFDID包含1,716条洪灾事件记录，其中包括1,391条顶层事件，汇编自66份中国官方文件。其工作流程结合光学字符识别、基于LLM的信息提取和人工核验，以获取日期、地点、灾害类别、八项影响指标和来源出处。该数据库涵盖暴雨、台风、融雪、冰坝和溃坝洪水，并报告了人员伤亡、受影响人口和耕地、倒塌房屋以及直接经济损失等全国年度总量的大量数据。"
       },
       "limitations": {
         "en": "Evidence available: The supplied abstract reports aggregate coverage ratios and the overall extraction workflow, but does not provide detailed coverage or representativeness information by region, disaster category, individual event, or indicator, nor detailed validation-error metrics.",
@@ -4855,7 +4855,7 @@
         "floods"
       ],
       "methods": [],
-      "updated_at": "2026-11-19T05:44:58+00:00"
+      "updated_at": "2026-11-19T07:30:12+00:00"
     },
     {
       "id": "SRC_DOI_10-1038-s41598-026-56035-1_bd96d9aea8ea",
@@ -4875,11 +4875,11 @@
       "doi": "10.1038/s41598-026-56035-1",
       "summary": {
         "en": "Progressive fine-tuning, vLLM deployment, and preference optimization produce a domain-specific LLM for wastewater-treatment-plant safety knowledge and professional tasks.",
-        "zh": null
+        "zh": "渐进式微调、vLLM部署和偏好优化生成了一个面向污水处理厂安全知识和专业任务的领域专用LLM。"
       },
       "details": {
         "en": "The study constructs a wastewater-treatment-plant safety dataset and partitions domain knowledge into sequential fine-tuning stages so that the LLM consolidates core safety knowledge while reducing catastrophic forgetting and cross-task conflicts. The model is deployed with vLLM and further optimized through direct preference optimization. Reported experiments show stronger adherence to safety protocols and domain understanding than conventional multi-task fine-tuning and larger general-purpose models on the evaluated tasks.",
-        "zh": null
+        "zh": "该研究构建了一个污水处理厂安全数据集，并将领域知识划分为连续的微调阶段，使LLM在巩固核心安全知识的同时，减少灾难性遗忘和跨任务冲突。该模型使用vLLM进行部署，并通过直接偏好优化进一步优化。报告的实验表明，在所评估的任务上，与传统的多任务微调模型和更大型的通用模型相比，该模型对安全规程的遵循程度更高，领域理解能力更强。"
       },
       "limitations": {
         "en": "Evidence available: The supplied abstract does not report the composition and representativeness of the domain-specific dataset, the diversity of WWTPs or operational settings evaluated, or validation under live plant conditions and real-world safety outcomes.",
@@ -4891,7 +4891,7 @@
       "methods": [
         "fine_tuning_domain_models"
       ],
-      "updated_at": "2026-11-19T05:44:58+00:00"
+      "updated_at": "2026-11-19T07:30:12+00:00"
     },
     {
       "id": "SRC_DOI_10-21203-rs-3-rs-9816358-v1_c2252a6e70c5",
@@ -4911,11 +4911,11 @@
       "doi": "10.21203/rs.3.rs-9816358/v1",
       "summary": {
         "en": "An LLM completes implicit nodes and cross-stage relations in a decision-chain hypergraph that classifies coordinated reservoir-operation priorities with a Macro-F1 of 0.9408.",
-        "zh": null
+        "zh": "LLM在决策链超图中补全隐式节点和跨阶段关系，对协调水库运行优先级进行分类，Macro-F1达到0.9408。"
       },
       "details": {
         "en": "WRDC-HGT represents reservoir-group operation as a six-node decision chain spanning drivers, hydrological responses, reservoir states, demand sectors, management conflicts, and operation responses. A hybrid LLM completes implicit nodes and cross-stage relations on a rule-based chain skeleton, after which DeBERTa, graph propagation, and hypergraph propagation identify operating priorities. On a multi-source event dataset, the system achieved 0.9392 accuracy, 0.9408 Macro-F1, and 0.9624 recall for high-priority operations across flood-control, water-supply, and ecological objectives.",
-        "zh": null
+        "zh": "WRDC-HGT将水库群运行表示为一条包含六个节点的决策链，涵盖驱动因素、水文响应、水库状态、需求部门、管理冲突和运行响应。混合LLM在基于规则的链骨架上补全隐式节点和跨阶段关系，随后DeBERTa、图传播和超图传播识别运行优先级。在一个多源事件数据集上，该系统在防洪、供水和生态目标方面取得了0.9392的准确率、0.9408的Macro-F1，以及对高优先级运行的0.9624召回率。"
       },
       "limitations": {
         "en": "Evidence available: The abstract reports event-classification experiments and decision-support potential, but does not report live reservoir dispatch, direct execution of gate or release decisions, or operational deployment outcomes.",
@@ -4929,7 +4929,7 @@
         "prompting",
         "rag_knowledge_graphs"
       ],
-      "updated_at": "2026-11-19T05:44:58+00:00"
+      "updated_at": "2026-11-19T07:30:12+00:00"
     },
     {
       "id": "SRC_DOI_10-31223-x5q50n_4afb62397d94",
@@ -4948,11 +4948,11 @@
       "doi": "10.31223/x5q50n",
       "summary": {
         "en": "A U.S. floodplain-management needs assessment translates local workflow and regulatory bottlenecks into requirements for AI-ready platforms and localized RAG assistants.",
-        "zh": null
+        "zh": "美国洪泛区管理需求评估将地方工作流程和监管瓶颈转化为对适用于AI的平台和本地化RAG助手的需求。"
       },
       "details": {
         "en": "The preprint synthesizes U.S. local ordinances, consultations with floodplain-management professionals, and community validation to identify fragmented mapping, manual documentation, regulatory complexity, communication barriers, and uneven capacity. It proposes a conceptual platform architecture with local or client-side computation, machine-readable regulatory datasets, interoperable GIS and hydrologic services, and localized RAG assistants for permit review, public inquiries, and emergency preparedness.",
-        "zh": null
+        "zh": "该预印本综合了美国地方条例、与洪泛区管理专业人员的咨询以及社区验证，以识别碎片化制图、手动文档编制、监管复杂性、沟通障碍和能力不均衡等问题。该研究提出了一种概念性平台架构，包括本地或客户端计算、机器可读的监管数据集、可互操作的GIS和水文服务，以及用于许可审查、公众咨询和应急准备的本地化RAG助手。"
       },
       "limitations": {
         "en": "Evidence available: The abstract describes a requirements-elicitation survey and design principles, but does not report implementation details or empirical evaluation of the proposed platforms. It also does not provide sample sizes or detailed participant-selection and analysis procedures.",
@@ -4962,7 +4962,7 @@
         "floods"
       ],
       "methods": [],
-      "updated_at": "2026-11-19T05:44:58+00:00"
+      "updated_at": "2026-11-19T07:30:12+00:00"
     },
     {
       "id": "SRC_ARXIV_2601-08559_e410f66c2e84",
@@ -5125,11 +5125,11 @@
       "doi": null,
       "summary": {
         "en": "An LLM agent and automated code-mutation system developed seasonal streamflow models that reduced watershed-averaged quantile forecast error by up to 29% against California Bulletin 120 forecasts.",
-        "zh": null
+        "zh": "一个LLM代理和自动化代码变异系统开发了季节性流量模型，使流域平均分位数预测误差相比California Bulletin 120预报最多降低了29%。"
       },
       "details": {
         "en": "The workflow uses an LLM-powered agent to discover datasets, synthesize hydrological knowledge from forecasting competitions and literature, and explore model architectures. A second LLM-powered system applies Monte Carlo Tree Search over code mutations. Their resulting adaptive ensemble combines three XGBoost quantile-regression models with physics-informed features to forecast monthly full natural flow at one- to six-month lead times for 23 Sierra Nevada watersheds. Against operational Bulletin 120 forecasts for 2021–2025, the agent-developed system reports its largest gains for early-season cumulative April–July runoff predictions.",
-        "zh": null
+        "zh": "该工作流使用由LLM驱动的代理来发现数据集、从预测竞赛和文献中综合水文知识，并探索模型架构。第二个由LLM驱动的系统对代码变异应用Monte Carlo Tree Search。其生成的自适应集成模型结合了三个XGBoost分位数回归模型和物理信息特征，用于预测23个Sierra Nevada流域提前一至六个月的月度全天然径流。与2021–2025年的运行Bulletin 120预报相比，该代理开发的系统在季初累计4月至7月径流预测中报告了最大增益。"
       },
       "limitations": {
         "en": "Evidence available: The abstract reports evaluation across 23 Sierra Nevada watersheds over 2021–2025, but does not describe performance in other regions, over longer periods, or under operational deployment.",
@@ -5143,7 +5143,7 @@
         "agents_tool_use",
         "multi_agent"
       ],
-      "updated_at": "2026-11-19T05:44:58+00:00"
+      "updated_at": "2026-11-19T07:30:12+00:00"
     },
     {
       "id": "SRC_DOI_10-1016-j-envres-2025-121401_f834b34e2d6b",
@@ -5197,11 +5197,11 @@
       "doi": "10.3390/w18070796",
       "summary": {
         "en": "This hydrology review organizes AI integration into four levels, from conversational GIS assistance to agents that reason directly over spatial water data and professional models.",
-        "zh": null
+        "zh": "这篇水文学综述将人工智能集成划分为四个层级，从对话式 GIS 辅助到直接对空间水数据和专业模型进行推理的智能体。"
       },
       "details": {
         "en": "The article traces seven decades of increasing coupling between GIS and hydrological models, then proposes a four-level path toward AI-native spatial water intelligence. Near-term levels retain established GIS and simulation tools while LLM interfaces help formulate queries and invoke functions; later levels envisage agents reasoning over spatially organized observations, geofabrics, and hydrological model outputs through interoperable tool frameworks such as MCP. The review stresses that open data, maintainable software, domain understanding, and institutional capacity are prerequisites for moving from research demonstrations to operational water management.",
-        "zh": null
+        "zh": "文章追溯了 GIS 与水文模型之间不断加深耦合的七十年历程，随后提出了迈向 AI 原生空间水智能的四级路径。近期层级保留成熟的 GIS 和模拟工具，同时由 LLM 接口帮助构建查询并调用函数；后续层级设想智能体通过 MCP 等可互操作的工具框架，对按空间组织的观测数据、地理织物和水文模型输出进行推理。综述强调，开放数据、可维护的软件、领域理解和机构能力，是从研究演示迈向运营水管理的先决条件。"
       },
       "limitations": {
         "en": "Evidence available: The supplied abstract describes a historical and conceptual review, but does not report empirical evaluation results or operational validation details for the proposed AI vision in spatial hydrology.",
@@ -5211,7 +5211,7 @@
         "catchment_hydrology"
       ],
       "methods": [],
-      "updated_at": "2026-11-19T05:44:58+00:00"
+      "updated_at": "2026-11-19T07:30:12+00:00"
     },
     {
       "id": "SRC_DOI_10-1016-j-autcon-2026-107041_d5f81b9c6fdf",
@@ -5305,11 +5305,11 @@
       "doi": "10.3390/w18060686",
       "summary": {
         "en": "A DeepSeek-R1 IP-CoT pipeline extracts hydrological variables and generates constrained flood-control briefings from 1,260 Lixiahe monitoring records.",
-        "zh": null
+        "zh": "一个 DeepSeek-R1 IP-CoT 流程从 1,260 条 Lixiahe 监测记录中提取水文变量，并生成受约束的防洪简报。"
       },
       "details": {
         "en": "The method combines structured extraction of water levels, rainfall, risk levels, and flood-control measures with chain-of-thought reasoning, inverse prompting, beam search, and rule-based consistency checks. It is evaluated on 1,260 flood-control records from the Lixiahe river network covering 2010–2024. The paper reports 95.32% verification accuracy for positive emotional attributes, improved thematic fluency and diversity over baselines, and an inference time compatible with hourly or three-hour briefing cycles. The system targets preparation of operational flood-control text while retaining explicit intermediate reasoning and post-generation checks.",
-        "zh": null
+        "zh": "该方法将水位、降雨量、风险等级和防洪措施的结构化提取与思维链推理、逆向提示、束搜索和基于规则的一致性检查相结合。该方法在来自 Lixiahe 河网、覆盖 2010–2024 年的 1,260 条防洪记录上进行评估。论文报告称，正向情感属性的验证准确率为 95.32%，与基线相比，主题流畅性和多样性均有所提升，并且推理时间适用于每小时或每三小时的简报周期。该系统旨在编写运行层面的防洪文本，同时保留明确的中间推理和生成后的检查。"
       },
       "limitations": {
         "en": "Evidence available: The abstract reports validation on a constructed dataset from the Lixia River network covering 2010–2024, with results centered on linguistic and attribute-based measures. It does not report evaluation across other regions, live noisy data streams, or effects on real emergency decision-making.",
@@ -5321,7 +5321,7 @@
       "methods": [
         "prompting"
       ],
-      "updated_at": "2026-11-19T05:44:58+00:00"
+      "updated_at": "2026-11-19T07:30:12+00:00"
     },
     {
       "id": "SRC_DOI_10-1038-s44304-025-00156-6_5b5d60bca89e",
