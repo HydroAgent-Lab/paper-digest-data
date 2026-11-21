@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-20T07:30:03+00:00",
+  "generated_at": "2026-11-21T07:30:00+00:00",
   "count": 232,
   "papers": [
     {
@@ -6633,11 +6633,11 @@
       "doi": null,
       "summary": {
         "en": "HydroAgent formalizes tacit flood-forecaster expertise as explicit LLM-executable skills that constrain prior judgment and hydrological scheme selection within an auditable forecasting workflow.",
-        "zh": null
+        "zh": "HydroAgent将洪水预报员的隐性专业知识形式化为可由LLM执行的显性技能，在可审计的预报工作流中约束先验判断和水文方案选择。"
       },
       "details": {
         "en": "This preprint presents HydroAgent, a skill-orchestrated LLM agent embedded in a physically based flood-forecasting workflow. Explicit skills formalize forecaster rules and checkpoints for estimating plausible peak-flow and flood-volume ranges, selecting and adjusting parameter schemes, running the hydrological model, and retaining human review before warnings. Evaluation in the South Yamhill River basin uses 129 historical events for five-fold validation and 14 held-out events; prior judgments captured observed peak and volume within 5% tolerance for 10 and 11 events, while guided scheme selection improved KGE by 0.023-0.154 over an already strong scheme library. Five state-of-the-art LLMs completed the workflow with comparable judgment accuracy but different costs, supporting the paper's main contribution: converting tacit expertise into reproducible, bounded agent skills rather than replacing forecasters or physical models.",
-        "zh": null
+        "zh": "这篇预印本介绍了HydroAgent，一种嵌入基于物理的洪水预报工作流中的技能编排LLM智能体。显性技能将预报员用于估计合理峰值流量和洪水量范围、选择和调整参数方案、运行水文模型以及在发布预警前保留人工审核的规则和检查点形式化。对South Yamhill River流域的评估使用了129个历史事件进行五折验证，并使用14个留出事件；先验判断在5%容差内捕捉到了10个事件的观测峰值和11个事件的观测洪水量，而引导式方案选择使KGE较一个已经较强的方案库提高了0.023-0.154。五个最先进的LLM以相当的判断准确率但不同的成本完成了该工作流，支持了论文的主要贡献：将隐性专业知识转化为可复现且有边界的智能体技能，而不是取代预报员或物理模型。"
       },
       "limitations": {
         "en": "The study is limited by poor performance on some extreme or weak-signal flood classes, only partial quantification of uncertainty—including LLM hallucination, meteorological forcing, calibration, and model-structure uncertainty—and evaluation confined to a single basin and retrospective setting without testing transferability across diverse operational conditions.",
@@ -6651,7 +6651,7 @@
         "agents_tool_use",
         "prompting"
       ],
-      "updated_at": "2026-11-19T07:48:03+00:00"
+      "updated_at": "2026-11-21T07:30:00+00:00"
     },
     {
       "id": "SRC_DOI_10-1016-j-watres-2025-125157_760416c6116d",
@@ -6701,11 +6701,11 @@
       "doi": "10.1017/eds.2025.10006",
       "summary": {
         "en": "HydroLLM-Benchmark evaluates GPT-4o-mini and Llama 3 variants on hydrology-specific questions, providing enabling evidence about domain knowledge rather than an autonomous agent workflow.",
-        "zh": null
+        "zh": "HydroLLM-Benchmark 在水文学特定问题上评估 GPT-4o-mini 和 Llama 3 变体，提供关于领域知识的支持性证据，而非自主智能体工作流。"
       },
       "details": {
         "en": "This paper constructs a hydrology-specific benchmark from research articles and textbooks, with true/false, multiple-choice, open-ended, and fill-in-the-blank questions. It evaluates GPT-4o-mini, Llama3:8B, and Llama3.1:70B using accuracy for objective questions and cosine similarity for subjective responses, documenting both capabilities and limitations of LLM hydrological knowledge. The resource is relevant as an evaluation foundation for HydroAgent systems, but it does not implement tool use, planning, or autonomous model execution.",
-        "zh": null
+        "zh": "本文从研究文章和教材中构建了一个水文学特定基准，包含判断题、选择题、开放式问题和填空题。本文使用客观题准确率和主观回答余弦相似度评估 GPT-4o-mini、Llama3:8B 和 Llama3.1:70B，记录 LLM 水文学知识的能力与局限性。该资源可作为 HydroAgent 系统的评估基础，但未实现工具使用、规划或自主模型执行。"
       },
       "limitations": {
         "en": "The study acknowledges that its text-only benchmark and evaluated LLMs are limited by multiple-choice answer-generation bias, imprecise handling of specialized or ambiguous terminology, complex mathematical, contextual, and visual-spatial reasoning, prompt-format sensitivity, possible training-data leakage, limited real-world validation, and substantial computational requirements for larger models.",
@@ -6715,7 +6715,7 @@
       "methods": [
         "benchmarks"
       ],
-      "updated_at": "2026-11-19T07:48:03+00:00"
+      "updated_at": "2026-11-21T07:30:00+00:00"
     },
     {
       "id": "SRC_DOI_10-1017-wat-2025-10008_1eec14d51786",
@@ -6768,11 +6768,11 @@
       "doi": "10.1007/s41324-025-00609-0",
       "summary": {
         "en": "This study benchmarks GPT-4o and three open vision-language models for geocoding flood-related social-media imagery, exposing substantial accuracy and geographic-bias limitations.",
-        "zh": null
+        "zh": "本研究对GPT-4o和三个开放视觉语言模型进行基准测试，用于对与洪水相关的社交媒体图像进行地理编码，揭示了显著的准确性和地理偏差局限性。"
       },
       "details": {
         "en": "The study evaluates BLIP-2, LLaVA1.6, OpenFlamingo, and GPT-4o on location inference from flood-related Flickr images and compares inferred locations with original coordinates and human labels. GPT-4o provides the strongest spatial accuracy and country/continent identification, while OpenFlamingo geocodes the largest share of images; all models retain large errors and geographically uneven performance. The work demonstrates a concrete language-model application to flood-observation data and quantifies where such models remain unreliable.",
-        "zh": null
+        "zh": "本研究评估BLIP-2、LLaVA1.6、OpenFlamingo和GPT-4o根据与洪水相关的Flickr图像推断位置的能力，并将推断位置与原始坐标和人工标注进行比较。GPT-4o表现出最强的空间准确性以及国家/大陆识别能力，而OpenFlamingo对最多比例的图像进行地理编码；所有模型仍存在较大误差，且性能在地理上不均衡。该工作展示了语言模型在洪水观测数据中的一项具体应用，并量化了此类模型仍不可靠的方面。"
       },
       "limitations": {
         "en": "The study is limited by the geographically skewed and relatively small Flickr sample, potentially inaccurate unverified geotags, Central European bias among human annotators, and the inherent ambiguity and flood-specific nature of the imagery.",
@@ -6785,7 +6785,7 @@
         "multimodal",
         "benchmarks"
       ],
-      "updated_at": "2026-11-19T07:48:03+00:00"
+      "updated_at": "2026-11-21T07:30:00+00:00"
     },
     {
       "id": "SRC_DOI_10-31223-x5sm61_529e77ad1ffc",
@@ -6805,11 +6805,11 @@
       "doi": "10.31223/x5sm61",
       "summary": {
         "en": "This bibliometric study maps 2018–2024 LLM adoption in hydrology and environmental science, including application domains, collaboration patterns, and governance concerns.",
-        "zh": null
+        "zh": "本篇文献计量学研究绘制了2018–2024年LLM在水文学和环境科学中的采用情况，包括应用领域、合作模式和治理问题。"
       },
       "details": {
         "en": "The study analyzes publication and citation trends, contributors, affiliations, countries, research types, domains, and keywords across LLM-related hydrology and environmental-science literature. It also classifies use cases and discusses cost, scalability, privacy, transparency, sustainability, and other adoption constraints. The result supplies landscape evidence for where conversational AI is being applied, rather than evidence of a single Agent system, and helps identify gaps for future research and policy.",
-        "zh": null
+        "zh": "该研究分析了与LLM相关的水文学和环境科学文献中的出版和引用趋势、贡献者、隶属机构、国家、研究类型、领域和关键词。研究还对使用案例进行分类，并讨论成本、可扩展性、隐私、透明度、可持续性及其他采用限制。研究结果为会话式AI的应用领域提供了全景证据，而非单一Agent系统的证据，并有助于确定未来研究和政策方面的空白。"
       },
       "limitations": {
         "en": "The study is limited by Google Scholar’s inconsistent data quality and indexing, including coverage of publications with varying levels of peer-review rigor.",
@@ -6819,7 +6819,7 @@
         "catchment_hydrology"
       ],
       "methods": [],
-      "updated_at": "2026-11-19T07:48:03+00:00"
+      "updated_at": "2026-11-21T07:30:00+00:00"
     },
     {
       "id": "SRC_DOI_10-1016-j-watres-2026-126384_75ee6511bcf1",
@@ -6839,11 +6839,11 @@
       "doi": "10.1016/j.watres.2026.126384",
       "summary": {
         "en": "WDS-Modality couples topology-aware knowledge representation, hydraulic simulation, physics verification, and multi-objective optimization in a multi-agent workflow that achieved 85.71% diagnostic success with zero reported physics violations across five benchmark networks.",
-        "zh": null
+        "zh": "WDS-Modality在多智能体工作流中结合了拓扑感知知识表示、水力模拟、物理验证和多目标优化，在五个基准网络上实现了85.71%的诊断成功率，且未报告任何物理违规。"
       },
       "details": {
         "en": "WDS-Modality addresses the accessibility and physical-consistency limitations of water-distribution resilience assessment by coordinating LLM reasoning with hydraulic simulation rather than fine-tuning a domain model. Its multi-agent workflow combines queryable topology and hydraulic-state representations, a physics-informed verification mechanism, and multi-objective optimization for district-metered-area partitioning and boundary-valve decisions. Across five benchmark networks, the framework generated feasible configurations spanning different partition and closure scales, reduced flow entropy in most cases, and balanced hydraulic, mechanical, and energy-based resilience objectives. The reported 85.71% overall diagnostic success rate, 97.50% performance on partitioning and visualization tasks, and absence of physics violations position the work as core evidence for tool-grounded, verifiable water-system agents.",
-        "zh": null
+        "zh": "WDS-Modality通过协调LLM推理与水力模拟，而不是微调领域模型，解决了供水管网韧性评估在可访问性和物理一致性方面的局限。其多智能体工作流结合了可查询的拓扑和水力状态表示、物理信息验证机制，以及用于分区计量区域划分和边界阀门决策的多目标优化。在五个基准网络中，该框架生成了涵盖不同分区和关闭尺度的可行配置，在大多数情况下降低了流量熵，并平衡了基于水力、机械和能量的韧性目标。报告的85.71%总体诊断成功率、97.50%的分区和可视化任务性能，以及未出现物理违规，使该工作成为工具支撑、可验证供水系统智能体的核心证据。"
       },
       "limitations": {
         "en": null,
@@ -6856,7 +6856,7 @@
         "agents_tool_use",
         "multi_agent"
       ],
-      "updated_at": "2026-11-19T07:48:03+00:00"
+      "updated_at": "2026-11-21T07:30:00+00:00"
     },
     {
       "id": "SRC_DOI_10-5194-egusphere-2026-3343_d1181d761d03",
@@ -6876,11 +6876,11 @@
       "doi": "10.5194/egusphere-2026-3343",
       "summary": {
         "en": "An LLM-assisted review of 57,474 flood studies reconstructs four decades of thematic and geographic change, providing adjacent evidence for hydrological knowledge synthesis rather than an operational water agent.",
-        "zh": null
+        "zh": "一项借助LLM对57,474项洪水研究开展的综述重构了四十年来主题和地理变化，为水文学知识综合提供了相关证据，而非一个可运行的水务代理。"
       },
       "details": {
         "en": "This review uses a large language model to screen and organize 57,474 flood publications from 1985 to 2024, then maps publication growth, collaboration, disciplinary influence, topics, and geographic concentration. It reports that annual output now exceeds 5,500 papers, collaboration has expanded, and research emphasis has progressed from eco-hydrological interactions toward flood prediction and climate-risk assessment. River flooding remains dominant, while urban-flood attention increased over the past decade and geographic leadership evolved toward a United States-China dual core. For HydroAgent monitoring, the study is useful as evidence that LLMs can support large-scale hydrological literature synthesis and field mapping, but it does not demonstrate an autonomous agent that invokes hydrological models or controls water-system decisions.",
-        "zh": null
+        "zh": "该综述利用大语言模型筛选并整理了1985年至2024年的57,474篇洪水出版物，随后绘制了出版增长、合作、学科影响、主题和地理集中度。报告指出，目前年度产出已超过5,500篇论文，合作不断扩大，研究重点已从生态水文相互作用发展到洪水预测和气候风险评估。河流洪水仍占主导地位，而过去十年对城市洪水的关注有所增加，地理主导地位也演变为美国—中国双核心。对于HydroAgent监测而言，该研究可作为LLM能够支持大规模水文学文献综合和领域制图的证据，但并未展示一个能够调用水文模型或控制水系统决策的自主代理。"
       },
       "limitations": {
         "en": null,
@@ -6893,7 +6893,7 @@
       "methods": [
         "prompting"
       ],
-      "updated_at": "2026-11-19T07:48:03+00:00"
+      "updated_at": "2026-11-21T07:30:00+00:00"
     },
     {
       "id": "SRC_DOI_10-3390-ijgi15070309_f3d592d71383",
@@ -6913,11 +6913,11 @@
       "doi": "10.3390/ijgi15070309",
       "summary": {
         "en": "LLM semantic mining converts historical disaster archives into spatial flood samples for a high-resolution Qinghai–Tibet Plateau waterlogging susceptibility model.",
-        "zh": null
+        "zh": "LLM语义挖掘将历史灾害档案转换为高分辨率青藏高原内涝易感性模型的空间洪涝样本。"
       },
       "details": {
         "en": "The study reconstructs 1985–2003 urban-waterlogging evidence on the Qinghai–Tibet Plateau by combining LLM-based semantic mining of historical disaster archives, spatial reconstruction, and XGBoost-SHAP susceptibility modeling. The extracted records become spatial training samples for a high-resolution atlas; the reported spatial-block cross-validation AUC is 0.9793, and high-susceptibility areas cover about 45% of the region's urban built-up area. SHAP results identify geomorphic confinement as a stronger control than most climatic variables, supporting historical flood-risk assessment under data scarcity.",
-        "zh": null
+        "zh": "该研究通过结合基于LLM的历史灾害档案语义挖掘、空间重建和XGBoost-SHAP易感性建模，重建了青藏高原1985–2003年的城市内涝证据。提取的记录成为高分辨率图集的空间训练样本；报告的空间分块交叉验证AUC为0.9793，高易感性区域约占该区域城市建成区的45%。SHAP结果表明，地貌约束比大多数气候变量具有更强的控制作用，为数据稀缺条件下的历史洪涝风险评估提供了支持。"
       },
       "limitations": {
         "en": "The study is limited by reporting bias in historical archives, coarse meteorological covariates that blur localized hydrodynamic processes, reliance on reconstructed sample locations partly constrained by topography, and a data-driven framework that establishes statistical associations rather than definitive physical causality.",
@@ -6930,7 +6930,7 @@
       "methods": [
         "prompting"
       ],
-      "updated_at": "2026-11-19T07:48:03+00:00"
+      "updated_at": "2026-11-21T07:30:00+00:00"
     },
     {
       "id": "SRC_DOI_10-3389-frwa-2026-1871753_e9a230c55ce5",
@@ -6947,11 +6947,11 @@
       "doi": "10.3389/frwa.2026.1871753",
       "summary": {
         "en": "An AI-agent-assisted, human-supervised development workflow rebuilt SIENA into a multi-daily operational Sentinel-1 flood-mapping service.",
-        "zh": null
+        "zh": "一种由AI智能体辅助、人工监督的开发工作流，将SIENA重建为每日多次运行的Sentinel-1洪水制图服务。"
       },
       "details": {
         "en": "This perspective reframes operational SAR flood mapping as a coordinated full-stack system spanning data access, preprocessing, ancillary data, model logic, computing, validation, and maintenance. It documents a human-supervised, AI-agent-assisted rebuild of the SIENA Sentinel-1 workflow and compares the resulting system against operational water and flood products in four evaluation settings. The rebuilt workflow now supports public flood-product updates several times per day over CONUS and Alaska while retaining hydrologic validation and human oversight.",
-        "zh": null
+        "zh": "本观点文章将业务化SAR洪水制图重新定义为一个协调的全栈系统，涵盖数据访问、预处理、辅助数据、模型逻辑、计算、验证和维护。文章记录了在人工监督和AI智能体辅助下对SIENA Sentinel-1工作流的重建，并在四种评估设置下将所得系统与业务化水体和洪水产品进行了比较。重建后的工作流现已支持在CONUS和Alaska范围内每日多次更新公开洪水产品，同时保留水文验证和人工监督。"
       },
       "limitations": {
         "en": "The study does not establish universal superiority or complete validation, because its four comparisons are limited by cross-sensor and temporal or spatial-scale mismatches, imperfect heuristic reference masks (especially RGB airborne imagery), the absence of a comparable inundated-vegetation class in SIENA, and relatively low recall at its current conservative operating point.",
@@ -6963,7 +6963,7 @@
       "methods": [
         "agents_tool_use"
       ],
-      "updated_at": "2026-11-19T07:48:03+00:00"
+      "updated_at": "2026-11-21T07:30:00+00:00"
     },
     {
       "id": "SRC_DOI_10-1021-acs-est-6c04963_9214036496c6",
@@ -6983,11 +6983,11 @@
       "doi": "10.1021/acs.est.6c04963",
       "summary": {
         "en": "LLM-augmented, knowledge-based feature selection preserves wastewater N2O model generalizability under high-flow distribution shift.",
-        "zh": null
+        "zh": "LLM增强的、基于知识的特征选择在高流量分布偏移下保持废水N2O模型的泛化能力。"
       },
       "details": {
         "en": "The study combines mechanistic knowledge with statistical correlation for feature selection in full-scale wastewater-treatment N2O modeling. It compares attention-based deep-learning selectors with expert-guided and LLM-augmented approaches: expert selection achieves the strongest reported accuracy, while the LLM-assisted approach remains competitive and preserves temporal generalizability under out-of-distribution high-flow conditions. The work positions LLM support as a practical route for incorporating domain knowledge into small, high-dimensional water-treatment datasets.",
-        "zh": null
+        "zh": "该研究将机理知识与统计相关性相结合，用于全规模废水处理N2O建模中的特征选择。研究比较了基于注意力的深度学习选择器、专家引导方法和LLM增强方法：专家选择实现了所报告的最高精度，而LLM辅助方法仍具有竞争力，并在分布外高流量条件下保持时间泛化能力。该研究将LLM支持定位为一种将领域知识融入小型高维水处理数据集的实用途径。"
       },
       "limitations": {
         "en": null,
@@ -6999,7 +6999,7 @@
       "methods": [
         "prompting"
       ],
-      "updated_at": "2026-11-19T07:48:03+00:00"
+      "updated_at": "2026-11-21T07:30:00+00:00"
     },
     {
       "id": "SRC_DOI_10-5194-egusphere-2026-2237_0e6aaaf09f68",
@@ -7092,11 +7092,11 @@
       "doi": null,
       "summary": {
         "en": "An LLM-based agentic pipeline translates a land surface model from Fortran to differentiable JAX with autonomous repair loops.",
-        "zh": null
+        "zh": "一个基于 LLM 的智能体流水线将陆面模型从 Fortran 转换为可微分的 JAX，并通过自主修复循环实现这一过程。"
       },
       "details": {
         "en": "This arXiv preprint presents a five-phase LLM-based agentic pipeline for translating legacy scientific Fortran code into JAX. The workflow uses dependency analysis, autonomous compile-repair loops, and a Fortran reference oracle to enforce numerical parity. It is demonstrated on CLM-ml-v2, a 19,000-line land surface model, producing a differentiable model that supports full-Jacobian computation and faster parameter recovery. The relevance to HydroAgent is the agentic workflow for model transformation and calibration-enabling infrastructure, though it is framed as land-surface/Earth-system modeling rather than hydrology alone.",
-        "zh": null
+        "zh": "这篇 arXiv 预印本介绍了一个由五个阶段组成的、基于 LLM 的智能体流水线，用于将遗留科学 Fortran 代码转换为 JAX。该工作流采用依赖分析、自主编译修复循环以及 Fortran 参考预言机，以确保数值一致性。该方法在 CLM-ml-v2（一种包含 19,000 行代码的陆面模型）上进行了演示，生成了一个支持完整 Jacobian 计算和更快参数恢复的可微分模型。它与 HydroAgent 的相关性在于用于模型转换和支持校准的基础设施的智能体工作流，但其框架是陆面/地球系统建模，而非单纯的水文学。"
       },
       "limitations": {
         "en": "The calibration experiment is limited to three parameters at a single site and a single timestep.",
@@ -7108,7 +7108,7 @@
       "methods": [
         "agents_tool_use"
       ],
-      "updated_at": "2026-11-19T07:48:03+00:00"
+      "updated_at": "2026-11-21T07:30:00+00:00"
     },
     {
       "id": "SRC_DOI_10-3390-app16136557_bb5921c3c2a6",
@@ -7201,11 +7201,11 @@
       "doi": null,
       "summary": {
         "en": "KISS builds agent-actionable knowledge infrastructure that improves autonomous execution on a coupled-hydrology benchmark.",
-        "zh": null
+        "zh": "KISS 构建了可供智能体操作的知识基础设施，提升了耦合水文基准测试中的自主执行能力。"
       },
       "details": {
         "en": "This arXiv preprint introduces knowledge infrastructure as an agent-actionable scaffold for process-based scientific simulation. In a 3,000-trial coupled-hydrology benchmark, agents using the scaffold produced physically plausible and verifiable simulations far more often than agents without it. The work also introduces a Knowledge Dissection Toolkit that autonomously generates such infrastructure for many Earth-science models, making it directly relevant to autonomous workflow design for hydrology and Earth-system modeling.",
-        "zh": null
+        "zh": "这篇 arXiv 预印本将知识基础设施引入为一种可供智能体操作的、面向过程的科学模拟支架。在包含 3,000 次试验的耦合水文基准测试中，使用该支架的智能体生成物理上合理且可验证的模拟的频率远高于未使用该支架的智能体。该工作还介绍了 Knowledge Dissection Toolkit，可为许多地球科学模型自主生成此类基础设施，使其与面向水文学和地球系统建模的自主工作流设计直接相关。"
       },
       "limitations": {
         "en": "The study is limited by the controlled benchmark’s incomplete characterization of provider variability, platform updates, and agent drift; unequal expert review and validation depth across KI packages, with some assessed only for runnability rather than universal scientific certification; untested generalization beyond Earth-system process-based models; and unresolved structural uncertainties in the underlying models.",
@@ -7218,7 +7218,7 @@
         "agents_tool_use",
         "benchmarks"
       ],
-      "updated_at": "2026-11-19T07:48:03+00:00"
+      "updated_at": "2026-11-21T07:30:00+00:00"
     },
     {
       "id": "SRC_DOI_10-1088-3033-4942-addd43_564e9cc6d17b",
@@ -7238,11 +7238,11 @@
       "doi": "10.1088/3033-4942/addd43",
       "summary": {
         "en": "This EarthArXiv perspective frames LLMs as infrastructure for hydrological data, knowledge, and model development.",
-        "zh": null
+        "zh": "这篇 EarthArXiv 观点文章将 LLMs 定位为水文学数据、知识和模型开发的基础设施。"
       },
       "details": {
         "en": "This perspective reviews how LLMs can support hydrological research across data management, knowledge management, and model development. It argues that LLMs can extract and organize heterogeneous hydrological information, support knowledge retrieval and synthesis, and combine with modular development, chain-of-thought reasoning, and intent-based network ideas to transform physical model development. It is mainly a perspective and roadmap item rather than a single implemented autonomous agent.",
-        "zh": null
+        "zh": "这篇观点文章评述了 LLMs 如何支持涵盖数据管理、知识管理和模型开发的水文学研究。文章认为，LLMs 可以提取和组织异构水文信息，支持知识检索与综合，并与模块化开发、思维链推理和基于意图的网络理念相结合，从而变革物理模型开发。它主要是一篇观点与路线图文章，而不是一个已实现的单一自主智能体。"
       },
       "limitations": {
         "en": "The authors acknowledge that their LLM-based modeling approach has only been demonstrated with a simple hydrological model and has not yet been scaled to complex hydro-ecosystem models, while broader deployment requires standardized interfaces, improved documentation, comprehensive testing, and domain-specific datasets that are currently lacking.",
@@ -7255,7 +7255,7 @@
         "prompting",
         "rag_knowledge_graphs"
       ],
-      "updated_at": "2026-11-19T07:48:03+00:00"
+      "updated_at": "2026-11-21T07:30:00+00:00"
     },
     {
       "id": "SRC_DOI_10-1016-j-watres-2026-125433_62a50f46398b",
@@ -7308,11 +7308,11 @@
       "doi": "10.3390/rs18132147",
       "summary": {
         "en": "Benchmarks GPT-4o, GPT-5.5, and Claude Sonnet 4.6 as vision-language models for Lake Erie harmful algal bloom detection and finds classical multispectral ML remains stronger.",
-        "zh": null
+        "zh": "将 GPT-4o、GPT-5.5 和 Claude Sonnet 4.6 作为视觉语言模型用于伊利湖有害藻华检测进行基准测试，发现经典多光谱 ML 仍然更强。"
       },
       "details": {
         "en": "This paper is in scope as a water-quality remote-sensing study that tests large vision-language models on harmful algal bloom detection from Sentinel-2 imagery. Using western Lake Erie bloom events from 2019 to 2025, it compares GPT-4o, GPT-5.5, and Claude Sonnet 4.6 against Random Forest, SVM, and XGBoost baselines using RGB and multispectral inputs. The VLMs showed high recall mainly by over-labeling scenes as bloom-positive, producing high false positive rates and weak severity classification, while the multispectral SVM performed best overall. For HydroAgent tracking, the key signal is negative but useful: off-the-shelf VLMs are not yet reliable operational agents for aquatic remote sensing without domain-specific spectral information and adaptation.",
-        "zh": null
+        "zh": "本文属于水质遥感研究，测试大型视觉语言模型基于 Sentinel-2 影像进行有害藻华检测的能力。利用 2019 年至 2025 年西部伊利湖的藻华事件，将 GPT-4o、GPT-5.5 和 Claude Sonnet 4.6 与使用 RGB 和多光谱输入的 Random Forest、SVM 和 XGBoost 基线进行比较。VLM 主要通过将场景过度标记为藻华阳性来获得较高召回率，导致较高的假阳性率和较弱的严重程度分类能力，而多光谱 SVM 的总体表现最佳。对于 HydroAgent 跟踪而言，关键信号是否定性的但具有实用价值：如果没有特定领域的光谱信息和适应，现成的 VLM 尚不是水生遥感中可靠的运行代理。"
       },
       "limitations": {
         "en": "The study is limited by its small, imbalanced sample; RGB-only VLM inputs and limited temporal evaluation; CI-derived, scene-level labels and relatively clear negative cases; reliance on a single Lake Erie site; scene-level metrics that do not capture operational monitoring needs; and use of Sen2Cor correction without inland-water-specific atmospheric correction.",
@@ -7325,7 +7325,7 @@
         "multimodal",
         "benchmarks"
       ],
-      "updated_at": "2026-11-19T07:48:03+00:00"
+      "updated_at": "2026-11-21T07:30:00+00:00"
     },
     {
       "id": "SRC_DOI_10-1016-j-watres-2026-125886_7186dcdc6a2f",
@@ -7382,11 +7382,11 @@
       "doi": "10.1029/2024wr039494",
       "summary": {
         "en": "Large multimodal models, including GPT-4, are evaluated for image-based urban floodwater depth estimation.",
-        "zh": null
+        "zh": "评估包括 GPT-4 在内的大型多模态模型基于图像的城市洪水水深估计能力。"
       },
       "details": {
         "en": "This Water Resources Research paper evaluates whether large multimodal models can estimate urban floodwater depth from ground-level images. Using two urban flood image datasets, the study reports that LMM outputs show acceptable agreement with ground truth, with GPT-4 providing the strongest reported performance. It also examines how image complexity and textual prompting affect model performance. The item is relevant because it links multimodal foundation models to flood monitoring, flood forecasting data expansion, and model calibration support.",
-        "zh": null
+        "zh": "这篇 Water Resources Research 论文评估了大型多模态模型能否从地面视角图像中估计城市洪水水深。利用两个城市洪水图像数据集，该研究报告称，LMM 的输出与 ground truth 呈现出可接受的一致性，其中 GPT-4 提供了所报告的最强性能。研究还考察了图像复杂度和文本提示如何影响模型性能。该条目具有相关性，因为它将多模态基础模型与洪水监测、洪水预报数据扩展和模型校准支持联系起来。"
       },
       "limitations": {
         "en": null,
@@ -7400,7 +7400,7 @@
         "multimodal",
         "benchmarks"
       ],
-      "updated_at": "2026-11-19T07:48:03+00:00"
+      "updated_at": "2026-11-21T07:30:00+00:00"
     },
     {
       "id": "SRC_DOI_10-1029-2025gl119814_a0626c3dee81",
@@ -7420,11 +7420,11 @@
       "doi": "10.1029/2025gl119814",
       "summary": {
         "en": "Defines a six-level autonomy framework for hydrologic modeling and demonstrates a Level-4 LLM-powered agent on the July 2025 Texas flash flood case.",
-        "zh": null
+        "zh": "定义了一个用于水文建模的六级自主性框架，并在2025年7月Texas山洪案例中展示了一个由LLM驱动的Level-4智能体。"
       },
       "details": {
         "en": "This paper is directly in scope because it formalizes AI-agent autonomy for hydrologic modeling and implements a Level-4 LLM-powered agent that turns natural-language requests into data retrieval, model execution, diagnostics, and reporting with human oversight. Its proof-of-concept application to the July 2025 Texas flash flood reproduced key flood dynamics and reduced manual workflow effort, while also showing an important limitation: a forecast-driven run missed the flood response when deterministic rainfall displaced the storm core. The evidence supports the feasibility of AI-agent-assisted hydrologic modeling, but the source also cautions that robustness across basins and events still requires systematic validation, probabilistic meteorological forcing, and expert review of automated outputs.",
-        "zh": null
+        "zh": "本文与该主题直接相关，因为它将面向水文建模的AI智能体自主性形式化，并实现了一个由LLM驱动的Level-4智能体，在人工监督下将自然语言请求转化为数据检索、模型运行、诊断和报告。其针对2025年7月Texas山洪的概念验证应用再现了关键洪水动态，并减少了人工工作流的工作量，同时也显示出一个重要局限：当确定性降雨使风暴核心发生偏移时，由预报驱动的运行未能捕捉到洪水响应。证据支持AI智能体辅助水文建模的可行性，但该来源也提醒，跨流域和跨事件的稳健性仍需要系统验证、概率性气象强迫，以及专家对自动化输出的审查。"
       },
       "limitations": {
         "en": null,
@@ -7437,7 +7437,7 @@
       "methods": [
         "agents_tool_use"
       ],
-      "updated_at": "2026-11-19T07:48:03+00:00"
+      "updated_at": "2026-11-21T07:30:00+00:00"
     },
     {
       "id": "SRC_DOI_10-3390-w16213075_a4403fae83ac",
@@ -7493,11 +7493,11 @@
       "doi": "10.1061/9780784486931.067",
       "summary": {
         "en": "This paper uses sparse autoencoders to interpret GPT-2 pump-control recommendations for LLM-assisted water-distribution scheduling.",
-        "zh": null
+        "zh": "本文使用稀疏自编码器解释 GPT-2 为 LLM 辅助的配水调度提供的泵控制建议。"
       },
       "details": {
         "en": "The paper addresses energy-intensive pump scheduling in water distribution systems and studies how a GPT-2 model represents pump-control information learned from hydraulic-simulation summaries. Using about 60,000 daily operational summaries covering pump start levels, minimum pressure, tank alarms, and energy metrics, the authors train a sparse autoencoder over hidden activations to identify sparse, human-interpretable features. Feature attribution, activation analysis, and clustering are used to evaluate how these features influence recommended control adjustments, making the paper useful evidence for transparent LLM-assisted control in water infrastructure.",
-        "zh": null
+        "zh": "本文针对配水系统中能耗密集的泵调度问题，研究 GPT-2 模型如何表示从水力模拟摘要中学习到的泵控制信息。作者使用约 60,000 份每日运行摘要，涵盖泵启动水位、最低压力、水箱警报和能耗指标，在隐藏激活上训练稀疏自编码器，以识别稀疏且可由人解释的特征。研究使用特征归因、激活分析和聚类来评估这些特征如何影响所建议的控制调整，使本文成为水基础设施中透明的 LLM 辅助控制的有用证据。"
       },
       "limitations": {
         "en": null,
@@ -7507,7 +7507,7 @@
         "urban_water"
       ],
       "methods": [],
-      "updated_at": "2026-11-19T07:48:03+00:00"
+      "updated_at": "2026-11-21T07:30:00+00:00"
     },
     {
       "id": "SRC_DOI_10-1002-hyp-70065_094bb7d07232",
@@ -7563,11 +7563,11 @@
       "doi": "10.1109/icit63637.2025.10965127",
       "summary": {
         "en": "Related entry: this paper applies graph-based retrieval and LLM question answering to tables in water-resources documents.",
-        "zh": null
+        "zh": "相关条目：本文将基于图的检索和 LLM 问答应用于水资源文档中的表格。"
       },
       "details": {
         "en": "The abstract describes a retrieval-augmented generation method for water-resources documents containing important tables such as water intake and precipitation. It uses graph representation learning for table retrieval and an LLM for table question answering. This is relevant to HydroAgent knowledge ingestion and document reasoning, although it is not a hydrological simulation or autonomous modeling agent.",
-        "zh": null
+        "zh": "摘要描述了一种针对包含取水量和降水量等重要表格的水资源文档的检索增强生成方法。该方法使用图表示学习进行表格检索，并使用 LLM 进行表格问答。这与 HydroAgent 的知识摄取和文档推理相关，但它不是水文模拟或自主建模代理。"
       },
       "limitations": {
         "en": null,
@@ -7579,7 +7579,7 @@
       "methods": [
         "rag_knowledge_graphs"
       ],
-      "updated_at": "2026-11-19T07:48:03+00:00"
+      "updated_at": "2026-11-21T07:30:00+00:00"
     },
     {
       "id": "SRC_DOI_10-1016-j-envsoft-2026-107038_a51cefeb7dce",
@@ -7594,11 +7594,11 @@
       "doi": "10.1016/j.envsoft.2026.107038",
       "summary": {
         "en": "TIME-LLM uses structured hydrological prompts to improve daily reservoir inflow forecasting with a large language model.",
-        "zh": null
+        "zh": "TIME-LLM 使用结构化水文提示词，借助大语言模型改进日尺度水库入流预报。"
       },
       "details": {
         "en": "This Environmental Modelling & Software entry introduces TIME-LLM for daily reservoir inflow forecasting. The collected abstract says the framework uses structured prompts that include task instructions, dataset statistics, and hydrological context based on runoff yield and concentration mechanisms involving climate, surface conditions, and human activities. Reported results show lower MAE and RMSE and improved NSE and KGE in calibration and validation periods, indicating that the LLM-based time-series framework can capture temporal inflow patterns and respond to hydrological prompts. It is a strong LLM-for-hydrology entry, though it is better characterized as prompt-based forecasting than as a fully autonomous agent.",
-        "zh": null
+        "zh": "这篇 Environmental Modelling & Software 文章介绍了用于日尺度水库入流预报的 TIME-LLM。所收集的摘要称，该框架使用结构化提示词，其中包括任务说明、数据集统计信息，以及基于径流产流和汇流机制的水文背景，这些机制涉及气候、地表条件和人类活动。报告结果显示，在校准期和验证期内，MAE 和 RMSE 更低，NSE 和 KGE 得到改善，表明基于 LLM 的时间序列框架能够捕捉入流的时间模式，并响应水文提示词。这是一项较强的 LLM-for-hydrology 研究，但更适合将其表征为基于提示词的预报，而不是完全自主的智能体。"
       },
       "limitations": {
         "en": null,
@@ -7611,7 +7611,7 @@
       "methods": [
         "prompting"
       ],
-      "updated_at": "2026-11-19T07:48:03+00:00"
+      "updated_at": "2026-11-21T07:30:00+00:00"
     },
     {
       "id": "SRC_DOI_10-1016-j-watres-2025-124536_8f02d9652260",
@@ -7703,11 +7703,11 @@
       "doi": "10.1061/9780784486184.086",
       "summary": {
         "en": "LLM-EPANET studies plain-language interaction with hydraulic and water-quality models for water-distribution simulation and decision support.",
-        "zh": null
+        "zh": "LLM-EPANET 研究了使用自然语言与水力和水质模型进行交互，以开展供水系统模拟和决策支持。"
       },
       "details": {
         "en": "This conference paper frames water distribution system modeling as a high-burden expert workflow and proposes plain-language interaction with hydraulic and water-quality models through an LLM-EPANET architecture. The framework is tested across increasingly complex query types to assess whether LLMs can interact with WDS models, run simulations, and report results. Its value for HydroAgent is as evidence that LLM interfaces can reduce the programming and interpretation barrier around water-infrastructure models and support model-informed decision-making for non-specialists.",
-        "zh": null
+        "zh": "这篇会议论文将供水系统建模描述为一项高负担的专家工作流程，并提出通过 LLM-EPANET 架构使用自然语言与水力和水质模型进行交互。该框架在复杂程度逐步提高的查询类型中进行测试，以评估 LLM 是否能够与 WDS 模型交互、运行模拟并报告结果。对于 HydroAgent 而言，其价值在于表明 LLM 接口可以降低围绕水基础设施模型的编程和解释门槛，并支持非专业人员进行基于模型的决策。"
       },
       "limitations": {
         "en": "The study’s limitations are that its iterative-query evaluation is exploratory rather than statistically robust, it excludes EPANET’s Multi-Species Extension features, and LLM-EPANET does not assess or explain the hydraulic feasibility of runnable results, such as negative pressures or tank-bound violations.",
@@ -7721,7 +7721,7 @@
         "prompting",
         "agents_tool_use"
       ],
-      "updated_at": "2026-11-19T07:48:03+00:00"
+      "updated_at": "2026-11-21T07:30:00+00:00"
     },
     {
       "id": "SRC_DOI_10-1029-2025gl120043_69766263f608",
@@ -7814,11 +7814,11 @@
       "doi": "10.1029/2024wr038077",
       "summary": {
         "en": "Context entry: this paper uses LLM-based analysis to map 310,000 global hydrology studies from 1980 to 2023.",
-        "zh": null
+        "zh": "上下文条目：本文使用基于LLM的分析，对1980年至2023年的310,000项全球水文学研究进行映射。"
       },
       "details": {
         "en": "The abstract frames hydrology as central to understanding Earth water systems and addressing water-related problems under climate change. It uses LLM-based analysis to assess a very large corpus of hydrological studies, especially around hydrological basins as spatial-geographic units. This is useful for background and literature-landscape analysis, but it is not a HydroAgent-style autonomous modeling workflow.",
-        "zh": null
+        "zh": "摘要将水文学描述为理解地球水系统以及在气候变化下应对与水相关问题的核心。本文使用基于LLM的分析，评估了规模非常庞大的水文研究语料库，尤其关注作为空间地理单元的水文流域。这对于背景和文献格局分析很有用，但它并不是HydroAgent式的自主建模工作流。"
       },
       "limitations": {
         "en": null,
@@ -7830,7 +7830,7 @@
       "methods": [
         "prompting"
       ],
-      "updated_at": "2026-11-19T07:48:03+00:00"
+      "updated_at": "2026-11-21T07:30:00+00:00"
     },
     {
       "id": "SRC_ARXIV_2605-17792_8f899f47afc8",
@@ -7854,7 +7854,7 @@
       },
       "details": {
         "en": "Calibrating distributed hydrologic models is a critical bottleneck across operational water resources management - streamflow prediction, reservoir operation, drought monitoring, infrastructure design, and flood forecasting all depend on it. Each basin demands an expert to translate hydrograph signatures into adjustments of a high-dimensional parameter vector, and the resulting workflow does not transfer between watersheds. We ask: can frontier large language model (LLM) agents replace the human hydrologic modeler, and if not, what would it take?",
-        "zh": null
+        "zh": "校准分布式水文模型是整个业务水资源管理中的关键瓶颈——径流预测、水库运行、干旱监测、基础设施设计和洪水预报都依赖于此。每个流域都需要专家将水文过程线特征转化为对高维参数向量的调整，而由此产生的工作流程无法在不同流域之间迁移。我们的问题是：前沿大型语言模型（LLM）智能体能否取代人类水文建模人员？如果不能，需要具备什么条件？"
       },
       "limitations": {
         "en": "The study is limited by its small CONUS-only sample, which cannot establish cross-regime generalization, its evaluation of only CREST with one small open base model, the pathologies of scalar NSE-based verification, and the risk that relying on an AI calibration agent could propagate mis-specified parameters into operational forecasts.",
@@ -7868,7 +7868,7 @@
         "fine_tuning_domain_models",
         "agents_tool_use"
       ],
-      "updated_at": "2026-11-19T07:48:03+00:00"
+      "updated_at": "2026-11-21T07:30:00+00:00"
     },
     {
       "id": "SRC_DOI_10-1016-j-ese-2025-100608_de1ac3e8bc78",
@@ -7888,11 +7888,11 @@
       "doi": "10.1016/j.ese.2025.100608",
       "summary": {
         "en": "Context entry: this paper addresses fine-tuning LLMs for interdisciplinary environmental challenges including hydrology and climate modeling.",
-        "zh": null
+        "zh": "背景条目：本文探讨针对包括水文学和气候建模在内的跨学科环境挑战对 LLM 进行微调。"
       },
       "details": {
         "en": "The abstract argues that environmental science requires domain-specific data and evaluation because it spans climate dynamics, ecosystem management, hydrology, and other specialized areas. It focuses on fine-tuning and evaluating LLMs for interdisciplinary environmental challenges rather than on agentic hydrology workflows. It is useful background for data generation, evaluation, and domain adaptation in HydroAgent development.",
-        "zh": null
+        "zh": "摘要指出，环境科学涉及气候动力学、生态系统管理、水文学以及其他专业领域，因此需要领域特定的数据和评估。本文重点关注针对跨学科环境挑战对 LLM 进行微调和评估，而不是智能体水文学工作流。它可为 HydroAgent 开发中的数据生成、评估和领域适应提供有用背景。"
       },
       "limitations": {
         "en": null,
@@ -7905,7 +7905,7 @@
         "fine_tuning_domain_models",
         "benchmarks"
       ],
-      "updated_at": "2026-11-19T07:48:03+00:00"
+      "updated_at": "2026-11-21T07:30:00+00:00"
     },
     {
       "id": "SRC_DOI_10-2139-ssrn-5319205_f57c32b87c1a",
@@ -7922,11 +7922,11 @@
       "doi": "10.2139/ssrn.5319205",
       "summary": {
         "en": "HYDROADAPT uses an LLM classification pipeline to build a geolocated dataset of hydrological-risk adaptation policies.",
-        "zh": null
+        "zh": "HYDROADAPT 使用 LLM 分类流程构建水文风险适应政策的地理定位数据集。"
       },
       "details": {
         "en": "This paper introduces HYDROADAPT, a dataset for measuring adaptation policy related to hydrological risks such as floods and landslides. It uses a custom LLM-powered classification pipeline over Italy’s OpenCUP public-investment registry, focusing on Emilia-Romagna and identifying more than 24,000 hydrological-instability-related projects. The workflow classifies interventions as Ex-Ante or Ex-Post, adds geolocation, time stamps, funding, policy-instrument, and implementing-body metadata, and uses the May 2023 floods for validation, making it relevant evidence for LLM-based hydrological-risk policy intelligence.",
-        "zh": null
+        "zh": "本文介绍了 HYDROADAPT，这是一个用于衡量与洪水和山体滑坡等水文风险相关的适应政策的数据集。该数据集使用定制的 LLM 驱动分类流程处理意大利 OpenCUP 公共投资登记库，重点关注艾米利亚-罗马涅，并识别出超过 24,000 个与水文不稳定性相关的项目。该工作流程将干预措施分类为 Ex-Ante 或 Ex-Post，添加地理定位、时间戳、资金、政策工具和实施机构元数据，并使用 2023 年 5 月的洪水进行验证，使其成为基于 LLM 的水文风险政策情报的相关证据。"
       },
       "limitations": {
         "en": null,
@@ -7938,7 +7938,7 @@
       "methods": [
         "prompting"
       ],
-      "updated_at": "2026-11-19T07:48:03+00:00"
+      "updated_at": "2026-11-21T07:30:00+00:00"
     },
     {
       "id": "SRC_DOI_10-1016-j-fmre-2025-05-002_aab676f3321a",
@@ -7958,11 +7958,11 @@
       "doi": "10.1016/j.fmre.2025.05.002",
       "summary": {
         "en": "Context entry: this paper uses LLM and topic modeling to analyze two decades of hydrological research in China.",
-        "zh": null
+        "zh": "背景条目：本文使用 LLM 和主题建模分析中国二十年的水文学研究。"
       },
       "details": {
         "en": "The collected highlights report that advanced technologies including large language models and topic modeling reveal evolving hydrology research patterns in China from 2000 to 2023. The work identifies growth in publications, collaboration, common hydrological models, and shifts toward ecological hydrology, climate change, and carbon dynamics. It is valuable for landscape context, but it is not an agentic workflow or HydroAgent implementation paper.",
-        "zh": null
+        "zh": "所收集的要点表明，包括大型语言模型和主题建模在内的先进技术揭示了中国 2000 年至 2023 年水文学研究模式的演变。该研究确定了发表量、合作关系和常用水文模型的增长，以及研究重点向生态水文、气候变化和碳动态的转变。本文对于了解领域背景具有价值，但不是关于智能体工作流或 HydroAgent 实现的论文。"
       },
       "limitations": {
         "en": null,
@@ -7973,7 +7973,7 @@
         "water_resources_reservoirs"
       ],
       "methods": [],
-      "updated_at": "2026-11-19T07:48:03+00:00"
+      "updated_at": "2026-11-21T07:30:00+00:00"
     },
     {
       "id": "SRC_DOI_10-1016-j-jhydrol-2026-135763_d086f3f9baf1",
@@ -7988,11 +7988,11 @@
       "doi": "10.1016/j.jhydrol.2026.135763",
       "summary": {
         "en": "A hybrid AI Agent combines agro-hydrological modeling, machine learning, MCDM, and an LLM to optimize water-food-ecology-environment-economy trade-offs.",
-        "zh": null
+        "zh": "一种混合型 AI Agent 结合农业水文建模、机器学习、MCDM 和 LLM，以优化水资源-粮食-生态-环境-经济权衡。"
       },
       "details": {
         "en": "This Journal of Hydrology entry describes an AI Agent for water-food-ecology-environment-economy trade-offs. The source evidence says the system integrates an agro-hydrological model, machine learning, multi-criteria decision making, and a large language model within an AI development platform. It automatically optimizes irrigation, fertilization, and crop planting structures while balancing irrigation water productivity, crop yield, ecosystem service value, nitrogen pollution load, and economic benefit. In the Wuliangsuhai lake watershed case, the abstract reports improved sustainability outcomes by reducing irrigation and nitrogen inputs and optimizing the wheat-to-maize ratio under combined hydrological-year, irrigation, nitrogen, and planting-structure scenarios.",
-        "zh": null
+        "zh": "这篇 Journal of Hydrology 文章描述了一种用于水资源-粮食-生态-环境-经济权衡的 AI Agent。来源证据表明，该系统在 AI 开发平台内集成了农业水文模型、机器学习、多准则决策和大型语言模型。它在平衡灌溉水生产力、作物产量、生态系统服务价值、氮污染负荷和经济效益的同时，自动优化灌溉、施肥和作物种植结构。在 Wuliangsuhai lake watershed 案例中，摘要报告称，在水文年、灌溉、氮肥和种植结构综合情景下，通过减少灌溉和氮投入并优化小麦-玉米比例，系统改善了可持续性结果。"
       },
       "limitations": {
         "en": null,
@@ -8005,7 +8005,7 @@
       "methods": [
         "agents_tool_use"
       ],
-      "updated_at": "2026-11-19T07:48:03+00:00"
+      "updated_at": "2026-11-21T07:30:00+00:00"
     },
     {
       "id": "SRC_DOI_10-1007-s11269-025-04312-5_087ed584eff2",
@@ -8096,11 +8096,11 @@
       "doi": "10.1109/inmic64792.2024.11004338",
       "summary": {
         "en": "Related monitoring entry: this paper compares VLM and LLM approaches for contaminated-water monitoring under climate-change framing.",
-        "zh": null
+        "zh": "相关监测条目：本文在气候变化框架下比较了用于受污染水体监测的 VLM 和 LLM 方法。"
       },
       "details": {
         "en": "The abstract compares report-generation approaches using a visual language model and a large language model for contaminated-water monitoring. It is relevant to multimodal language-model use in water quality or contaminated-water contexts, but the collected evidence describes model comparison rather than an autonomous agent or hydrological modeling workflow. Use it as adjacent evidence for LLM/VLM water monitoring.",
-        "zh": null
+        "zh": "摘要比较了使用视觉语言模型和大型语言模型进行受污染水体监测的报告生成方法。它与多模态语言模型在水质或受污染水体情境中的应用相关，但所收集的证据描述的是模型比较，而不是自主智能体或水文建模工作流程。将其作为 LLM/VLM 水体监测的相邻证据使用。"
       },
       "limitations": {
         "en": null,
@@ -8113,7 +8113,7 @@
         "multimodal",
         "prompting"
       ],
-      "updated_at": "2026-11-19T07:48:03+00:00"
+      "updated_at": "2026-11-21T07:30:00+00:00"
     },
     {
       "id": "SRC_DOI_10-1016-j-jhydrol-2026-135801_ec758c28312d",
